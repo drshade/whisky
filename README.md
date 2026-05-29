@@ -41,9 +41,10 @@ low sweetness. Full profile: [`preferences.md`](preferences.md).
 | Three Ships 12 | high | first SA whisky; lighter peat; limited release |
 | Aberlour A'bunadh CS | medium | layered oloroso sherry bomb — bang on profile |
 
-Plus 5 💡 Claude variety picks (Redbreast 12, Nikka From The Barrel, Amrut Fusion,
-Kilkerran 12, Rittenhouse Rye) — each opens a new style-world. Full list +
-recommendations: [`wishlist.md`](wishlist.md) · [`recommendations.md`](recommendations.md).
+Plus 💡 Claude picks: 5 variety openers (Redbreast 12, Nikka From The Barrel, Amrut
+Fusion, Kilkerran 12, Rittenhouse Rye) + 2 barrel-proof bourbons for the complexity gap
+(Larceny BP, Stagg). Full list + recommendations:
+[`wishlist.md`](wishlist.md) · [`recommendations.md`](recommendations.md).
 
 ## Quick links
 

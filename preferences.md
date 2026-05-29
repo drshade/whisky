@@ -58,6 +58,28 @@ High ABV is welcome **only when it buys complexity**, not heat for its own sake.
 Chase **layered** whiskies: sherried, cask-finished, cask-strength malts, and complex
 grain. Steer away from straight/single-note styles and premium-priced bourbon.
 
+## Calibration — how my palate tracks consensus
+
+_Checked against community/critic consensus on 2026-05-29. The short version: my verdicts
+line up well with the **connoisseur** view, not just the casual one._
+
+- **Blanton's Gold < Original** — matches the recognised "balance-over-power" camp; many
+  reviewers also can't justify Gold's extra heat for no added complexity.
+- **Baby Jane underwhelming** — matches critics almost verbatim ("too restrained,"
+  "undercooked," "marketing over mastery").
+- **Spice Tree "pleasant but simple"** — a real, echoed reading (though most do find it
+  spicier than I did; my pour was rushed).
+- **Dalwhinnie / Duthac gentle & unmemorable** — aligns with the enthusiast view.
+- **One tension:** I rate Blanton's Original highly (89) where geeks call it *overrated* —
+  but their reason is "lacks complexity for the price," which is *my own value*. It points
+  me toward barrel-proof bourbons (Larceny BP, Elijah Craig BP, Stagg) for more complexity.
+
+**Subjective vs objective:** three layers — (1) *objective*: peat ppm, ABV, faults
+(my "bitter" Duthac may be real over-extraction); (2) *semi-objective*: complexity,
+balance, finish — experts converge here, and this is the layer I read accurately;
+(3) *subjective*: what I enjoy, possibly with heightened bitterness/ethanol sensitivity.
+Quality has real signal; preference sits on top and mine is coherent.
+
 ## Practical preferences
 
 - **Budget:** R1000–2000 per bottle (~€50–100).

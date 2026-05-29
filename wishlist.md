@@ -13,3 +13,5 @@ Whiskies I'd like to try or buy. Priority: `high` · `medium` · `low`.
 | 💡 Amrut Fusion | Amrut | India | Single malt | high | ~R800 | Claude pick. Opens **world whisky** — part-peated, rich and complex. Hot-climate intensity, cult favourite. |
 | 💡 Kilkerran 12 | Glengyle | Campbeltown | Single malt | medium | ~R1200 | Claude pick. Opens **Campbeltown** — oily, fruity, light smoke and loads of *character*. |
 | 💡 Rittenhouse Rye BiB | Heaven Hill | Kentucky (rye) | Rye | medium | ~R500 | Claude pick. Opens **rye** — spicy, drier counterpoint to your bourbons. Cheap way to test a whole new style. |
+| 💡 Larceny Barrel Proof | Heaven Hill | Kentucky | Bourbon (wheated, barrel proof) | high | ~R1500 | Claude pick. The "complex bourbon" answer that fits ALL my levers: wheated = sweeter, barrel-strength, and genuinely layered. Released 3×/yr → findable. |
+| 💡 Stagg | Buffalo Trace | Kentucky | Bourbon (barrel proof) | medium | ~R2000 | Claude pick + my request. Barrel-proof intensity & complexity. NB: this is regular **Stagg** (ex-"Stagg Jr"), NOT George T. Stagg (the BTAC unicorn, ~R5000+). Allocated & top of budget — grab on sight. |
