@@ -1,7 +1,7 @@
 # Taste Profile & Preferences
 
-A living document. It starts mostly empty and gets richer as we taste and review.
-Ask Claude to update this from the `journal/` after a few sittings.
+A living document, built from the tasting journal. First established 2026-05-29 from the
+opening 10-bottle tasting pass. Revise as more tastings accumulate.
 
 ## Rating scale (personal, 0–100)
 
@@ -14,22 +14,63 @@ Ask Claude to update this from the `journal/` after a few sittings.
 | 60–69  | Fair — drinkable, wouldn't repurchase              |
 | <60    | Not for me                                         |
 
-## What I gravitate toward
+## What I chase (in priority order)
 
-- _(TBD — fill in as patterns emerge)_
+1. **Complexity / dimensionality** — the #1 driver. Layers that unfold and evolve as I
+   drink. This is what separates my top tier (89–91) from everything else.
+2. **Sweetness** — a baseline requirement (caramel, honey, creamy). Necessary but not
+   sufficient on its own.
+3. **Character / distinctiveness** — even without sweetness, a distinctive personality
+   beats blandness (Oban's coastal funk > the gentle Highlanders).
 
-## What I tend to dislike
+## Two favourite modes
 
-- _(TBD)_
+- **Intense sipper** — *Kilchoman Sanaig CS (90)*. One considered pour; "dark chocolate at
+  night — one little nibble and I'm happy."
+- **Complex sessionable** — *Hedonism (91)*, my #1. Drinks glass after glass and gets
+  better each sip.
 
-## Flavour notes I chase
+## On bourbon
 
-- _(TBD — e.g. peat smoke, sherry/dried fruit, vanilla/oak, citrus, brine)_
+- Generally **single-dimensional** for me: caramel + sweet and little more. Pleasant, but
+  caps out around the **mid-80s**.
+- **Blanton's Original (89)** is the exception that transcends it on sheer deliciousness.
+- **Don't overspend on bourbon** — even premium heirloom-corn *Baby Jane* couldn't beat
+  the pack (the price-vs-payoff lesson).
+- **Buffalo Trace** = the mixing bourbon (boulevardiers / bourbon Negronis).
+
+## On strength
+
+High ABV is welcome **only when it buys complexity**, not heat for its own sake.
+- ✓ Kilchoman 57.8% — strength delivers real intensity & complexity.
+- ✗ Blanton's Gold 51.5% — hotter/harsher than the Original with no added complexity, so
+  it scores *lower* despite being "the premium one."
+
+## Turn-offs
+
+- Blandness / single-note / thin pours.
+- **Bitterness** (active dislike).
+- Low sweetness.
+- Worst so far: *Glenmorangie Duthac (68)*, *Dalwhinnie 15 (72)* — gentle and unmemorable.
+
+## Buying implication
+
+Chase **layered** whiskies: sherried, cask-finished, cask-strength malts, and complex
+grain. Steer away from straight/single-note styles and premium-priced bourbon.
 
 ## Practical preferences
 
-- **ABV:** _(TBD — e.g. prefer cask strength? happy at 40%?)_
-- **Neat / water / ice:** _(TBD)_
-- **Budget per bottle:** _(TBD)_
-- **Regions explored:** _(TBD)_
-- **Regions to explore next:** _(TBD)_
+- **Budget:** R1000–2000 per bottle (~€50–100).
+- **Glass / serve:** Glencairn, neat. (Buffalo Trace excepted — mixed.)
+- **Shops:** Norman Goodfellows (bottles) + NPF Tasting Room, Melrose Arch (flights).
+
+## Stage
+
+Still in **discovery mode** — actively value variety and want to keep exploring new
+regions/styles. This profile is a *working draft*, not a cage: it sharpens buying/Tasting
+Room choices but I'm happy to be surprised.
+
+## Regions / styles still to explore
+
+Rye · Irish single pot still · Campbeltown · Japanese · world whisky (India / Taiwan /
+Australia) · wheated bourbon · classic big-name Islay. See `recommendations.md`.

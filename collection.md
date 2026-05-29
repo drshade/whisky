@@ -4,17 +4,19 @@ What I currently own. Status: `sealed` · `open` · `finished`. Rating: personal
 
 | Bottle | Distillery | Region | Type | ABV | Age | Status | Paid | Bought (where / when) | Rating | Journal |
 |--------|-----------|--------|------|-----|-----|--------|------|-----------------------|--------|---------|
-| Oban 14 | Oban | Highland (West) | Single malt | 43% | 14 | open | | | — | |
-| Hedonism | Compass Box | Scotland (blender) | Blended grain | 43% | NAS | open | | | — | |
-| Dalwhinnie 15 | Dalwhinnie | Highland (Central) | Single malt | 43% | 15 | open | | | — | |
-| The Duthac | Glenmorangie | Highland | Single malt | 43% | NAS | open | | | — | |
-| Sanaig Cask Strength (2024) | Kilchoman | Islay | Single malt | 57.8% | NAS | open | | | — | |
-| Blanton's Original | Buffalo Trace | Kentucky | Bourbon (single barrel) | 46.5% | NAS | open | | | — | |
-| Blanton's Gold Edition | Buffalo Trace | Kentucky | Bourbon (single barrel) | 51.5% | NAS | open | | | — | |
-| Woodford Reserve Double Oaked | Woodford Reserve | Kentucky | Bourbon | 45.2% | NAS | open | | | — | |
-| Baby Jane | Widow Jane | USA (Brooklyn / KY) | Bourbon (heirloom corn) | 45.5% | NAS | open | | | — | |
-| Buffalo Trace | Buffalo Trace | Kentucky | Bourbon | 45% | NAS | open | | | — | |
+| Oban 14 | Oban | Highland (West) | Single malt | 43% | 14 | open | | | 80 | [notes](journal/2026-05-29-oban-14.md) |
+| Hedonism | Compass Box | Scotland (blender) | Blended grain | 43% | NAS | open | | | 91 | [notes](journal/2026-05-29-compass-box-hedonism.md) |
+| Dalwhinnie 15 | Dalwhinnie | Highland (Central) | Single malt | 43% | 15 | open | | | 72 | [notes](journal/2026-05-29-dalwhinnie-15.md) |
+| The Duthac | Glenmorangie | Highland | Single malt | 43% | NAS | open | | | 68 | [notes](journal/2026-05-29-glenmorangie-duthac.md) |
+| Sanaig Cask Strength (2024) | Kilchoman | Islay | Single malt | 57.8% | NAS | open | | | 90 | [notes](journal/2026-05-29-kilchoman-sanaig-cs.md) |
+| Blanton's Original | Buffalo Trace | Kentucky | Bourbon (single barrel) | 46.5% | NAS | open | | | 89 | [notes](journal/2026-05-29-blantons-original.md) |
+| Blanton's Gold Edition | Buffalo Trace | Kentucky | Bourbon (single barrel) | 51.5% | NAS | open | | | 84 | [notes](journal/2026-05-29-blantons-gold-edition.md) |
+| Woodford Reserve Double Oaked | Woodford Reserve | Kentucky | Bourbon | 45.2% | NAS | open | | | 84 | [notes](journal/2026-05-29-woodford-double-oaked.md) |
+| Baby Jane | Widow Jane | USA (Brooklyn / KY) | Bourbon (heirloom corn) | 45.5% | NAS | open | | | 80* | [notes](journal/2026-05-29-widow-jane-baby-jane.md) |
+| Buffalo Trace | Buffalo Trace | Kentucky | Bourbon | 45% | NAS | open | | | 82 | [notes](journal/2026-05-29-buffalo-trace.md) |
 | Crimson Casks | Compass Box | Scotland (blender) | Blended malt | 46% | NAS | sealed | | Work trip, May 2026 | — | |
+
+> `*` = low-confidence rating, needs more tastings (Baby Jane). Crimson Casks still sealed → unrated.
 
 ## Summary
 
