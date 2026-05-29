@@ -31,6 +31,9 @@ styles rather than narrowing down. See `preferences.md` for the established tast
   needs more tastings.
 - **Region:** distillery region/country (Islay, Speyside, Highland, Kentucky, Japan, …).
 - **Journal filenames:** `journal/YYYY-MM-DD-distillery-expression.md`.
+- **Sampled drams:** the journal can include whiskies tasted out (bars, dinners) that
+  aren't owned — mark them `owned: no` in frontmatter + a `sampled` tag, and do **not**
+  add them to `collection.md` or the README ranking.
 - **Currency:** ZAR (R). Buying budget is R1000–2000/bottle.
 
 ## Workflows (for Claude)
