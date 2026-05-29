@@ -12,6 +12,10 @@ Find-ability is for ZA (Norman Goodfellows / The Tasting Room, Melrose):
 
 > Prices are rough ZA ballparks — confirm on the shelf. Once you buy one, move it to
 > `collection.md`; if you want to try it, add it to `wishlist.md`.
+>
+> **Buying budget: R1000–2000 per bottle (~€50–100).** Covers every Benchmark pick
+> here and most Splurges. The main things it *won't* reach at retail are aged Japanese
+> single malts and allocated Springbank — taste those at the NPF Tasting Room instead.
 
 ---
 

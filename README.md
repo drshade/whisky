@@ -11,6 +11,7 @@ Claude to curate alongside me.
 | `collection.md`    | What I currently own — at-a-glance table                   |
 | `wishlist.md`      | Whiskies I'd like to try or buy, with priority + reasons   |
 | `recommendations.md` | Claude's curated picks by region/style I've not covered  |
+| `tasting-room-cheatsheet.md` | Phone-friendly crib for the NPF Tasting Room bar      |
 | `preferences.md`   | My evolving taste profile (what I like, dislike, chase)    |
 | `journal/`         | Dated tasting notes & reviews, one file per sitting        |
 | `journal/_template.md` | Copy this to start a new tasting entry                  |
