@@ -21,6 +21,22 @@ buy the winners (R1000–2000) at the NGF bottle store.
 - **Japanese** (the pricey/allocated stuff especially)
 - **World whisky** — India (Amrut), Taiwan (Kavalan), Australia (Starward)
 
+## Specific bottles to ask for
+**🎯 Bullseyes — taste, then likely buy**
+- **Ardbeg Uigeadail** (peat + sherry + cask strength — maybe my perfect dram)
+- **GlenDronach 15 "Revival"** (deep dried-fruit sherry)
+- **Glenfarclas 105** (cask-strength sherry — compare vs A'bunadh)
+
+**🌍 New style-worlds**
+- **Springbank 10** (Campbeltown), a **Japanese** pour (Hakushu 12 / Hibiki),
+  **Redbreast 12** (Irish pot still)
+
+**🃏 Wildcards — taste-only**
+- **Octomore** (extreme peat), **George T. Stagg** if open (the unicorn),
+  a high-end **Compass Box** (Flaming Heart / No Name)
+
+> Priority taste: **Ardbeg Uigeadail.** If it lands, it jumps onto the buy list.
+
 ## Three asks that get the most from the host
 1. "What's something I almost certainly haven't tried that you think I'd love?"
 2. "Anything rare or allocated that's open right now?" *(this is the point of 15ml pours)*

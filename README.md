@@ -34,17 +34,20 @@ Chases **complexity > sweetness > character**. High ABV only rewarded when it ad
 complexity. Bourbons cap ~mid-80s (single-dimensional). Turn-offs: blandness, bitterness,
 low sweetness. Full profile: [`preferences.md`](preferences.md).
 
-## Wishlist
+## Wishlist (top buy targets)
 
 | Bottle | Priority | Why |
 |--------|----------|-----|
-| Three Ships 12 | high | first SA whisky; lighter peat; limited release |
-| Aberlour A'bunadh CS | medium | layered oloroso sherry bomb — bang on profile |
+| Aberlour A'bunadh CS | high | layered oloroso sherry bomb — bang on profile; buying now |
+| Larceny Barrel Proof | high | wheated barrel-proof — hits all my levers |
+| Ardbeg Uigeadail | high | peat + sherry + cask strength — maybe perfect |
+| GlenDronach 15 Revival | high | deep dried-fruit sherry |
 
-Plus 💡 Claude picks: 5 variety openers (Redbreast 12, Nikka From The Barrel, Amrut
-Fusion, Kilkerran 12, Rittenhouse Rye) + 2 barrel-proof bourbons for the complexity gap
-(Larceny BP, Stagg). Full list + recommendations:
-[`wishlist.md`](wishlist.md) · [`recommendations.md`](recommendations.md).
+Plus more buy targets (Redbreast 12, Nikka From The Barrel, Amrut Fusion, Three Ships 12,
+Kilkerran 12, Glenfarclas 105, Stagg, Rittenhouse Rye) and a **Tasting Room try-first**
+shortlist (Springbank 10, Hibiki, Flaming Heart, Octomore, George T. Stagg). Full list:
+[`wishlist.md`](wishlist.md) · [`recommendations.md`](recommendations.md) ·
+[`tasting-room-cheatsheet.md`](tasting-room-cheatsheet.md).
 
 ## Quick links
 
