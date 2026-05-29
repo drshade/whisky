@@ -39,13 +39,14 @@ low sweetness. Full profile: [`preferences.md`](preferences.md).
 | Bottle | Priority | Why |
 |--------|----------|-----|
 | Aberlour A'bunadh CS | high | layered oloroso sherry bomb — bang on profile; buying now |
-| Larceny Barrel Proof | high | wheated barrel-proof — hits all my levers |
 | Ardbeg Uigeadail | high | peat + sherry + cask strength — maybe perfect |
 | GlenDronach 15 Revival | high | deep dried-fruit sherry |
+| Redbreast 12 | high | Irish pot still — complex, sherried, widely available |
 
-Plus more buy targets (Redbreast 12, Nikka From The Barrel, Amrut Fusion, Three Ships 12,
-Kilkerran 12, Glenfarclas 105, Stagg, Rittenhouse Rye) and a **Tasting Room try-first**
-shortlist (Springbank 10, Hibiki, Flaming Heart, Octomore, George T. Stagg). Full list:
+Plus more buy targets (Nikka From The Barrel, Amrut Fusion, Three Ships 12, Kilkerran 12,
+Glenfarclas 105, Rittenhouse Rye) and a **Tasting Room try-first** shortlist (Springbank 10,
+Hibiki, Flaming Heart, Octomore, George T. Stagg). Barrel-proof US bourbons (Larceny BP,
+Stagg) are **scarce in SA** — grails, not local buys. Full list:
 [`wishlist.md`](wishlist.md) · [`recommendations.md`](recommendations.md) ·
 [`tasting-room-cheatsheet.md`](tasting-room-cheatsheet.md).
 
