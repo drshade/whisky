@@ -86,9 +86,10 @@ Quality has real signal; preference sits on top and mine is coherent.
 
 ## Practical preferences
 
-- **Budget:** R1000–2000 per bottle (~€50–100).
+- **Budget:** ~€50–100 / R1000–2000 per bottle.
 - **Glass / serve:** Glencairn, neat. (Buffalo Trace excepted — mixed.)
-- **Shops:** Norman Goodfellows (bottles) + NPF Tasting Room, Melrose Arch (flights).
+- **Home market:** Netherlands / EU (default — broad availability). Occasional SA trips →
+  Norman Goodfellows + NPF Tasting Room (Melrose Arch) for local SA whisky & bargains.
 
 ## Stage
 

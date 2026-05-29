@@ -34,7 +34,10 @@ styles rather than narrowing down. See `preferences.md` for the established tast
 - **Sampled drams:** the journal can include whiskies tasted out (bars, dinners) that
   aren't owned — mark them `owned: no` in frontmatter + a `sampled` tag, and do **not**
   add them to `collection.md` or the README ranking.
-- **Currency:** ZAR (R). Buying budget is R1000–2000/bottle.
+- **Home market:** Netherlands / EU (euro earner) — broad availability; default buying
+  market. Occasional SA trips (shops: Norman Goodfellows, NPF Tasting Room, Melrose Arch)
+  for *local* SA whisky + genuine bargains; mind SA import duties on imported bottles.
+- **Currency:** € at home, R on SA trips. Budget ≈ €50–100 / R1000–2000 per bottle.
 
 ## Workflows (for Claude)
 
