@@ -24,7 +24,8 @@ Bottles worth purchasing — sure-thing profile fits and findable picks.
 | 💡 Redbreast 12 | Midleton | Ireland | Single pot still | high | ~R600 | Claude pick. Opens **Irish pot still** — lush, sherried, *complex*. Bang on profile. |
 | 💡 Nikka From The Barrel | Nikka | Japan | Blended | high | ~R1100 | Claude pick. Opens **Japan** — intense, spicy, layered at 51.4%. Strength that earns its complexity. |
 | 💡 Amrut Fusion | Amrut | India | Single malt | high | ~R800 | Claude pick. Opens **world whisky** — part-peated, rich and complex. Cult favourite. |
-| Three Ships 12 | James Sedgwick | South Africa | Single malt (peated) | high | ~€50 | First SA whisky; lighter American-oak peat. Actually a UK/EU export release → **buyable at home in NL** (whisky.com NL etc.), no need to hunt in SA. |
+| Three Ships 12 | James Sedgwick | South Africa | Single malt (peated) | medium | ~€50 | UK/EU **export-only** release — not on NL *or* SA shelves. Order from EU specialists that ship to NL (Master of Malt, Royal Mile, Nickolls & Perks); stock is intermittent → set an alert. |
+| 💡 Three Ships 10 | James Sedgwick | South Africa | Single malt | medium | ~R500 (SA) | Claude pick. The Three Ships single malt **actually sold in SA** (NGF). If I want a local Three Ships in JHB, this is the one — the 12yo is export-only. |
 | 💡 Bain's Cape Mountain | James Sedgwick | South Africa | Single grain | medium | ~R250 (SA) | Claude pick. **SA-trip buy** — cheap local single grain; right in my Hedonism wheelhouse (I love grain whisky). Hard to find / pricier in NL. |
 | 💡 Kilkerran 12 | Glengyle | Campbeltown | Single malt | medium | ~R1200 | Claude pick. Opens **Campbeltown** — oily, fruity, light smoke, loads of *character*. |
 | 💡 Glenfarclas 105 | Glenfarclas | Speyside | Single malt (CS sherry) | medium | ~R1100 | Claude pick. Cask-strength sherry bomb; a cheaper A'bunadh alternative worth comparing. |
