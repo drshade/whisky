@@ -73,6 +73,10 @@ line up well with the **connoisseur** view, not just the casual one._
 - **One tension:** I rate Blanton's Original highly (89) where geeks call it *overrated* —
   but their reason is "lacks complexity for the price," which is *my own value*. It points
   me toward barrel-proof bourbons (Larceny BP, Elijah Craig BP, Stagg) for more complexity.
+- **Novelty / first-love bias:** early ratings may be inflated by the thrill of discovery.
+  Dalwhinnie already slid from "loved" → 72 as my palate grew; **Blanton's Original (89) is
+  the prime suspect** — it was one of my first bourbons and opened my eyes, but I haven't
+  re-tasted it since. Treat as *sentimental / unverified* pending a fair side-by-side.
 
 **Subjective vs objective:** three layers — (1) *objective*: peat ppm, ABV, faults
 (my "bitter" Duthac may be real over-extraction); (2) *semi-objective*: complexity,
