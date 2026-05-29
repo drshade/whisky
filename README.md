@@ -1,37 +1,51 @@
-# 🥃 Whisky Catalogue
+# 🥃 Whisky Collection
 
-A git-backed catalogue of my whisky collection, wishlist, and tasting journal.
-Everything lives in plain markdown so it's readable, hand-editable, and easy for
-Claude to curate alongside me.
+> At-a-glance dashboard. _Last updated: 2026-05-29._
+> New here? See [`AGENTS.md`](AGENTS.md) for what this repo is and how it works.
 
-## Layout
+## Stats
 
-| File / folder      | What it holds                                              |
-|--------------------|------------------------------------------------------------|
-| `collection.md`    | What I currently own — at-a-glance table                   |
-| `wishlist.md`      | Whiskies I'd like to try or buy, with priority + reasons   |
-| `recommendations.md` | Claude's curated picks by region/style I've not covered  |
-| `tasting-room-cheatsheet.md` | Phone-friendly crib for the NPF Tasting Room bar      |
-| `preferences.md`   | My evolving taste profile (what I like, dislike, chase)    |
-| `journal/`         | Dated tasting notes & reviews, one file per sitting        |
-| `journal/_template.md` | Copy this to start a new tasting entry                  |
+- **Owned:** 11 bottles — **10 open**, 1 sealed
+- **By style:** 5 bourbon/corn · 4 single malt · 1 blended malt · 1 blended grain
+- **Regions:** Kentucky ×5 · Highland ×3 · Islay ×1 · Scotland-blend ×2
+- **Tasted & rated:** 10 / 11 (Crimson Casks still sealed)
 
-## How to use it
+## Ranked collection
 
-- **Add a bottle** — add a row to `collection.md` (or ask Claude to).
-- **Log a tasting** — copy `journal/_template.md` to `journal/YYYY-MM-DD-bottle.md`
-  and fill it in. Update the bottle's `Rating` and `Journal` link in `collection.md`.
-- **Curate** — ask Claude things like:
-  - "Based on my collection and preferences, suggest 3 bottles for my wishlist."
-  - "I just tasted the Lagavulin 16 — help me write up the notes."
-  - "What gap is there in my collection?"
-- **Keep preferences fresh** — after a few tastings, ask Claude to update
-  `preferences.md` from the journal.
+| # | Bottle | Region | Rating | In a word |
+|---|--------|--------|--------|-----------|
+| 1 | [Hedonism](journal/2026-05-29-compass-box-hedonism.md) | Scotland (grain) | **91** | complex, sweet, sessionable |
+| 2 | [Kilchoman Sanaig CS](journal/2026-05-29-kilchoman-sanaig-cs.md) | Islay | **90** | intense, spicy sipper |
+| 3 | [Blanton's Original](journal/2026-05-29-blantons-original.md) | Kentucky | **89** | the bourbon that transcends |
+| 4 | [Woodford Double Oaked](journal/2026-05-29-woodford-double-oaked.md) | Kentucky | **84** | good-value daily |
+| 4 | [Blanton's Gold](journal/2026-05-29-blantons-gold-edition.md) | Kentucky | **84** | strong but harsh |
+| 6 | [Buffalo Trace](journal/2026-05-29-buffalo-trace.md) | Kentucky | **82** | mixer / boulevardiers |
+| 7 | [Oban 14](journal/2026-05-29-oban-14.md) | Highland | **80** | characterful, coastal |
+| 8 | [Baby Jane](journal/2026-05-29-widow-jane-baby-jane.md) | USA | **80\*** | premium, underwhelming |
+| 9 | [Dalwhinnie 15](journal/2026-05-29-dalwhinnie-15.md) | Highland | **72** | gentle, dull |
+| 10 | [Glenmorangie Duthac](journal/2026-05-29-glenmorangie-duthac.md) | Highland | **68** | bland, bitter edge |
+| — | Crimson Casks | Scotland (malt) | _sealed_ | not yet tasted |
 
-## Conventions
+`*` = low-confidence rating, needs more tastings. Full details: [`collection.md`](collection.md).
 
-- **Status**: `sealed`, `open`, or `finished`.
-- **Rating**: personal 0–100 scale (see `preferences.md` for the scale).
-- **Region**: distillery region/country (Islay, Speyside, Highland, Ireland,
-  Kentucky, Japan, …).
-- Journal filenames: `YYYY-MM-DD-distillery-expression.md`.
+## Taste profile (short)
+
+Chases **complexity > sweetness > character**. High ABV only rewarded when it adds
+complexity. Bourbons cap ~mid-80s (single-dimensional). Turn-offs: blandness, bitterness,
+low sweetness. Full profile: [`preferences.md`](preferences.md).
+
+## Wishlist
+
+| Bottle | Priority | Why |
+|--------|----------|-----|
+| Three Ships 12 | high | first SA whisky; lighter peat; limited release |
+| Aberlour A'bunadh CS | medium | layered oloroso sherry bomb — bang on profile |
+
+Full list + recommendations: [`wishlist.md`](wishlist.md) · [`recommendations.md`](recommendations.md).
+
+## Quick links
+
+[`collection.md`](collection.md) · [`wishlist.md`](wishlist.md) ·
+[`recommendations.md`](recommendations.md) · [`preferences.md`](preferences.md) ·
+[`tasting-room-cheatsheet.md`](tasting-room-cheatsheet.md) · [`journal/`](journal/) ·
+[`AGENTS.md`](AGENTS.md)
