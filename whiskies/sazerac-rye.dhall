@@ -1,14 +1,12 @@
 let W = ../schema/Whisky.dhall
 
+let P = ../producers.dhall
+
 in  W.Whisky::{
       id = "sazerac-rye",
       name = "Sazerac Rye",
-      classification = W.american
-        { producer = W.AmericanProducer.BuffaloTrace,
-          mash = W.MashType.Rye,
-          bottledInBond = False,
-          singleBarrel = False
-        },
+      producer = P.buffaloTrace,
+      style = W.Style.Rye,
       abv = 45.0,
       recommendation = Some W.Recommendation::{
         tier = W.Tier.Entry,

@@ -1,14 +1,12 @@
 let W = ../schema/Whisky.dhall
 
+let P = ../producers.dhall
+
 in  W.Whisky::{
       id = "woodford-double-oaked",
       name = "Woodford Double Oaked",
-      classification = W.american
-        { producer = W.AmericanProducer.WoodfordReserve,
-          mash = W.MashType.Bourbon,
-          bottledInBond = False,
-          singleBarrel = False
-        },
+      producer = P.woodfordReserve,
+      style = W.Style.Bourbon,
       abv = 45.2,
       ownership = Some W.Ownership::{ status = W.Status.Open },
       tasting = Some W.Tasting::{

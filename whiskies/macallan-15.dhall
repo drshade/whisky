@@ -1,9 +1,12 @@
 let W = ../schema/Whisky.dhall
 
+let P = ../producers.dhall
+
 in  W.Whisky::{
       id = "macallan-15",
       name = "Macallan 15",
-      classification = W.scotchSingleMalt W.ScotchDistillery.Macallan,
+      producer = P.macallan,
+      style = W.Style.SingleMalt,
       abv = 43.0,
       age = Some 15,
       casks = [ "sherry" ],

@@ -1,13 +1,12 @@
 let W = ../schema/Whisky.dhall
 
+let P = ../producers.dhall
+
 in  W.Whisky::{
       id = "starward-nova",
       name = "Starward Nova",
-      classification = W.world
-        { country = W.WorldCountry.Australia,
-          producer = "Starward",
-          style = "Single malt"
-        },
+      producer = P.starward,
+      style = W.Style.SingleMalt,
       abv = 41.0,
       casks = [ "red wine" ],
       recommendation = Some W.Recommendation::{

@@ -1,9 +1,12 @@
 let W = ../schema/Whisky.dhall
 
+let P = ../producers.dhall
+
 in  W.Whisky::{
       id = "kilkerran-12",
       name = "Kilkerran 12",
-      classification = W.scotchSingleMalt W.ScotchDistillery.Glengyle,
+      producer = P.glengyle,
+      style = W.Style.SingleMalt,
       abv = 46.0,
       age = Some 12,
       wishlist = Some W.Wishlist::{

@@ -1,14 +1,12 @@
 let W = ../schema/Whisky.dhall
 
+let P = ../producers.dhall
+
 in  W.Whisky::{
       id = "wild-turkey-rare-breed",
       name = "Wild Turkey Rare Breed",
-      classification = W.american
-        { producer = W.AmericanProducer.WildTurkey,
-          mash = W.MashType.Bourbon,
-          bottledInBond = False,
-          singleBarrel = False
-        },
+      producer = P.wildTurkey,
+      style = W.Style.Bourbon,
       abv = 58.4,
       wishlist = Some W.Wishlist::{
         priority = W.Priority.High,

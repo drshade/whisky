@@ -1,9 +1,12 @@
 let W = ../schema/Whisky.dhall
 
+let P = ../producers.dhall
+
 in  W.Whisky::{
       id = "dalwhinnie-15",
       name = "Dalwhinnie 15",
-      classification = W.scotchSingleMalt W.ScotchDistillery.Dalwhinnie,
+      producer = P.dalwhinnie,
+      style = W.Style.SingleMalt,
       abv = 43.0,
       age = Some 15,
       ownership = Some W.Ownership::{ status = W.Status.Open },

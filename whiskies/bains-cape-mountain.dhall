@@ -1,13 +1,12 @@
 let W = ../schema/Whisky.dhall
 
+let P = ../producers.dhall
+
 in  W.Whisky::{
       id = "bains-cape-mountain",
       name = "Bain's Cape Mountain",
-      classification = W.world
-        { country = W.WorldCountry.SouthAfrica,
-          producer = "James Sedgwick",
-          style = "Single grain"
-        },
+      producer = P.jamesSedgwick,
+      style = W.Style.SingleGrain,
       abv = 43.0,
       wishlist = Some W.Wishlist::{
         priority = W.Priority.Medium,

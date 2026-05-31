@@ -1,9 +1,12 @@
 let W = ../schema/Whisky.dhall
 
+let P = ../producers.dhall
+
 in  W.Whisky::{
       id = "compass-box-flaming-heart",
       name = "Compass Box Flaming Heart",
-      classification = W.scotchBlendedMalt W.ScotchBlender.CompassBox,
+      producer = P.compassBox,
+      style = W.Style.BlendedMalt,
       abv = 48.9,
       casks = [ "peat" ],
       wishlist = Some W.Wishlist::{

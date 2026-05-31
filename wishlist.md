@@ -18,17 +18,17 @@
 | 💡 Glenfarclas 105 | Speyside | Single malt | medium | ~R1100 | Cask-strength sherry bomb; a cheaper A'bunadh alternative worth comparing. |
 | 💡 Glenlivet Nàdurra Oloroso | Speyside | Single malt | medium | ~€70 | The Glenlivet worth owning — cask-strength, sherried, NCF, great value. Skip the 12; this fits. |
 | 💡 Kilkerran 12 | Campbeltown | Single malt | medium | ~R1200 | Opens Campbeltown — oily, fruity, light smoke, loads of character. |
-| 💡 Larceny Barrel Proof | Kentucky | Bourbon | medium | ~€90 | Wheated barrel-proof — sweeter + strong + layered (all my levers). Allocated/pricey but gettable via EU specialists. |
+| 💡 Larceny Barrel Proof | Kentucky | Wheated bourbon | medium | ~€90 | Wheated barrel-proof — sweeter + strong + layered (all my levers). Allocated/pricey but gettable via EU specialists. |
 | 💡 Rittenhouse Rye BiB | Kentucky | Rye | medium | ~R500 | Opens rye — spicy, drier counterpoint to my bourbons. Cheap style test. |
 | 💡 Three Ships 10 | South Africa | Single malt | medium | ~R500 (SA) | The Three Ships single malt actually sold in SA (NGF). If I want a local Three Ships in JHB, this is the one — the 12yo is export-only. |
-| Three Ships 12 | South Africa | Single malt (peated) | medium | ~€50 | UK/EU export-only release — not on NL or SA shelves. Order from EU specialists that ship to NL; stock is intermittent, set an alert. |
+| Three Ships 12 | South Africa | Single malt | medium | ~€50 | UK/EU export-only release — not on NL or SA shelves. Order from EU specialists that ship to NL; stock is intermittent, set an alert. |
 | 💡 Stagg | Kentucky | Bourbon | low | ~€80+ | Barrel-proof intensity & complexity (ex-'Stagg Jr', NOT George T. Stagg). Allocated/pricey even in EU — a grab-on-sight, not a planned buy. |
 
 ## Try first (taste before buying)
 
 | Bottle | Region | Type | Priority | ~Price | Why |
 |---|---|---|---|---|---|
-| 💡 Compass Box Flaming Heart | Scotland (malt) | Blended malt | medium | ~€120 | I click with Compass Box (Hedonism #1) — this is their peat + complexity flagship. Taste before buying. |
+| 💡 Compass Box Flaming Heart | Scotland (blend) | Blended malt | medium | ~€120 | I click with Compass Box (Hedonism #1) — this is their peat + complexity flagship. Taste before buying. |
 | 💡 Hibiki Harmony | Japan | Blend | medium | ~€80 | Attainable Japanese blend. (Hakushu 12 is the malt benchmark but usually > budget.) Taste before chasing. |
 | 💡 Highland Park 18 | Islands | Single malt | medium | ~€140 | Honey + gentle peat + sherry, beautifully complex — strong fit. But above budget, so taste first; buy if it wows. |
 | 💡 Springbank 10 | Campbeltown | Single malt | medium | ~R1200 | The Campbeltown icon — oily, briny, dunnage funk. Allocated, so taste before chasing a bottle. |

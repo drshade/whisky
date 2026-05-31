@@ -1,9 +1,12 @@
 let W = ../schema/Whisky.dhall
 
+let P = ../producers.dhall
+
 in  W.Whisky::{
       id = "ardbeg-uigeadail",
       name = "Ardbeg Uigeadail",
-      classification = W.scotchSingleMalt W.ScotchDistillery.Ardbeg,
+      producer = P.ardbeg,
+      style = W.Style.SingleMalt,
       abv = 54.2,
       casks = [ "peat", "oloroso sherry" ],
       ownership = Some W.Ownership::{

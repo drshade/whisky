@@ -1,9 +1,12 @@
 let W = ../schema/Whisky.dhall
 
+let P = ../producers.dhall
+
 in  W.Whisky::{
       id = "glendronach-15",
       name = "GlenDronach 15 Revival",
-      classification = W.scotchSingleMalt W.ScotchDistillery.GlenDronach,
+      producer = P.glendronach,
+      style = W.Style.SingleMalt,
       abv = 46.0,
       age = Some 15,
       casks = [ "sherry" ],

@@ -1,14 +1,12 @@
 let W = ../schema/Whisky.dhall
 
+let P = ../producers.dhall
+
 in  W.Whisky::{
       id = "blantons-gold",
       name = "Blanton's Gold",
-      classification = W.american
-        { producer = W.AmericanProducer.BuffaloTrace,
-          mash = W.MashType.Bourbon,
-          bottledInBond = False,
-          singleBarrel = True
-        },
+      producer = P.buffaloTrace,
+      style = W.Style.Bourbon,
       abv = 51.5,
       ownership = Some W.Ownership::{ status = W.Status.Open },
       tasting = Some W.Tasting::{

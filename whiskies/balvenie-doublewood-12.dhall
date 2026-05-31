@@ -1,9 +1,12 @@
 let W = ../schema/Whisky.dhall
 
+let P = ../producers.dhall
+
 in  W.Whisky::{
       id = "balvenie-doublewood-12",
       name = "Balvenie DoubleWood 12",
-      classification = W.scotchSingleMalt W.ScotchDistillery.Balvenie,
+      producer = P.balvenie,
+      style = W.Style.SingleMalt,
       abv = 40.0,
       age = Some 12,
       casks = [ "sherry finish" ],

@@ -1,14 +1,12 @@
 let W = ../schema/Whisky.dhall
 
+let P = ../producers.dhall
+
 in  W.Whisky::{
       id = "whistlepig-10",
       name = "WhistlePig 10",
-      classification = W.american
-        { producer = W.AmericanProducer.WhistlePig,
-          mash = W.MashType.Rye,
-          bottledInBond = False,
-          singleBarrel = False
-        },
+      producer = P.whistlePig,
+      style = W.Style.Rye,
       abv = 50.0,
       age = Some 10,
       recommendation = Some W.Recommendation::{

@@ -22,7 +22,8 @@ styles rather than narrowing down. See `preferences.md` for the established tast
 | File / folder            | Purpose                                                              |
 |--------------------------|---------------------------------------------------------------------|
 | `whiskies/*.dhall`       | **Source of truth** — one typed record per whisky                   |
-| `schema/Whisky.dhall`    | The data model (classification, facets, region derivation)          |
+| `producers.dhall`        | Producer registry — each distillery/blender defined once, referenced |
+| `schema/Whisky.dhall`    | The data model (producer, style, facets)                            |
 | `src/`, `app/`, `*.cabal`| The `whisky-catalogue` Haskell generator                            |
 | `README.md`              | _generated_ — at-a-glance dashboard, ranking, tasting log           |
 | `collection.md`          | _generated_ — full collection table (owned bottles)                 |
@@ -63,10 +64,12 @@ generated markdown.
    log includes sampled drams (no `ownership` facet); sealed bottles stay out until tasted.
 
 **Adding / moving bottles**
-- New bottle → add `whiskies/<id>.dhall` from the constructors in `schema/Whisky.dhall`
-  (region is derived from the distillery — don't type it). A new distillery/producer needs a
-  constructor added to the relevant enum in the schema **and** its Haskell mirror in
-  `src/Whisky/Types.hs` (the `regionOf` `merge` won't type-check until you give its region).
+- New bottle → add `whiskies/<id>.dhall`: point `producer` at an entry in `producers.dhall`
+  and set its `style`. Region/origin comes from the producer — never restate it on the bottle.
+- A producer not yet in the registry → add it to `producers.dhall` (name + kind + origin). Only a
+  genuinely new **origin** needs a constructor in the `Origin` enum in `schema/Whisky.dhall`
+  **and** its Haskell mirror in `src/Whisky/Types.hs`. `make build` runs a validation pass that
+  flags implausible producer/style/origin combinations (e.g. a blender bottling a single malt).
 - Owned vs sampled vs wanted is just which facets are present: `ownership` (own it),
   `tasting` (tried it), `wishlist` (want it — set `tryFirst = True` for taste-before-buying),
   `recommendation` (on the style map). A bottle can carry several at once.

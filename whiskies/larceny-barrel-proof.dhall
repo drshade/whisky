@@ -1,14 +1,12 @@
 let W = ../schema/Whisky.dhall
 
+let P = ../producers.dhall
+
 in  W.Whisky::{
       id = "larceny-barrel-proof",
       name = "Larceny Barrel Proof",
-      classification = W.american
-        { producer = W.AmericanProducer.HeavenHill,
-          mash = W.MashType.Wheat,
-          bottledInBond = False,
-          singleBarrel = False
-        },
+      producer = P.heavenHill,
+      style = W.Style.Wheated,
       abv = 62.0,
       wishlist = Some W.Wishlist::{
         priority = W.Priority.Medium,

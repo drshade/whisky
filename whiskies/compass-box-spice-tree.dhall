@@ -1,9 +1,12 @@
 let W = ../schema/Whisky.dhall
 
+let P = ../producers.dhall
+
 in  W.Whisky::{
       id = "compass-box-spice-tree",
       name = "Spice Tree",
-      classification = W.scotchBlendedMalt W.ScotchBlender.CompassBox,
+      producer = P.compassBox,
+      style = W.Style.BlendedMalt,
       abv = 46.0,
       tasting = Some W.Tasting::{
         rating = 81,

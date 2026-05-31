@@ -1,13 +1,12 @@
 let W = ../schema/Whisky.dhall
 
+let P = ../producers.dhall
+
 in  W.Whisky::{
       id = "three-ships-12",
       name = "Three Ships 12",
-      classification = W.world
-        { country = W.WorldCountry.SouthAfrica,
-          producer = "James Sedgwick",
-          style = "Single malt (peated)"
-        },
+      producer = P.jamesSedgwick,
+      style = W.Style.SingleMalt,
       abv = 46.3,
       age = Some 12,
       wishlist = Some W.Wishlist::{

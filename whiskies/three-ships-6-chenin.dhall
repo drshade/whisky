@@ -1,13 +1,12 @@
 let W = ../schema/Whisky.dhall
 
+let P = ../producers.dhall
+
 in  W.Whisky::{
       id = "three-ships-6-chenin",
       name = "Three Ships 6 Chenin",
-      classification = W.world
-        { country = W.WorldCountry.SouthAfrica,
-          producer = "James Sedgwick",
-          style = "Single malt"
-        },
+      producer = P.jamesSedgwick,
+      style = W.Style.SingleMalt,
       abv = 43.0,
       age = Some 6,
       casks = [ "chenin blanc finish" ],

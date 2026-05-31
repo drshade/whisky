@@ -1,14 +1,12 @@
 let W = ../schema/Whisky.dhall
 
+let P = ../producers.dhall
+
 in  W.Whisky::{
       id = "rittenhouse-rye",
       name = "Rittenhouse Rye BiB",
-      classification = W.american
-        { producer = W.AmericanProducer.HeavenHill,
-          mash = W.MashType.Rye,
-          bottledInBond = True,
-          singleBarrel = False
-        },
+      producer = P.heavenHill,
+      style = W.Style.Rye,
       abv = 50.0,
       wishlist = Some W.Wishlist::{
         priority = W.Priority.Medium,

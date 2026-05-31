@@ -1,9 +1,12 @@
 let W = ../schema/Whisky.dhall
 
+let P = ../producers.dhall
+
 in  W.Whisky::{
       id = "compass-box-crimson-casks",
       name = "Crimson Casks",
-      classification = W.scotchBlendedMalt W.ScotchBlender.CompassBox,
+      producer = P.compassBox,
+      style = W.Style.BlendedMalt,
       abv = 46.0,
       ownership = Some W.Ownership::{
         status = W.Status.Sealed,

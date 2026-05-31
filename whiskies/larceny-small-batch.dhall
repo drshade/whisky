@@ -1,14 +1,12 @@
 let W = ../schema/Whisky.dhall
 
+let P = ../producers.dhall
+
 in  W.Whisky::{
       id = "larceny-small-batch",
       name = "Larceny Small Batch",
-      classification = W.american
-        { producer = W.AmericanProducer.HeavenHill,
-          mash = W.MashType.Wheat,
-          bottledInBond = False,
-          singleBarrel = False
-        },
+      producer = P.heavenHill,
+      style = W.Style.Wheated,
       abv = 46.0,
       recommendation = Some W.Recommendation::{
         tier = W.Tier.Benchmark,

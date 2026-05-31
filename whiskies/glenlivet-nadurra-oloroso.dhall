@@ -1,9 +1,12 @@
 let W = ../schema/Whisky.dhall
 
+let P = ../producers.dhall
+
 in  W.Whisky::{
       id = "glenlivet-nadurra-oloroso",
       name = "Glenlivet Nàdurra Oloroso",
-      classification = W.scotchSingleMalt W.ScotchDistillery.Glenlivet,
+      producer = P.glenlivet,
+      style = W.Style.SingleMalt,
       abv = 60.0,
       casks = [ "oloroso sherry" ],
       wishlist = Some W.Wishlist::{

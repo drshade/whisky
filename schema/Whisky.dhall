@@ -1,140 +1,63 @@
 --| The single source of truth for the whisky catalogue.
 --
---  Every bottle is one `whiskies/<id>.dhall` file built from the constructors
---  exported at the bottom of this file. The Haskell renderer (`whisky-catalogue`)
---  decodes these into typed values and generates all the markdown views.
+--  Every bottle is one `whiskies/<id>.dhall` file. Each references a producer from
+--  the shared registry (`../producers.dhall`) and carries its own `style`; the
+--  Haskell renderer (`whisky-catalogue`) decodes them and generates the markdown.
 --
 --  Design notes:
---    * `Classification` is a sum type so each whisky tradition carries exactly the
---      fields that are real for it — no `Optional ScotchRegion` smeared over bourbon.
---    * Region is NOT hand-typed: it is a total function of the distillery
---      (`regionOf`), resolved once here by the `scotchSingleMalt`/`scotchSingleGrain`
---      constructors. Add a distillery and the `merge` stops type-checking until you
---      record its region.
+--    * A `Producer` is a first-class entity defined ONCE in `producers.dhall`
+--      (name + kind + origin). Whiskies point to one — origin/region is never
+--      restated per bottle.
+--    * `style` is the bottling's own classification (single malt, bourbon, …),
+--      independent of the producer. Producer/style validity (e.g. a blender can't
+--      bottle a single malt) is checked at build time, not by the type system —
+--      the cost of a single uniform producer list.
 --    * The four facets (ownership / tasting / wishlist / recommendation) are
---      orthogonal Optionals — present iff they apply. A sampled-but-wanted bottle
---      has `tasting` + `wishlist`; a sealed bottle has `ownership` only.
+--      orthogonal Optionals — present iff they apply.
 
 -- ============================================================================
--- Controlled vocabularies
+-- Producer — the referenced entity (instances live in ../producers.dhall)
 -- ============================================================================
 
-let ScotchRegion = < Islay | Speyside | Highland | Lowland | Campbeltown | Islands >
-
-let ScotchDistillery =
-      < Oban
-      | Dalwhinnie
-      | Glenmorangie
-      | Kilchoman
-      | Ardbeg
-      | Macallan
-      | Aberlour
-      | GlenDronach
-      | Glenfarclas
-      | Glenlivet
-      | Balvenie
-      | Springbank
-      | Glengyle
-      | HighlandPark
-      | GlenScotia
-      | GlenGrant
-      | Laphroaig
-      | Lagavulin
-      | Glenfiddich
-      | Bruichladdich
+-- Origin at a uniform granularity: Scotch region OR country.
+let Origin =
+      < Islay
+      | Speyside
+      | Highland
+      | Lowland
+      | Campbeltown
+      | Islands
+      | Kentucky
+      | Tennessee
+      | Indiana
+      | USA
+      | Ireland
+      | Japan
+      | India
+      | Taiwan
+      | Australia
+      | SouthAfrica
+      | ScotlandBlend
       >
 
-let ScotchBlender = < CompassBox | JohnnieWalker >
+let ProducerKind = < Distillery | Blender | Bottler | GrainDistillery >
 
-let AmericanProducer =
-      < BuffaloTrace
-      | WoodfordReserve
-      | WidowJane
-      | WildTurkey
-      | HeavenHill
-      | MakersMark
-      | Michters
-      | WhistlePig
-      >
-
-let MashType = < Bourbon | Rye | Wheat | Corn | Malt >
-
-let IrishProducer = < Midleton | Bushmills | Teeling >
-
-let IrishStyle = < SinglePotStill | SingleMalt | SingleGrain | Blend >
-
-let JapaneseProducer = < Nikka | Suntory >
-
-let JapaneseStyle = < SingleMalt | Blend | SingleGrain >
-
-let WorldCountry = < India | Taiwan | Australia | SouthAfrica >
+let Producer = { name : Text, kind : ProducerKind, origin : Origin }
 
 -- ============================================================================
--- Region is a total function of the distillery — exhaustive, single-sourced.
+-- Style — the bottling's own classification
 -- ============================================================================
 
-let regionOf
-    : ScotchDistillery -> ScotchRegion
-    = \(d : ScotchDistillery) ->
-        merge
-          { Oban = ScotchRegion.Highland
-          , Dalwhinnie = ScotchRegion.Highland
-          , Glenmorangie = ScotchRegion.Highland
-          , Kilchoman = ScotchRegion.Islay
-          , Ardbeg = ScotchRegion.Islay
-          , Macallan = ScotchRegion.Speyside
-          , Aberlour = ScotchRegion.Speyside
-          , GlenDronach = ScotchRegion.Highland
-          , Glenfarclas = ScotchRegion.Speyside
-          , Glenlivet = ScotchRegion.Speyside
-          , Balvenie = ScotchRegion.Speyside
-          , Springbank = ScotchRegion.Campbeltown
-          , Glengyle = ScotchRegion.Campbeltown
-          , HighlandPark = ScotchRegion.Islands
-          , GlenScotia = ScotchRegion.Campbeltown
-          , GlenGrant = ScotchRegion.Speyside
-          , Laphroaig = ScotchRegion.Islay
-          , Lagavulin = ScotchRegion.Islay
-          , Glenfiddich = ScotchRegion.Speyside
-          , Bruichladdich = ScotchRegion.Islay
-          }
-          d
-
--- ============================================================================
--- Classification — what the whisky *is*
--- ============================================================================
-
--- Single-distillery Scotch carries a region (derived); blends carry a blender.
-let ScotchSingle = { distillery : ScotchDistillery, region : ScotchRegion }
-
-let Scotch =
-      < SingleMalt : ScotchSingle
-      | SingleGrain : ScotchSingle
-      | BlendedMalt : ScotchBlender
-      | BlendedGrain : ScotchBlender
-      | Blend : ScotchBlender
-      >
-
-let American =
-      { producer : AmericanProducer
-      , mash : MashType
-      , bottledInBond : Bool
-      , singleBarrel : Bool
-      }
-
-let Irish = { producer : IrishProducer, style : IrishStyle }
-
-let Japanese = { producer : JapaneseProducer, style : JapaneseStyle }
-
--- The long tail: enumerate the country, keep producer/style loose to avoid churn.
-let World = { country : WorldCountry, producer : Text, style : Text }
-
-let Classification =
-      < Scotch : Scotch
-      | American : American
-      | Irish : Irish
-      | Japanese : Japanese
-      | World : World
+let Style =
+      < SingleMalt
+      | SingleGrain
+      | BlendedMalt
+      | BlendedGrain
+      | Blend
+      | Bourbon
+      | Rye
+      | Wheated
+      | SinglePotStill
       >
 
 -- ============================================================================
@@ -197,7 +120,8 @@ let Recommendation = { Type = RecommendationType, default = {=} }
 let WhiskyType =
       { id : Text
       , name : Text
-      , classification : Classification
+      , producer : Producer
+      , style : Style
       , abv : Double
       , age : Optional Natural
       , casks : List Text
@@ -219,67 +143,10 @@ let Whisky =
         }
       }
 
--- ============================================================================
--- Classification constructors (region resolved here, once)
--- ============================================================================
-
-let scotchSingleMalt
-    : ScotchDistillery -> Classification
-    = \(d : ScotchDistillery) ->
-        Classification.Scotch
-          (Scotch.SingleMalt { distillery = d, region = regionOf d })
-
-let scotchSingleGrain
-    : ScotchDistillery -> Classification
-    = \(d : ScotchDistillery) ->
-        Classification.Scotch
-          (Scotch.SingleGrain { distillery = d, region = regionOf d })
-
-let scotchBlendedMalt
-    : ScotchBlender -> Classification
-    = \(b : ScotchBlender) -> Classification.Scotch (Scotch.BlendedMalt b)
-
-let scotchBlendedGrain
-    : ScotchBlender -> Classification
-    = \(b : ScotchBlender) -> Classification.Scotch (Scotch.BlendedGrain b)
-
-let scotchBlend
-    : ScotchBlender -> Classification
-    = \(b : ScotchBlender) -> Classification.Scotch (Scotch.Blend b)
-
-let american
-    : American -> Classification
-    = \(a : American) -> Classification.American a
-
-let irish
-    : Irish -> Classification
-    = \(i : Irish) -> Classification.Irish i
-
-let japanese
-    : Japanese -> Classification
-    = \(j : Japanese) -> Classification.Japanese j
-
-let world
-    : World -> Classification
-    = \(w : World) -> Classification.World w
-
-in  { -- types
-      ScotchRegion
-    , ScotchDistillery
-    , ScotchBlender
-    , AmericanProducer
-    , MashType
-    , IrishProducer
-    , IrishStyle
-    , JapaneseProducer
-    , JapaneseStyle
-    , WorldCountry
-    , Scotch
-    , American
-    , Irish
-    , Japanese
-    , World
-    , Classification
+in  { Origin
+    , ProducerKind
+    , Producer
+    , Style
     , Status
     , Ownership
     , Confidence
@@ -290,15 +157,4 @@ in  { -- types
     , Findability
     , Recommendation
     , Whisky
-      -- functions / constructors
-    , regionOf
-    , scotchSingleMalt
-    , scotchSingleGrain
-    , scotchBlendedMalt
-    , scotchBlendedGrain
-    , scotchBlend
-    , american
-    , irish
-    , japanese
-    , world
     }

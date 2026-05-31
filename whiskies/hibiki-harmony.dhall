@@ -1,10 +1,12 @@
 let W = ../schema/Whisky.dhall
 
+let P = ../producers.dhall
+
 in  W.Whisky::{
       id = "hibiki-harmony",
       name = "Hibiki Harmony",
-      classification = W.japanese
-        { producer = W.JapaneseProducer.Suntory, style = W.JapaneseStyle.Blend },
+      producer = P.suntory,
+      style = W.Style.Blend,
       abv = 43.0,
       wishlist = Some W.Wishlist::{
         priority = W.Priority.Medium,

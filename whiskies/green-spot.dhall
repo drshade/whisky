@@ -1,10 +1,12 @@
 let W = ../schema/Whisky.dhall
 
+let P = ../producers.dhall
+
 in  W.Whisky::{
       id = "green-spot",
       name = "Green Spot",
-      classification = W.irish
-        { producer = W.IrishProducer.Midleton, style = W.IrishStyle.SinglePotStill },
+      producer = P.midleton,
+      style = W.Style.SinglePotStill,
       abv = 40.0,
       recommendation = Some W.Recommendation::{
         tier = W.Tier.Benchmark,

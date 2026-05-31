@@ -1,10 +1,12 @@
 let W = ../schema/Whisky.dhall
 
+let P = ../producers.dhall
+
 in  W.Whisky::{
       id = "jameson-black-barrel",
       name = "Jameson Black Barrel",
-      classification = W.irish
-        { producer = W.IrishProducer.Midleton, style = W.IrishStyle.Blend },
+      producer = P.midleton,
+      style = W.Style.Blend,
       abv = 40.0,
       recommendation = Some W.Recommendation::{
         tier = W.Tier.Entry,

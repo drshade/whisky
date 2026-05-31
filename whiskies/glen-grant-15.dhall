@@ -1,9 +1,12 @@
 let W = ../schema/Whisky.dhall
 
+let P = ../producers.dhall
+
 in  W.Whisky::{
       id = "glen-grant-15",
       name = "Glen Grant 15 Batch Strength",
-      classification = W.scotchSingleMalt W.ScotchDistillery.GlenGrant,
+      producer = P.glenGrant,
+      style = W.Style.SingleMalt,
       abv = 50.0,
       age = Some 15,
       recommendation = Some W.Recommendation::{

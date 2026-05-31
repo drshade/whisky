@@ -1,14 +1,12 @@
 let W = ../schema/Whisky.dhall
 
+let P = ../producers.dhall
+
 in  W.Whisky::{
       id = "widow-jane-baby-jane",
       name = "Baby Jane",
-      classification = W.american
-        { producer = W.AmericanProducer.WidowJane,
-          mash = W.MashType.Corn,
-          bottledInBond = False,
-          singleBarrel = False
-        },
+      producer = P.widowJane,
+      style = W.Style.Bourbon,
       abv = 45.5,
       ownership = Some W.Ownership::{ status = W.Status.Open },
       tasting = Some W.Tasting::{

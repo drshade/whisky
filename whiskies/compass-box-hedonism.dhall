@@ -1,9 +1,12 @@
 let W = ../schema/Whisky.dhall
 
+let P = ../producers.dhall
+
 in  W.Whisky::{
       id = "compass-box-hedonism",
       name = "Hedonism",
-      classification = W.scotchBlendedGrain W.ScotchBlender.CompassBox,
+      producer = P.compassBox,
+      style = W.Style.BlendedGrain,
       abv = 43.0,
       ownership = Some W.Ownership::{ status = W.Status.Open },
       tasting = Some W.Tasting::{

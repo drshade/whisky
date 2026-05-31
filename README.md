@@ -7,14 +7,14 @@
 
 - **Owned:** 13 bottles — 10 open, 3 sealed
 - **By style:** 6 Single malt · 5 Bourbon · 1 Blended malt · 1 Blended grain
-- **By region:** 2 Islay · 4 Kentucky · 1 Scotland (malt) · 1 Scotland (grain) · 3 Highland · 1 South Africa · 1 USA
+- **By region:** 2 Islay · 4 Kentucky · 2 Scotland (blend) · 3 Highland · 1 South Africa · 1 USA
 - **Tasted & rated:** 10 / 13
 
 ## Ranked collection
 
 | # | Bottle | Region | Rating | In a word |
 |---|---|---|---|---|
-| 1 | [Hedonism](journal/2026-05-29-compass-box-hedonism.md) | Scotland (grain) | 91 | complex, sweet, sessionable |
+| 1 | [Hedonism](journal/2026-05-29-compass-box-hedonism.md) | Scotland (blend) | 91 | complex, sweet, sessionable |
 | 2 | [Kilchoman Sanaig CS](journal/2026-05-29-kilchoman-sanaig-cs.md) | Islay | 90 | intense, spicy sipper |
 | 3 | [Blanton's Original](journal/2026-05-29-blantons-original.md) | Kentucky | 89 | the bourbon that transcends |
 | 4 | [Blanton's Gold](journal/2026-05-29-blantons-gold-edition.md) | Kentucky | 84 | strong but harsh |
@@ -25,7 +25,7 @@
 | 9 | [Dalwhinnie 15](journal/2026-05-29-dalwhinnie-15.md) | Highland | 72 | gentle, dull |
 | 10 | [Glenmorangie Duthac](journal/2026-05-29-glenmorangie-duthac.md) | Highland | 68 | bland, bitter edge |
 | — | Ardbeg Uigeadail | Islay | _sealed_ | not yet tasted |
-| — | Crimson Casks | Scotland (malt) | _sealed_ | not yet tasted |
+| — | Crimson Casks | Scotland (blend) | _sealed_ | not yet tasted |
 | — | Three Ships 6 Chenin | South Africa | _sealed_ | not yet tasted |
 
 ## Tasting log — everything tasted

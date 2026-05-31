@@ -1,13 +1,12 @@
 let W = ../schema/Whisky.dhall
 
+let P = ../producers.dhall
+
 in  W.Whisky::{
       id = "amrut-fusion",
       name = "Amrut Fusion",
-      classification = W.world
-        { country = W.WorldCountry.India,
-          producer = "Amrut",
-          style = "Single malt"
-        },
+      producer = P.amrut,
+      style = W.Style.SingleMalt,
       abv = 50.0,
       casks = [ "part-peated" ],
       wishlist = Some W.Wishlist::{

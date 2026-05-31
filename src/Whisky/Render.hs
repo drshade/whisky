@@ -6,6 +6,7 @@ module Whisky.Render
   , renderCollection
   , renderWishlist
   , renderRecommendations
+  , validate
   ) where
 
 import qualified Data.Text as T
@@ -119,7 +120,7 @@ nextBuys ws =
   in case picks of
        [] -> "_None right now._"
        _ -> T.intercalate "\n"
-              [ "- **" <> w.name <> "** (" <> regionLabel w.classification <> ") — "
+              [ "- **" <> w.name <> "** (" <> regionLabel w <> ") — "
                   <> maybe "" (.estPrice) w.wishlist
               | w <- picks ]
 
@@ -129,8 +130,8 @@ statsBlock ws =
       openN = length (filter (ownedStatus Open) owned)
       sealedN = length (filter (ownedStatus Sealed) owned)
       tastedN = length (filter isTasted owned)
-      byStyle = renderTally (tally (map (typeLabel . (.classification)) owned))
-      byRegion = renderTally (tally (map (regionLabel . (.classification)) owned))
+      byStyle = renderTally (tally (map (typeLabel) owned))
+      byRegion = renderTally (tally (map (regionLabel) owned))
   in T.intercalate "\n"
        [ "- **Owned:** " <> T.pack (show (length owned)) <> " bottles — "
            <> T.pack (show openN) <> " open, " <> T.pack (show sealedN) <> " sealed"
@@ -147,8 +148,8 @@ rankedTable ws =
   let tasted = sortOn (Down . ratingMay) (filter (\w -> isOwned w && isTasted w) ws)
       sealed = filter (\w -> isOwned w && not (isTasted w)) ws
       rankOf w = 1 + length (filter (\x -> ratingMay x > ratingMay w) tasted)
-      tastedRows = map (\w -> [T.pack (show (rankOf w)), nameCell w, regionLabel w.classification, ratingCell w, summaryOf w]) tasted
-      sealedRows = map (\w -> ["—", nameCell w, regionLabel w.classification, "_sealed_", "not yet tasted"]) sealed
+      tastedRows = map (\w -> [T.pack (show (rankOf w)), nameCell w, regionLabel w, ratingCell w, summaryOf w]) tasted
+      sealedRows = map (\w -> ["—", nameCell w, regionLabel w, "_sealed_", "not yet tasted"]) sealed
   in table ["#", "Bottle", "Region", "Rating", "In a word"] (tastedRows <> sealedRows)
   where
     summaryOf w = maybe "" (.summary) w.tasting
@@ -188,9 +189,9 @@ renderCollection ws =
     ownedRow w =
       let own = w.ownership
       in [ w.name
-         , producerName w.classification
-         , regionLabel w.classification
-         , typeLabel w.classification
+         , producerName w
+         , regionLabel w
+         , typeLabel w
          , showAbv w.abv
          , showAge w.age
          , maybe "" (statusLabel . (.status)) own
@@ -214,7 +215,7 @@ renderWishlist :: [Whisky] -> Text
 renderWishlist ws =
   let wls = filter (isJust . (.wishlist)) ws
       buy = sortOn wlRank (filter (not . wlTryFirst) wls)
-      try = sortOn wlRank (filter wlTryFirst wls)
+      tasteFirst = sortOn wlRank (filter wlTryFirst wls)
   in T.intercalate "\n"
        [ "# Wishlist"
        , ""
@@ -226,7 +227,7 @@ renderWishlist ws =
        , wlTable buy
        , "## Try first (taste before buying)"
        , ""
-       , wlTable try
+       , wlTable tasteFirst
        ]
   where
     wlRank w = maybe 9 (priorityRank . (.priority)) w.wishlist
@@ -235,8 +236,8 @@ renderWishlist ws =
     wlRow w =
       let wl = w.wishlist
       in [ maybe w.name (\x -> if x.claudePick then "💡 " <> w.name else w.name) wl
-         , regionLabel w.classification
-         , typeLabel w.classification
+         , regionLabel w
+         , typeLabel w
          , maybe "" (priorityLabel . (.priority)) wl
          , maybe "" (.estPrice) wl
          , maybe "" (.why) wl
@@ -289,3 +290,26 @@ renderRecommendations ws =
          , maybe "" (tierLabel . (.tier)) r
          , maybe "" (findabilitySymbol . (.findability)) r
          ]
+
+-- ============================================================================
+-- Build-time validation — producer/style sanity the type system no longer enforces
+-- ============================================================================
+
+-- | Flag implausible producer/style/origin combinations. Returns one message per
+--   issue (empty = all good). 'Main' prints these; they don't block generation.
+validate :: [Whisky] -> [Text]
+validate = concatMap checkOne
+  where
+    checkOne w =
+      let sty = w.style
+          og = w.producer.origin
+          blended = sty `elem` [Blend, BlendedMalt, BlendedGrain]
+          usOrigin = og `elem` [Kentucky, Tennessee, Indiana, USA]
+      in concat
+           [ [ w.name <> ": a blender bottling should be a blend, not " <> styleLabel sty
+             | w.producer.kind == Blender, not blended ]
+           , [ w.name <> ": " <> styleLabel sty <> " expects a US origin, got " <> originLabel og
+             | sty `elem` [Bourbon, Rye, Wheated], not usOrigin ]
+           , [ w.name <> ": single pot still expects Ireland, got " <> originLabel og
+             | sty == SinglePotStill, og /= Ireland ]
+           ]

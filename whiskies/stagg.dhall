@@ -1,14 +1,12 @@
 let W = ../schema/Whisky.dhall
 
+let P = ../producers.dhall
+
 in  W.Whisky::{
       id = "stagg",
       name = "Stagg",
-      classification = W.american
-        { producer = W.AmericanProducer.BuffaloTrace,
-          mash = W.MashType.Bourbon,
-          bottledInBond = False,
-          singleBarrel = False
-        },
+      producer = P.buffaloTrace,
+      style = W.Style.Bourbon,
       abv = 65.0,
       wishlist = Some W.Wishlist::{
         priority = W.Priority.Low,

@@ -1,10 +1,12 @@
 let W = ../schema/Whisky.dhall
 
+let P = ../producers.dhall
+
 in  W.Whisky::{
       id = "nikka-coffey-grain",
       name = "Nikka Coffey Grain",
-      classification = W.japanese
-        { producer = W.JapaneseProducer.Nikka, style = W.JapaneseStyle.SingleGrain },
+      producer = P.nikka,
+      style = W.Style.SingleGrain,
       abv = 45.0,
       recommendation = Some W.Recommendation::{
         tier = W.Tier.Entry,

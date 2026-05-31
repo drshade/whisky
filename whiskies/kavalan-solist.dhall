@@ -1,13 +1,12 @@
 let W = ../schema/Whisky.dhall
 
+let P = ../producers.dhall
+
 in  W.Whisky::{
       id = "kavalan-solist",
       name = "Kavalan Solist",
-      classification = W.world
-        { country = W.WorldCountry.Taiwan,
-          producer = "Kavalan",
-          style = "Single malt (single cask)"
-        },
+      producer = P.kavalan,
+      style = W.Style.SingleMalt,
       abv = 57.0,
       recommendation = Some W.Recommendation::{
         tier = W.Tier.Splurge,

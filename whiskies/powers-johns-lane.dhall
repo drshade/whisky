@@ -1,10 +1,12 @@
 let W = ../schema/Whisky.dhall
 
+let P = ../producers.dhall
+
 in  W.Whisky::{
       id = "powers-johns-lane",
       name = "Powers John's Lane 12",
-      classification = W.irish
-        { producer = W.IrishProducer.Midleton, style = W.IrishStyle.SinglePotStill },
+      producer = P.midleton,
+      style = W.Style.SinglePotStill,
       abv = 46.0,
       age = Some 12,
       recommendation = Some W.Recommendation::{
