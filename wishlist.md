@@ -19,7 +19,6 @@ Bottles worth purchasing — sure-thing profile fits and findable picks.
 | A'bunadh (cask strength) | Aberlour | Highland (Speyside) | Single malt | **high** | ~R1300 | Best off-shelf profile match: cask-strength oloroso sherry bomb = sweetness + complexity + earned strength. Fills the sherried-Speyside gap. Buying now. |
 | 💡 Wild Turkey Rare Breed | Wild Turkey | Kentucky | Bourbon (barrel proof, 58.4%) | high | ~€50 | Claude pick. The **easy, available** complex-bourbon buy in NL/EU — barrel-strength, rich, great value. Best first answer to my "complex bourbon" gap. |
 | 💡 Larceny Barrel Proof | Heaven Hill | Kentucky | Bourbon (wheated, barrel proof) | medium | ~€90 | Claude pick. Wheated barrel-proof — sweeter + strong + layered (all my levers). Allocated/pricey but gettable via EU specialists. **Buy at home, not SA.** |
-| 💡 Ardbeg Uigeadail | Ardbeg | Islay | Single malt (peat + sherry, CS) | high | ~R1400 | Claude pick. Possibly my perfect dram — peat + sherry + cask strength + huge complexity. Taste at NPF first, then buy. |
 | 💡 GlenDronach 15 "Revival" | GlenDronach | Highland (Speyside) | Single malt (sherry) | high | ~R1300 | Claude pick. Deep dried-fruit sherry; sweetness + complexity bullseye. |
 | 💡 Redbreast 12 | Midleton | Ireland | Single pot still | high | ~R600 | Claude pick. Opens **Irish pot still** — lush, sherried, *complex*. Bang on profile. |
 | 💡 Nikka From The Barrel | Nikka | Japan | Blended | high | ~R1100 | Claude pick. Opens **Japan** — intense, spicy, layered at 51.4%. Strength that earns its complexity. |

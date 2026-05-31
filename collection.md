@@ -15,12 +15,14 @@ What I currently own. Status: `sealed` · `open` · `finished`. Rating: personal
 | Baby Jane | Widow Jane | USA (Brooklyn / KY) | Bourbon (heirloom corn) | 45.5% | NAS | open | | | 80* | [notes](journal/2026-05-29-widow-jane-baby-jane.md) |
 | Buffalo Trace | Buffalo Trace | Kentucky | Bourbon | 45% | NAS | open | | | 82 | [notes](journal/2026-05-29-buffalo-trace.md) |
 | Crimson Casks | Compass Box | Scotland (blender) | Blended malt | 46% | NAS | sealed | | Work trip, May 2026 | — | |
+| Ardbeg Uigeadail | Ardbeg | Islay | Single malt (peat + sherry) | 54.2% | NAS | sealed | ~R1300 | JHB trip, May 2026 | — | |
+| Three Ships 6 Chenin Blanc Cask | James Sedgwick | South Africa | Single malt (wine finish) | 43% | 6 | sealed | R699 | JHB trip, May 2026 | — | |
 
-> `*` = low-confidence rating, needs more tastings (Baby Jane). Crimson Casks still sealed → unrated.
+> `*` = low-confidence rating, needs more tastings (Baby Jane). Sealed/unrated: Crimson Casks, Ardbeg Uigeadail, Three Ships 6 Chenin.
 
 ## Summary
 
-- **Bottles owned:** 11
-- **Open:** 10 · **Sealed:** 1 · **Finished:** 0
-- **By style:** 5 bourbon/corn · 4 single malt · 1 blended malt · 1 blended grain
-- **Regions:** Kentucky ×5 · Highland ×3 · Islay ×1 · Scotland-blend ×2
+- **Bottles owned:** 13
+- **Open:** 10 · **Sealed:** 3 · **Finished:** 0
+- **By style:** 5 bourbon/corn · 6 single malt · 1 blended malt · 1 blended grain
+- **Regions:** Kentucky ×5 · Highland ×3 · Islay ×2 · Scotland-blend ×2 · South Africa ×1

@@ -1,14 +1,14 @@
 # 🥃 Whisky Collection
 
-> At-a-glance dashboard. _Last updated: 2026-05-29._
+> At-a-glance dashboard. _Last updated: 2026-05-31._
 > New here? See [`AGENTS.md`](AGENTS.md) for what this repo is and how it works.
 
 ## Stats
 
-- **Owned:** 11 bottles — **10 open**, 1 sealed
-- **By style:** 5 bourbon/corn · 4 single malt · 1 blended malt · 1 blended grain
-- **Regions:** Kentucky ×5 · Highland ×3 · Islay ×1 · Scotland-blend ×2
-- **Tasted & rated:** 10 / 11 (Crimson Casks still sealed)
+- **Owned:** 13 bottles — **10 open**, 3 sealed
+- **By style:** 5 bourbon/corn · 6 single malt · 1 blended malt · 1 blended grain
+- **Regions:** Kentucky ×5 · Highland ×3 · Islay ×2 · Scotland-blend ×2 · South Africa ×1
+- **Tasted & rated:** 10 / 13 (Crimson Casks, Ardbeg Uigeadail, Three Ships 6 Chenin still sealed)
 
 ## Ranked collection
 
@@ -25,6 +25,8 @@
 | 9 | [Dalwhinnie 15](journal/2026-05-29-dalwhinnie-15.md) | Highland | **72** | gentle, dull |
 | 10 | [Glenmorangie Duthac](journal/2026-05-29-glenmorangie-duthac.md) | Highland | **68** | bland, bitter edge |
 | — | Crimson Casks | Scotland (malt) | _sealed_ | not yet tasted |
+| — | Ardbeg Uigeadail | Islay | _sealed_ | not yet tasted (likely top-tier) |
+| — | Three Ships 6 Chenin | South Africa | _sealed_ | not yet tasted |
 
 `*` = low-confidence rating, needs more tastings. Full details: [`collection.md`](collection.md).
 
@@ -38,13 +40,13 @@ low sweetness. Full profile: [`preferences.md`](preferences.md).
 
 | Bottle | Priority | Why |
 |--------|----------|-----|
-| Aberlour A'bunadh CS | high | layered oloroso sherry bomb — bang on profile; buying now |
-| Ardbeg Uigeadail | high | peat + sherry + cask strength — maybe perfect |
+| Aberlour A'bunadh CS | high | layered oloroso sherry bomb — bang on profile; buy in NL (cheaper) |
+| Wild Turkey Rare Breed | high | easy, available complex bourbon (NL/EU) |
 | GlenDronach 15 Revival | high | deep dried-fruit sherry |
 | Redbreast 12 | high | Irish pot still — complex, sherried, widely available |
 
-Plus more buy targets (Wild Turkey Rare Breed, Nikka From The Barrel, Amrut Fusion,
-Kilkerran 12, Glenfarclas 105, Bain's, Rittenhouse Rye) and a **Tasting Room try-first**
+Plus more buy targets (Nikka From The Barrel, Amrut Fusion, Kilkerran 12, Glenfarclas 105,
+Bain's, Rittenhouse Rye) and a **Tasting Room try-first**
 shortlist (Springbank 10, Hibiki, Flaming Heart, Octomore, George T. Stagg). Home market is
 **NL/EU** (bourbon easy here); SA trips are for local SA whisky. Full list:
 [`wishlist.md`](wishlist.md) · [`recommendations.md`](recommendations.md) ·
