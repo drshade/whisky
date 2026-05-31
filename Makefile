@@ -2,7 +2,7 @@
 
 # Regenerate README.md, collection.md, wishlist.md, recommendations.md from whiskies/*.dhall
 build:
-	LANG=C.UTF-8 cabal run -v0 whisky-catalogue
+	cabal run -v0 whisky-catalogue
 
 # Type-check the data + code without writing files (decodes every whisky)
 verify:
