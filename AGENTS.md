@@ -105,12 +105,14 @@ the claude.ai/code environment-settings dialog — not a repo file):
 1. **Network access → Custom**, keep *"include default package managers"* ticked, add
    `*.haskell.org` (covers `get-ghcup.haskell.org` + `downloads.haskell.org`; Hackage is
    already in the defaults).
-2. **Setup script** → either paste [`scripts/cloud-setup.sh`](scripts/cloud-setup.sh), or
-   set it to fetch the canonical copy (repo is public):
+2. **Setup script** → set the field to fetch the canonical copy (repo is public). Prefer this
+   over pasting the whole script — the field's runner can mangle multi-line comment blocks:
    ```bash
    #!/bin/bash
+   set -euo pipefail
    curl -fsSL https://raw.githubusercontent.com/drshade/whisky/main/scripts/cloud-setup.sh | bash
    ```
+   The real script is [`scripts/cloud-setup.sh`](scripts/cloud-setup.sh).
 
 The setup script is cached, so GHC only installs on the first session. Editing
 `scripts/cloud-setup.sh` won't re-trigger the cache on its own — re-save the environment
