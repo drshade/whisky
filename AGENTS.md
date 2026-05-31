@@ -105,7 +105,10 @@ the claude.ai/code environment-settings dialog — not a repo file):
 1. **Network access → Custom**, keep *"include default package managers"* ticked, add
    `*.haskell.org` (covers `get-ghcup.haskell.org` + `downloads.haskell.org`; Hackage is
    already in the defaults).
-2. **Setup script** → paste [`scripts/cloud-setup.sh`](scripts/cloud-setup.sh) verbatim. The
+2. **Environment variables** → add `LANG=C.UTF-8`. Without it the container defaults to the
+   POSIX/ASCII locale and Haskell's file I/O will fail to decode the UTF-8 characters
+   (em-dashes, ellipsis) in `schema/Whisky.dhall`.
+3. **Setup script** → paste [`scripts/cloud-setup.sh`](scripts/cloud-setup.sh) verbatim. The
    field's runner mangles long lines and the `|` character, so the script is kept pipe-free
    and short-lined. **Do not** use a `curl … | bash` one-liner — its long URL wraps and the
    orphaned `| bash` throws `syntax error near unexpected token '|'`.
