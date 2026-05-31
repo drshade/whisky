@@ -96,6 +96,27 @@ generated markdown.
   explicitly want open horizons and expect their tastes to evolve. The profile adds context
   ("fits you now" / "a stretch"); it must never be used to exclude an option.
 
+## Using Claude Code on the web
+
+The cloud sandbox has no Haskell toolchain and blocks the Haskell download hosts by
+default, so the generator can't build until the environment is configured (one-time, in
+the claude.ai/code environment-settings dialog — not a repo file):
+
+1. **Network access → Custom**, keep *"include default package managers"* ticked, add
+   `*.haskell.org` (covers `get-ghcup.haskell.org` + `downloads.haskell.org`; Hackage is
+   already in the defaults).
+2. **Setup script** → either paste [`scripts/cloud-setup.sh`](scripts/cloud-setup.sh), or
+   set it to fetch the canonical copy (repo is public):
+   ```bash
+   #!/bin/bash
+   curl -fsSL https://raw.githubusercontent.com/drshade/whisky/main/scripts/cloud-setup.sh | bash
+   ```
+
+The setup script is cached, so GHC only installs on the first session. Editing
+`scripts/cloud-setup.sh` won't re-trigger the cache on its own — re-save the environment
+(or wait for the ~7-day expiry) to pick up changes. The first `cabal build` per session is
+still slow (deps aren't in the snapshot), then fast.
+
 ## Ground rules
 
 - **Be honest and critical** — never inflate a whisky or pander. Bad ideas get flagged.
