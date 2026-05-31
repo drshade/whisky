@@ -61,6 +61,10 @@ styles rather than narrowing down. See `preferences.md` for the established tast
   **discovery-mode** preference for variety/new ground.
 - `preferences.md` is a *working draft* — update it as new patterns emerge across the
   journal, but preserve the owner's "stage / discovery mode" framing unless they change it.
+- **Never narrow or filter to the profile.** Keep recommending across the full spectrum,
+  including styles/regions/brands the owner has disliked or rated low before — they
+  explicitly want open horizons and expect their tastes to evolve. The profile adds context
+  ("fits you now" / "a stretch"); it must never be used to exclude an option.
 
 ## Ground rules
 

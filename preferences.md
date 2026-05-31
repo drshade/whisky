@@ -46,7 +46,10 @@ High ABV is welcome **only when it buys complexity**, not heat for its own sake.
 - ✗ Blanton's Gold 51.5% — hotter/harsher than the Original with no added complexity, so
   it scores *lower* despite being "the premium one."
 
-## Turn-offs
+## Current dislikes (a snapshot — NOT permanent, NOT a filter)
+
+> These are what I tend to dislike *right now*. They are reasons to add context, never
+> reasons to avoid or rule out a style. Palates evolve — keep offering these too.
 
 - Blandness / single-note / thin pours.
 - **Bitterness** (active dislike).
@@ -104,11 +107,18 @@ Macallan name.
 - **Home market:** Netherlands / EU (default — broad availability). Occasional SA trips →
   Norman Goodfellows + NPF Tasting Room (Melrose Arch) for local SA whisky & bargains.
 
-## Stage
+## Stage — keep horizons open
 
-Still in **discovery mode** — actively value variety and want to keep exploring new
-regions/styles. This profile is a *working draft*, not a cage: it sharpens buying/Tasting
-Room choices but I'm happy to be surprised.
+Firmly in **discovery mode** and intend to stay there a while. **This profile is a current
+snapshot, not a preference I'm zeroing in on — and definitely not a filter.** Do NOT assume
+I'm narrowing toward heavily-sherried/complex (or any single style), and do NOT avoid or
+rule anything out:
+
+- Keep recommending across the **full spectrum** — including styles, regions and brands I've
+  rated low or disliked before.
+- I may well come to enjoy things I haven't in the past — re-suggest them periodically.
+- Use this profile to add *context* ("this fits you now" / "this is a stretch"), **never to
+  exclude** an option. Surprise me.
 
 ## Regions / styles still to explore
 
