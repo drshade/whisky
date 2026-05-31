@@ -28,6 +28,8 @@ Bottles worth purchasing — sure-thing profile fits and findable picks.
 | 💡 Bain's Cape Mountain | James Sedgwick | South Africa | Single grain | medium | ~R250 (SA) | Claude pick. **SA-trip buy** — award-winning local single grain (World's Best Grain 2013), great value. BUT it's *sweet & simple/easy*, NOT complex like Hedonism — likely a "nice but unmemorable" high-70s for my complexity-first palate. A cheap low-risk curiosity / easy sipper / cocktail base, not a wow. |
 | 💡 Kilkerran 12 | Glengyle | Campbeltown | Single malt | medium | ~R1200 | Claude pick. Opens **Campbeltown** — oily, fruity, light smoke, loads of *character*. |
 | 💡 Glenfarclas 105 | Glenfarclas | Speyside | Single malt (CS sherry) | medium | ~R1100 | Claude pick. Cask-strength sherry bomb; a cheaper A'bunadh alternative worth comparing. |
+| 💡 Glenlivet Nàdurra Oloroso | Glenlivet | Speyside | Single malt (CS sherry) | medium | ~€70 | Claude pick. The Glenlivet worth owning — cask-strength, sherried, NCF, great value. Skip the 12; this fits (complexity + sweetness). |
+| 💡 Balvenie DoubleWood 12 | Balvenie | Speyside | Single malt (sherry finish) | medium | ~€60 | Claude pick. Honeyed, sherry-finished, well-rounded — a characterful mainstream pick that suits me. |
 | 💡 Stagg | Buffalo Trace | Kentucky | Bourbon (barrel proof) | low | ~€80+ | Claude pick. Barrel-proof intensity & complexity. NB: regular **Stagg** (ex-"Stagg Jr"), NOT George T. Stagg. Allocated/pricey even in EU — a grab-on-sight at home, not a planned buy. |
 | 💡 Rittenhouse Rye BiB | Heaven Hill | Kentucky (rye) | Rye | medium | ~R500 | Claude pick. Opens **rye** — spicy, drier counterpoint to my bourbons. Cheap style test. |
 
@@ -43,3 +45,5 @@ to buy blind. See `tasting-room-cheatsheet.md`.
 | 💡 Compass Box Flaming Heart | Scotland (blend) | I click with Compass Box (Hedonism #1) — this is their peat + complexity flagship. | buy if it lands |
 | 💡 Octomore | Islay | Most heavily-peated whisky made — a complexity *and* intensity experiment. | taste-only (~R3000+) |
 | 💡 George T. Stagg | Kentucky | The unicorn. Taste it if a bottle's open — you'll never buy one. | taste-only (~R5000+) |
+| 💡 Highland Park 18 | Highland (Orkney) | Honey + gentle peat + sherry, beautifully complex — strong fit. But ~€140, above budget. | buy if it wows |
+| 💡 Macallan (sherried — Double Cask / Sherry Oak) | Speyside | Fits my profile (rich sherry), but a heavy brand premium. Taste to calibrate — then buy GlenDronach / A'bunadh / Glenfarclas instead. | **taste, don't buy** |

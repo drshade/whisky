@@ -68,8 +68,9 @@ low sweetness. Full profile: [`preferences.md`](preferences.md).
 | Redbreast 12 | high | Irish pot still — complex, sherried, widely available |
 
 Plus more buy targets (Nikka From The Barrel, Amrut Fusion, Kilkerran 12, Glenfarclas 105,
-Bain's, Rittenhouse Rye) and a **Tasting Room try-first**
-shortlist (Springbank 10, Hibiki, Flaming Heart, Octomore, George T. Stagg). Home market is
+Glenlivet Nàdurra, Balvenie DoubleWood, Bain's, Rittenhouse Rye) and a **Tasting Room
+try-first** shortlist (Springbank 10, Hibiki, Flaming Heart, Octomore, Highland Park 18,
+Macallan [taste-don't-buy], George T. Stagg). Home market is
 **NL/EU** (bourbon easy here); SA trips are for local SA whisky. Full list:
 [`wishlist.md`](wishlist.md) · [`recommendations.md`](recommendations.md) ·
 [`tasting-room-cheatsheet.md`](tasting-room-cheatsheet.md).
