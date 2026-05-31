@@ -20,7 +20,7 @@ Bottles worth purchasing — sure-thing profile fits and findable picks.
 | 💡 Wild Turkey Rare Breed | Wild Turkey | Kentucky | Bourbon (barrel proof, 58.4%) | high | ~€50 | Claude pick. The **easy, available** complex-bourbon buy in NL/EU — barrel-strength, rich, great value. Best first answer to my "complex bourbon" gap. |
 | 💡 Larceny Barrel Proof | Heaven Hill | Kentucky | Bourbon (wheated, barrel proof) | medium | ~€90 | Claude pick. Wheated barrel-proof — sweeter + strong + layered (all my levers). Allocated/pricey but gettable via EU specialists. **Buy at home, not SA.** |
 | 💡 GlenDronach 15 "Revival" | GlenDronach | Highland (Speyside) | Single malt (sherry) | high | ~R1300 | Claude pick. Deep dried-fruit sherry; sweetness + complexity bullseye. |
-| 💡 Redbreast 12 | Midleton | Ireland | Single pot still | high | ~R600 | Claude pick. Opens **Irish pot still** — lush, sherried, *complex*. Bang on profile. |
+| 💡 Redbreast 12 | Midleton | Ireland | Single pot still | high | ~R600 | Claude pick. Opens **Irish pot still** — lush, sherried, *complex*. **Tried at dinner May 2026 → very good, confirmed buy.** ([notes](journal/2026-05-30-redbreast-12.md)) |
 | 💡 Nikka From The Barrel | Nikka | Japan | Blended | high | ~R1100 | Claude pick. Opens **Japan** — intense, spicy, layered at 51.4%. Strength that earns its complexity. |
 | 💡 Amrut Fusion | Amrut | India | Single malt | high | ~R800 | Claude pick. Opens **world whisky** — part-peated, rich and complex. Cult favourite. |
 | Three Ships 12 | James Sedgwick | South Africa | Single malt (peated) | medium | ~€50 | UK/EU **export-only** release — not on NL *or* SA shelves. Order from EU specialists that ship to NL (Master of Malt, Royal Mile, Nickolls & Perks); stock is intermittent → set an alert. |
