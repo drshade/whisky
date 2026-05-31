@@ -1,0 +1,51 @@
+name: build
+
+# Regenerates the catalogue markdown from the Dhall data and commits it back.
+# You only ever edit whiskies/*.dhall (+ schema / notes) and push — the bot keeps
+# README.md and docs/ in sync. (Pushes made with GITHUB_TOKEN don't trigger another
+# run, so this doesn't loop.)
+
+on:
+  push:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: haskell-actions/setup@v2
+        id: setup
+        with:
+          ghc-version: '9.12.2'
+          cabal-version: '3.14.2.0'
+
+      - name: Cache cabal store + build
+        uses: actions/cache@v5
+        with:
+          path: |
+            ${{ steps.setup.outputs.cabal-store }}
+            dist-newstyle
+          key: ${{ runner.os }}-ghc9.12.2-${{ hashFiles('**/*.cabal', 'cabal.project') }}
+          restore-keys: ${{ runner.os }}-ghc9.12.2-
+
+      - run: cabal update
+      - run: cabal build
+
+      - name: Regenerate docs (also runs the validation pass)
+        run: cabal run -v0 whisky-catalogue
+
+      - name: Commit regenerated docs if they changed
+        run: |
+          if git diff --quiet -- README.md docs/; then
+            echo "Docs already in sync — nothing to commit."
+          else
+            git config user.name  "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add README.md docs/
+            git commit -m "chore: regenerate catalogue docs [skip ci]"
+            git push
+          fi

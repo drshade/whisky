@@ -1,0 +1,61 @@
+cabal-version: 2.4
+name:          whisky-catalogue
+version:       0.1.0.0
+build-type:    Simple
+synopsis:      Generate the whisky catalogue markdown from typed Dhall data.
+
+library
+  hs-source-dirs:   src
+  default-language: GHC2024
+  default-extensions:
+    DataKinds
+    DeriveGeneric
+    DuplicateRecordFields
+    GADTs
+    NoFieldSelectors
+    OverloadedRecordDot
+    OverloadedStrings
+    RecordWildCards
+    TemplateHaskell
+    TypeApplications
+    TypeFamilies
+    TypeOperators
+
+  ghc-options: -Wall
+  exposed-modules:
+    Whisky.Types
+    Whisky.Load
+    Whisky.Render
+    Prelude
+
+  build-depends:
+    dhall,
+    directory,
+    filepath,
+    rerebase,
+
+  mixins:
+    rerebase (Prelude as RerebasePrelude),
+    rerebase hiding (Prelude)
+
+executable whisky-catalogue
+  hs-source-dirs:   app
+  main-is:          Main.hs
+  default-language: GHC2024
+  default-extensions:
+    OverloadedRecordDot
+    OverloadedStrings
+
+  ghc-options:
+    -Wall
+    -threaded
+    -rtsopts
+    -with-rtsopts=-N
+
+  build-depends:
+    directory,
+    whisky-catalogue,
+    rerebase,
+
+  mixins:
+    rerebase hiding (Prelude)

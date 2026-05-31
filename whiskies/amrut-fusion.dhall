@@ -1,0 +1,25 @@
+let W = ../schema/Whisky.dhall
+
+let P = ../schema/Producers.dhall
+
+in  W.Whisky::{
+      id = "amrut-fusion",
+      name = "Amrut Fusion",
+      producer = P.amrut,
+      style = W.Style.SingleMalt,
+      abv = 50.0,
+      casks = [ "part-peated" ],
+      wishlist = Some W.Wishlist::{
+        priority = W.Priority.High,
+        price = { amount = 42, currency = W.Currency.Eur },
+        market = W.Market.NlEu,
+        claudePick = True,
+        why = "Opens world whisky — part-peated, rich and complex. Cult favourite."
+      },
+      recommendation = Some W.Recommendation::{
+        tier = W.Tier.Benchmark,
+        theme = W.Theme.OtherWorld,
+        findability = W.Findability.Amber,
+        note = "Part-peated, rich and intense — a cult favourite."
+      }
+    }

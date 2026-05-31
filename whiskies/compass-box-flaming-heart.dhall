@@ -1,0 +1,20 @@
+let W = ../schema/Whisky.dhall
+
+let P = ../schema/Producers.dhall
+
+in  W.Whisky::{
+      id = "compass-box-flaming-heart",
+      name = "Compass Box Flaming Heart",
+      producer = P.compassBox,
+      style = W.Style.BlendedMalt,
+      abv = 48.9,
+      casks = [ "peat" ],
+      wishlist = Some W.Wishlist::{
+        priority = W.Priority.Medium,
+        price = { amount = 120, currency = W.Currency.Eur },
+        market = W.Market.NlEu,
+        claudePick = True,
+        tryFirst = True,
+        why = "I click with Compass Box (Hedonism #1) — this is their peat + complexity flagship. Taste before buying."
+      }
+    }
