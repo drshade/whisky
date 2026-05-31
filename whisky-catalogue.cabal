@@ -26,17 +26,16 @@ library
     Whisky.Types
     Whisky.Load
     Whisky.Render
-    Prelude
 
   build-depends:
     dhall,
     directory,
     filepath,
     rerebase,
+    rebase,
 
   mixins:
-    rerebase (Prelude as RerebasePrelude),
-    rerebase hiding (Prelude)
+    rerebase
 
 executable whisky-catalogue
   hs-source-dirs:   app
@@ -58,4 +57,4 @@ executable whisky-catalogue
     rerebase,
 
   mixins:
-    rerebase hiding (Prelude)
+    rerebase

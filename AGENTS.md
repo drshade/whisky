@@ -77,6 +77,15 @@ generated markdown.
 - When a wishlist bottle is bought, add its `ownership` facet (leave/keep the others).
 - Then `make build`.
 
+**Answering ad-hoc questions ("my favourite Speyside?")**
+- Don't hand-read the Dhall files. Run `make repl` for a ghci with the catalogue loaded
+  (`loadWhiskies "whiskies"` returns the typed `[Whisky]`), then express the question as a
+  list comprehension over it — the types make a misread field impossible. Example:
+  `[ (w.name, t.rating) | w <- ws, w.producer.origin == Speyside, Just t <- [w.tasting] ]`.
+- Field shapes live in `src/Whisky/Types.hs` (`producer.origin`, `style`, `tasting.rating`,
+  `ownership.status`, `wishlist.priority`, …). For a one-off, pipe the query in:
+  `printf '<query>\n' | make repl`.
+
 **Curating & recommending**
 - Respect the **taste profile** in `notes/preferences.md`, the **R1000–2000 budget**, and the
   **discovery-mode** preference for variety/new ground.
