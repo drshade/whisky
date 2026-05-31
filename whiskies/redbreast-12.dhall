@@ -19,7 +19,7 @@ in  W.Whisky::{
       wishlist = Some W.Wishlist::{
         priority = W.Priority.High,
         estPrice = "~R600",
-        market = "NL/EU",
+        market = W.Market.NlEu,
         claudePick = True,
         why = "Opens Irish pot still — lush, sherried, complex. Sampled at dinner, confirmed buy."
       },

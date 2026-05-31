@@ -12,7 +12,7 @@ in  W.Whisky::{
       wishlist = Some W.Wishlist::{
         priority = W.Priority.Medium,
         estPrice = "~€70",
-        market = "NL/EU",
+        market = W.Market.NlEu,
         claudePick = True,
         why = "The Glenlivet worth owning — cask-strength, sherried, NCF, great value. Skip the 12; this fits."
       }

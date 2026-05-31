@@ -11,7 +11,7 @@ in  W.Whisky::{
       wishlist = Some W.Wishlist::{
         priority = W.Priority.Medium,
         estPrice = "~R500",
-        market = "NL/EU",
+        market = W.Market.NlEu,
         claudePick = True,
         why = "Opens rye — spicy, drier counterpoint to my bourbons. Cheap style test."
       },

@@ -11,7 +11,7 @@ in  W.Whisky::{
       wishlist = Some W.Wishlist::{
         priority = W.Priority.High,
         estPrice = "~€50",
-        market = "NL/EU",
+        market = W.Market.NlEu,
         claudePick = True,
         why = "The easy, available complex-bourbon buy in NL/EU — barrel-strength, rich, great value. Best first answer to my 'complex bourbon' gap."
       }

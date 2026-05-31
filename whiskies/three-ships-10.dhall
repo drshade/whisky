@@ -12,7 +12,7 @@ in  W.Whisky::{
       wishlist = Some W.Wishlist::{
         priority = W.Priority.Medium,
         estPrice = "~R500 (SA)",
-        market = "SA",
+        market = W.Market.Sa,
         claudePick = True,
         why = "The Three Ships single malt actually sold in SA (NGF). If I want a local Three Ships in JHB, this is the one — the 12yo is export-only."
       }

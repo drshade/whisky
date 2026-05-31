@@ -12,7 +12,7 @@ in  W.Whisky::{
       wishlist = Some W.Wishlist::{
         priority = W.Priority.High,
         estPrice = "~R1300",
-        market = "NL/EU",
+        market = W.Market.NlEu,
         why = "Best off-shelf profile match: cask-strength oloroso sherry bomb = sweetness + complexity + earned strength. Fills the sherried-Speyside gap."
       }
     }

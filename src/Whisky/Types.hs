@@ -18,6 +18,7 @@ module Whisky.Types
   , Confidence (..)
   , Tasting (..)
   , Priority (..)
+  , Market (..)
   , Wishlist (..)
   , Tier (..)
   , Findability (..)
@@ -119,10 +120,15 @@ instance FromDhall Priority where
     genericAutoWithInputNormalizer
       (defaultInterpretOptions { constructorModifier = Text.drop 2 })
 
+data Market = NlEu | Sa
+  deriving (Generic, Show, Eq)
+
+instance FromDhall Market
+
 data Wishlist = MkWishlist
   { priority :: Priority
   , estPrice :: Text
-  , market :: Text
+  , market :: Market
   , claudePick :: Bool
   , tryFirst :: Bool
   , why :: Text

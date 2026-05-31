@@ -11,7 +11,7 @@ in  W.Whisky::{
       wishlist = Some W.Wishlist::{
         priority = W.Priority.Medium,
         estPrice = "~€90",
-        market = "NL/EU",
+        market = W.Market.NlEu,
         claudePick = True,
         why = "Wheated barrel-proof — sweeter + strong + layered (all my levers). Allocated/pricey but gettable via EU specialists."
       }

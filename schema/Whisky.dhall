@@ -92,10 +92,12 @@ let Tasting = { Type = TastingType, default.journal = None Text }
 
 let Priority = < High | Medium | Low >
 
+let Market = < NlEu | Sa >
+
 let WishlistType =
       { priority : Priority
       , estPrice : Text
-      , market : Text
+      , market : Market
       , claudePick : Bool
       , tryFirst : Bool
       , why : Text
@@ -152,6 +154,7 @@ in  { Origin
     , Confidence
     , Tasting
     , Priority
+    , Market
     , Wishlist
     , Tier
     , Findability

@@ -12,7 +12,7 @@ in  W.Whisky::{
       wishlist = Some W.Wishlist::{
         priority = W.Priority.Low,
         estPrice = "~R3000+",
-        market = "NL/EU",
+        market = W.Market.NlEu,
         claudePick = True,
         tryFirst = True,
         why = "Most heavily-peated whisky made — a complexity and intensity experiment. Taste-only at this price."

@@ -11,7 +11,7 @@ in  W.Whisky::{
       wishlist = Some W.Wishlist::{
         priority = W.Priority.Medium,
         estPrice = "~€80",
-        market = "NL/EU",
+        market = W.Market.NlEu,
         claudePick = True,
         tryFirst = True,
         why = "Attainable Japanese blend. (Hakushu 12 is the malt benchmark but usually > budget.) Taste before chasing."

@@ -12,7 +12,7 @@ in  W.Whisky::{
       wishlist = Some W.Wishlist::{
         priority = W.Priority.High,
         estPrice = "~R800",
-        market = "NL/EU",
+        market = W.Market.NlEu,
         claudePick = True,
         why = "Opens world whisky — part-peated, rich and complex. Cult favourite."
       },

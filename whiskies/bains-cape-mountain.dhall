@@ -11,7 +11,7 @@ in  W.Whisky::{
       wishlist = Some W.Wishlist::{
         priority = W.Priority.Medium,
         estPrice = "~R250 (SA)",
-        market = "SA",
+        market = W.Market.Sa,
         claudePick = True,
         why = "SA-trip buy — award-winning local single grain, great value. But sweet & simple/easy, NOT complex like Hedonism — a cheap low-risk curiosity, not a wow."
       }

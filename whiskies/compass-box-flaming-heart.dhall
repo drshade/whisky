@@ -12,7 +12,7 @@ in  W.Whisky::{
       wishlist = Some W.Wishlist::{
         priority = W.Priority.Medium,
         estPrice = "~€120",
-        market = "NL/EU",
+        market = W.Market.NlEu,
         claudePick = True,
         tryFirst = True,
         why = "I click with Compass Box (Hedonism #1) — this is their peat + complexity flagship. Taste before buying."

@@ -12,7 +12,7 @@ in  W.Whisky::{
       wishlist = Some W.Wishlist::{
         priority = W.Priority.Medium,
         estPrice = "~R1100",
-        market = "NL/EU",
+        market = W.Market.NlEu,
         claudePick = True,
         why = "Cask-strength sherry bomb; a cheaper A'bunadh alternative worth comparing."
       }

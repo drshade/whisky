@@ -11,7 +11,7 @@ in  W.Whisky::{
       wishlist = Some W.Wishlist::{
         priority = W.Priority.Low,
         estPrice = "~€80+",
-        market = "NL/EU",
+        market = W.Market.NlEu,
         claudePick = True,
         why = "Barrel-proof intensity & complexity (ex-'Stagg Jr', NOT George T. Stagg). Allocated/pricey even in EU — a grab-on-sight, not a planned buy."
       }

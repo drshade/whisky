@@ -11,7 +11,7 @@ in  W.Whisky::{
       wishlist = Some W.Wishlist::{
         priority = W.Priority.Low,
         estPrice = "~R5000+",
-        market = "NL/EU",
+        market = W.Market.NlEu,
         claudePick = True,
         tryFirst = True,
         why = "The unicorn. Taste it if a bottle's open — you'll never buy one."
