@@ -1,7 +1,7 @@
 #!/bin/bash
 # Haskell toolchain for the Claude Code web sandbox. See AGENTS.md.
 # Deliberately pipe-free and short-lined: the web setup-script field mangles
-# long lines and "|", so no `curl | sh` and no `||` here.
+# pipe characters, so this downloads-then-runs instead of piping.
 set -eu
 
 export LC_ALL=C.utf8
