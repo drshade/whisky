@@ -49,3 +49,18 @@ not owned · `*` = low-confidence rating.
 | Orangerie `(s)` | 75 | orange-infused novelty; pleasant once the whisky emerged, but too zesty/sour |
 | Dalwhinnie 15 | 72 | gentle, dull |
 | Glenmorangie Duthac | 68 | bland, bitter edge |
+
+## Next buys (high priority)
+
+- **Aberlour A'bunadh** (Speyside) — ~R1300
+- **Amrut Fusion** (India) — ~R800
+- **GlenDronach 15 Revival** (Highland) — ~R1300
+- **Nikka From The Barrel** (Japan) — ~R1100
+- **Redbreast 12** (Ireland) — ~R600
+- **Wild Turkey Rare Breed** (Kentucky) — ~€50
+
+## More
+
+[`collection.md`](collection.md) · [`wishlist.md`](wishlist.md) · [`recommendations.md`](recommendations.md) · [`preferences.md`](preferences.md) · [`goals.md`](goals.md) · [`journal/`](journal/)
+
+_Data lives in `whiskies/*.dhall`; run `cabal run whisky-catalogue` to regenerate._

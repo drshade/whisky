@@ -22,11 +22,40 @@
 let ScotchRegion = < Islay | Speyside | Highland | Lowland | Campbeltown | Islands >
 
 let ScotchDistillery =
-      < Oban | Dalwhinnie | Glenmorangie | Kilchoman | Ardbeg | Macallan >
+      < Oban
+      | Dalwhinnie
+      | Glenmorangie
+      | Kilchoman
+      | Ardbeg
+      | Macallan
+      | Aberlour
+      | GlenDronach
+      | Glenfarclas
+      | Glenlivet
+      | Balvenie
+      | Springbank
+      | Glengyle
+      | HighlandPark
+      | GlenScotia
+      | GlenGrant
+      | Laphroaig
+      | Lagavulin
+      | Glenfiddich
+      | Bruichladdich
+      >
 
 let ScotchBlender = < CompassBox | JohnnieWalker >
 
-let AmericanProducer = < BuffaloTrace | WoodfordReserve | WidowJane >
+let AmericanProducer =
+      < BuffaloTrace
+      | WoodfordReserve
+      | WidowJane
+      | WildTurkey
+      | HeavenHill
+      | MakersMark
+      | Michters
+      | WhistlePig
+      >
 
 let MashType = < Bourbon | Rye | Wheat | Corn | Malt >
 
@@ -54,6 +83,20 @@ let regionOf
           , Kilchoman = ScotchRegion.Islay
           , Ardbeg = ScotchRegion.Islay
           , Macallan = ScotchRegion.Speyside
+          , Aberlour = ScotchRegion.Speyside
+          , GlenDronach = ScotchRegion.Highland
+          , Glenfarclas = ScotchRegion.Speyside
+          , Glenlivet = ScotchRegion.Speyside
+          , Balvenie = ScotchRegion.Speyside
+          , Springbank = ScotchRegion.Campbeltown
+          , Glengyle = ScotchRegion.Campbeltown
+          , HighlandPark = ScotchRegion.Islands
+          , GlenScotia = ScotchRegion.Campbeltown
+          , GlenGrant = ScotchRegion.Speyside
+          , Laphroaig = ScotchRegion.Islay
+          , Lagavulin = ScotchRegion.Islay
+          , Glenfiddich = ScotchRegion.Speyside
+          , Bruichladdich = ScotchRegion.Islay
           }
           d
 
@@ -131,10 +174,12 @@ let WishlistType =
       , estPrice : Text
       , market : Text
       , claudePick : Bool
+      , tryFirst : Bool
       , why : Text
       }
 
-let Wishlist = { Type = WishlistType, default.claudePick = False }
+let Wishlist =
+      { Type = WishlistType, default = { claudePick = False, tryFirst = False } }
 
 let Tier = < Entry | Benchmark | Splurge >
 

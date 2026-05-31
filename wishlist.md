@@ -1,50 +1,36 @@
 # Wishlist
 
-Whiskies I'd like to try or buy. Priority: `high` · `medium` · `low`.
-`~Price` is rough market price for budgeting (€ = home NL/EU retail; R = SA-trip-local price).
-Move a bottle to `collection.md` once acquired.
-💡 = recommended by Claude. Buying budget: €50–100/bottle (R1000–2000 on SA trips).
+> Whiskies to buy or try. **Generated from `whiskies/*.dhall` — do not edit by hand.**
+> Priority: high · medium · low. 💡 = Claude pick.
 
 ## Buy targets
 
-Bottles worth purchasing — sure-thing profile fits and findable picks.
+| Bottle | Region | Type | Priority | ~Price | Why |
+|---|---|---|---|---|---|
+| Aberlour A'bunadh | Speyside | Single malt | high | ~R1300 | Best off-shelf profile match: cask-strength oloroso sherry bomb = sweetness + complexity + earned strength. Fills the sherried-Speyside gap. |
+| 💡 Amrut Fusion | India | Single malt | high | ~R800 | Opens world whisky — part-peated, rich and complex. Cult favourite. |
+| 💡 GlenDronach 15 Revival | Highland | Single malt | high | ~R1300 | Deep dried-fruit sherry; sweetness + complexity bullseye. |
+| 💡 Nikka From The Barrel | Japan | Blend | high | ~R1100 | Opens Japan — intense, spicy, layered at 51.4%. Strength that earns its complexity. |
+| 💡 Redbreast 12 | Ireland | Single pot still | high | ~R600 | Opens Irish pot still — lush, sherried, complex. Sampled at dinner, confirmed buy. |
+| 💡 Wild Turkey Rare Breed | Kentucky | Bourbon | high | ~€50 | The easy, available complex-bourbon buy in NL/EU — barrel-strength, rich, great value. Best first answer to my 'complex bourbon' gap. |
+| 💡 Bain's Cape Mountain | South Africa | Single grain | medium | ~R250 (SA) | SA-trip buy — award-winning local single grain, great value. But sweet & simple/easy, NOT complex like Hedonism — a cheap low-risk curiosity, not a wow. |
+| 💡 Balvenie DoubleWood 12 | Speyside | Single malt | medium | ~€60 | Honeyed, sherry-finished, well-rounded — a characterful mainstream pick that suits me. |
+| 💡 Glenfarclas 105 | Speyside | Single malt | medium | ~R1100 | Cask-strength sherry bomb; a cheaper A'bunadh alternative worth comparing. |
+| 💡 Glenlivet Nàdurra Oloroso | Speyside | Single malt | medium | ~€70 | The Glenlivet worth owning — cask-strength, sherried, NCF, great value. Skip the 12; this fits. |
+| 💡 Kilkerran 12 | Campbeltown | Single malt | medium | ~R1200 | Opens Campbeltown — oily, fruity, light smoke, loads of character. |
+| 💡 Larceny Barrel Proof | Kentucky | Bourbon | medium | ~€90 | Wheated barrel-proof — sweeter + strong + layered (all my levers). Allocated/pricey but gettable via EU specialists. |
+| 💡 Rittenhouse Rye BiB | Kentucky | Rye | medium | ~R500 | Opens rye — spicy, drier counterpoint to my bourbons. Cheap style test. |
+| 💡 Three Ships 10 | South Africa | Single malt | medium | ~R500 (SA) | The Three Ships single malt actually sold in SA (NGF). If I want a local Three Ships in JHB, this is the one — the 12yo is export-only. |
+| Three Ships 12 | South Africa | Single malt (peated) | medium | ~€50 | UK/EU export-only release — not on NL or SA shelves. Order from EU specialists that ship to NL; stock is intermittent, set an alert. |
+| 💡 Stagg | Kentucky | Bourbon | low | ~€80+ | Barrel-proof intensity & complexity (ex-'Stagg Jr', NOT George T. Stagg). Allocated/pricey even in EU — a grab-on-sight, not a planned buy. |
 
-> **Where to buy:** Home is the **Netherlands / EU** — broad availability incl. bourbon and
-> barrel-proof bourbon (Wild Turkey Rare Breed is the easy one), Scotch, Japanese, world
-> whisky. Default to buying here. **SA trips** are for *local* SA whisky that's hard to get
-> in NL (Bain's, Three Ships range) + anything genuinely cheaper — but mind steep SA import
-> duties on imported bottles, so sanity-check vs the NL price.
+## Try first (taste before buying)
 
-| Bottle | Distillery | Region | Type | Priority | ~Price | Why I want it |
-|--------|-----------|--------|------|----------|--------|---------------|
-| A'bunadh (cask strength) | Aberlour | Highland (Speyside) | Single malt | **high** | ~€60 | Best off-shelf profile match: cask-strength oloroso sherry bomb = sweetness + complexity + earned strength. Fills the sherried-Speyside gap. Cheaper in NL than SA — buying now. |
-| 💡 Wild Turkey Rare Breed | Wild Turkey | Kentucky | Bourbon (barrel proof, 58.4%) | high | ~€50 | Claude pick. The **easy, available** complex-bourbon buy in NL/EU — barrel-strength, rich, great value. Best first answer to my "complex bourbon" gap. |
-| 💡 Larceny Barrel Proof | Heaven Hill | Kentucky | Bourbon (wheated, barrel proof) | medium | ~€90 | Claude pick. Wheated barrel-proof — sweeter + strong + layered (all my levers). Allocated/pricey but gettable via EU specialists. **Buy at home, not SA.** |
-| 💡 GlenDronach 15 "Revival" | GlenDronach | Highland (Speyside) | Single malt (sherry) | high | ~€75 | Claude pick. Deep dried-fruit sherry; sweetness + complexity bullseye. |
-| 💡 Redbreast 12 | Midleton | Ireland | Single pot still | high | ~€51 | Claude pick. Opens **Irish pot still** — lush, sherried, *complex*. **Tried at dinner May 2026 → very good, confirmed buy.** ([notes](journal/2026-05-30-redbreast-12.md)) |
-| 💡 Nikka From The Barrel | Nikka | Japan | Blended | high | ~€45 | Claude pick. Opens **Japan** — intense, spicy, layered at 51.4%. Strength that earns its complexity. (50cl) |
-| 💡 Amrut Fusion | Amrut | India | Single malt | high | ~€47 | Claude pick. Opens **world whisky** — part-peated, rich and complex. Cult favourite. |
-| Three Ships 12 | James Sedgwick | South Africa | Single malt (peated) | medium | ~€50 | UK/EU **export-only** release — not on NL *or* SA shelves. Order from EU specialists that ship to NL (Master of Malt, Royal Mile, Nickolls & Perks); stock is intermittent → set an alert. |
-| 💡 Three Ships 10 | James Sedgwick | South Africa | Single malt | medium | ~R500 (SA) | Claude pick. The Three Ships single malt **actually sold in SA** (NGF). If I want a local Three Ships in JHB, this is the one — the 12yo is export-only. |
-| 💡 Bain's Cape Mountain | James Sedgwick | South Africa | Single grain | medium | ~R250 (SA) | Claude pick. **SA-trip buy** — award-winning local single grain (World's Best Grain 2013), great value. BUT it's *sweet & simple/easy*, NOT complex like Hedonism — likely a "nice but unmemorable" high-70s for my complexity-first palate. A cheap low-risk curiosity / easy sipper / cocktail base, not a wow. |
-| 💡 Kilkerran 12 | Glengyle | Campbeltown | Single malt | medium | ~€60 | Claude pick. Opens **Campbeltown** — oily, fruity, light smoke, loads of *character*. |
-| 💡 Glenfarclas 105 | Glenfarclas | Speyside | Single malt (CS sherry) | medium | ~€60 | Claude pick. Cask-strength sherry bomb; a cheaper A'bunadh alternative worth comparing. |
-| 💡 Glenlivet Nàdurra Oloroso | Glenlivet | Speyside | Single malt (CS sherry) | medium | ~€70 | Claude pick. The Glenlivet worth owning — cask-strength, sherried, NCF, great value. Skip the 12; this fits (complexity + sweetness). |
-| 💡 Balvenie DoubleWood 12 | Balvenie | Speyside | Single malt (sherry finish) | medium | ~€60 | Claude pick. Honeyed, sherry-finished, well-rounded — a characterful mainstream pick that suits me. |
-| 💡 Stagg | Buffalo Trace | Kentucky | Bourbon (barrel proof) | low | ~€80+ | Claude pick. Barrel-proof intensity & complexity. NB: regular **Stagg** (ex-"Stagg Jr"), NOT George T. Stagg. Allocated/pricey even in EU — a grab-on-sight at home, not a planned buy. |
-| 💡 Rittenhouse Rye BiB | Heaven Hill | Kentucky (rye) | Rye | medium | ~€50 | Claude pick. Opens **rye** — spicy, drier counterpoint to my bourbons. Cheap in the US, pricier/intermittent via EU specialists, but findable. |
-
-## Tasting Room shortlist (try first)
-
-To sample at the NPF Tasting Room before deciding — new styles, allocated, or above budget
-to buy blind. See `tasting-room-cheatsheet.md`.
-
-| Bottle | Region | Why try it | Then? |
-|--------|--------|-----------|-------|
-| 💡 Springbank 10 | Campbeltown | The icon — oily, briny, funky. Allocated, so taste before chasing a bottle. | buy if it lands |
-| 💡 Hibiki Harmony | Japan | Attainable Japanese blend. (Hakushu 12 is the malt benchmark but usually > budget.) | buy if it lands |
-| 💡 Compass Box Flaming Heart | Scotland (blend) | I click with Compass Box (Hedonism #1) — this is their peat + complexity flagship. | buy if it lands |
-| 💡 Octomore | Islay | Most heavily-peated whisky made — a complexity *and* intensity experiment. | taste-only (~R3000+) |
-| 💡 George T. Stagg | Kentucky | The unicorn. Taste it if a bottle's open — you'll never buy one. | taste-only (~R5000+) |
-| 💡 Highland Park 18 | Highland (Orkney) | Honey + gentle peat + sherry, beautifully complex — strong fit. But ~€140, above budget. | buy if it wows |
-| 💡 Macallan (sherried — Double Cask / Sherry Oak) | Speyside | Fits my profile (rich sherry), but a heavy brand premium. Taste to calibrate — then buy GlenDronach / A'bunadh / Glenfarclas instead. | **taste, don't buy** |
+| Bottle | Region | Type | Priority | ~Price | Why |
+|---|---|---|---|---|---|
+| 💡 Compass Box Flaming Heart | Scotland (malt) | Blended malt | medium | ~€120 | I click with Compass Box (Hedonism #1) — this is their peat + complexity flagship. Taste before buying. |
+| 💡 Hibiki Harmony | Japan | Blend | medium | ~€80 | Attainable Japanese blend. (Hakushu 12 is the malt benchmark but usually > budget.) Taste before chasing. |
+| 💡 Highland Park 18 | Islands | Single malt | medium | ~€140 | Honey + gentle peat + sherry, beautifully complex — strong fit. But above budget, so taste first; buy if it wows. |
+| 💡 Springbank 10 | Campbeltown | Single malt | medium | ~R1200 | The Campbeltown icon — oily, briny, dunnage funk. Allocated, so taste before chasing a bottle. |
+| 💡 George T. Stagg | Kentucky | Bourbon | low | ~R5000+ | The unicorn. Taste it if a bottle's open — you'll never buy one. |
+| 💡 Octomore | Islay | Single malt | low | ~R3000+ | Most heavily-peated whisky made — a complexity and intensity experiment. Taste-only at this price. |

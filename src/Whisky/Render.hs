@@ -4,6 +4,8 @@
 module Whisky.Render
   ( renderReadme
   , renderCollection
+  , renderWishlist
+  , renderRecommendations
   ) where
 
 import qualified Data.Text as T
@@ -91,7 +93,35 @@ renderReadme ws =
     , "not owned · `*` = low-confidence rating."
     , ""
     , tastingLog ws
+    , "## Next buys (high priority)"
+    , ""
+    , nextBuys ws
+    , ""
+    , "## More"
+    , ""
+    , "[`collection.md`](collection.md) · [`wishlist.md`](wishlist.md) · "
+        <> "[`recommendations.md`](recommendations.md) · [`preferences.md`](preferences.md) · "
+        <> "[`goals.md`](goals.md) · [`journal/`](journal/)"
+    , ""
+    , "_Data lives in `whiskies/*.dhall`; run `cabal run whisky-catalogue` to regenerate._"
     ]
+
+-- | High-priority buy targets (excludes taste-first), as a short bullet list.
+nextBuys :: [Whisky] -> Text
+nextBuys ws =
+  let picks =
+        [ w
+        | w <- ws
+        , Just wl <- [w.wishlist]
+        , wl.priority == PrHigh
+        , not wl.tryFirst
+        ]
+  in case picks of
+       [] -> "_None right now._"
+       _ -> T.intercalate "\n"
+              [ "- **" <> w.name <> "** (" <> regionLabel w.classification <> ") — "
+                  <> maybe "" (.estPrice) w.wishlist
+              | w <- picks ]
 
 statsBlock :: [Whisky] -> Text
 statsBlock ws =
@@ -168,4 +198,94 @@ renderCollection ws =
          , maybe "" (fromMaybe "" . (.boughtWhere)) own
          , ratingCell w
          , journalLink w
+         ]
+
+-- ============================================================================
+-- wishlist.md
+-- ============================================================================
+
+priorityRank :: Priority -> Int
+priorityRank = \case PrHigh -> 0; PrMedium -> 1; PrLow -> 2
+
+priorityLabel :: Priority -> Text
+priorityLabel = \case PrHigh -> "high"; PrMedium -> "medium"; PrLow -> "low"
+
+renderWishlist :: [Whisky] -> Text
+renderWishlist ws =
+  let wls = filter (isJust . (.wishlist)) ws
+      buy = sortOn wlRank (filter (not . wlTryFirst) wls)
+      try = sortOn wlRank (filter wlTryFirst wls)
+  in T.intercalate "\n"
+       [ "# Wishlist"
+       , ""
+       , "> Whiskies to buy or try. **Generated from `whiskies/*.dhall` — do not edit by hand.**"
+       , "> Priority: high · medium · low. 💡 = Claude pick."
+       , ""
+       , "## Buy targets"
+       , ""
+       , wlTable buy
+       , "## Try first (taste before buying)"
+       , ""
+       , wlTable try
+       ]
+  where
+    wlRank w = maybe 9 (priorityRank . (.priority)) w.wishlist
+    wlTryFirst w = maybe False (.tryFirst) w.wishlist
+    wlTable rows = table ["Bottle", "Region", "Type", "Priority", "~Price", "Why"] (map wlRow rows)
+    wlRow w =
+      let wl = w.wishlist
+      in [ maybe w.name (\x -> if x.claudePick then "💡 " <> w.name else w.name) wl
+         , regionLabel w.classification
+         , typeLabel w.classification
+         , maybe "" (priorityLabel . (.priority)) wl
+         , maybe "" (.estPrice) wl
+         , maybe "" (.why) wl
+         ]
+
+-- ============================================================================
+-- recommendations.md
+-- ============================================================================
+
+tierRank :: Tier -> Int
+tierRank = \case Entry -> 0; Benchmark -> 1; Splurge -> 2
+
+tierLabel :: Tier -> Text
+tierLabel = \case Entry -> "Entry"; Benchmark -> "Benchmark"; Splurge -> "Splurge"
+
+findabilitySymbol :: Findability -> Text
+findabilitySymbol = \case Green -> "🟢"; Amber -> "🟡"; Red -> "🔴"
+
+-- | The order style groups appear in. Groups not listed are appended alphabetically.
+styleOrder :: [Text]
+styleOrder =
+  [ "Rye", "Irish — single pot still", "Campbeltown", "Japanese"
+  , "Speyside — bright & ex-bourbon", "Other world whisky", "Wheated bourbon", "Classic Islay" ]
+
+renderRecommendations :: [Whisky] -> Text
+renderRecommendations ws =
+  let recs = filter (isJust . (.recommendation)) ws
+      groupsPresent = foldr (\w acc -> let g = groupOf w in if g `elem` acc then acc else acc <> [g]) [] recs
+      ordered = filter (`elem` groupsPresent) styleOrder
+                  <> filter (`notElem` styleOrder) groupsPresent
+  in T.intercalate "\n"
+       ( [ "# Recommendations — Regions & Styles to Explore"
+         , ""
+         , "> A curated map of territory to explore, by style. **Generated from `whiskies/*.dhall`"
+         , "> — do not edit by hand.** Tiers: Entry · Benchmark · Splurge. Find: 🟢 widely stocked ·"
+         , "> 🟡 around if you look · 🔴 scarce / allocated."
+         , ""
+         ] <> map (renderGroup recs) ordered )
+  where
+    groupOf w = maybe "" (.styleGroup) w.recommendation
+    renderGroup rs g =
+      let inGroup = sortOn (maybe 9 (tierRank . (.tier)) . (.recommendation))
+                      (filter ((== g) . groupOf) rs)
+      in "## " <> g <> "\n\n" <> table ["Bottle", "ABV", "Note", "Tier", "Find"] (map recRow inGroup)
+    recRow w =
+      let r = w.recommendation
+      in [ w.name
+         , showAbv w.abv
+         , maybe "" (.note) r
+         , maybe "" (tierLabel . (.tier)) r
+         , maybe "" (findabilitySymbol . (.findability)) r
          ]

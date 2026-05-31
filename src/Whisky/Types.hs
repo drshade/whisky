@@ -59,13 +59,19 @@ import           Dhall.Marshal.Decode
 data ScotchRegion = Islay | Speyside | Highland | Lowland | Campbeltown | Islands
   deriving (Generic, Show, Eq)
 
-data ScotchDistillery = Oban | Dalwhinnie | Glenmorangie | Kilchoman | Ardbeg | Macallan
+data ScotchDistillery
+  = Oban | Dalwhinnie | Glenmorangie | Kilchoman | Ardbeg | Macallan
+  | Aberlour | GlenDronach | Glenfarclas | Glenlivet | Balvenie | Springbank
+  | Glengyle | HighlandPark | GlenScotia | GlenGrant | Laphroaig | Lagavulin
+  | Glenfiddich | Bruichladdich
   deriving (Generic, Show, Eq)
 
 data ScotchBlender = CompassBox | JohnnieWalker
   deriving (Generic, Show, Eq)
 
-data AmericanProducer = BuffaloTrace | WoodfordReserve | WidowJane
+data AmericanProducer
+  = BuffaloTrace | WoodfordReserve | WidowJane | WildTurkey | HeavenHill
+  | MakersMark | Michters | WhistlePig
   deriving (Generic, Show, Eq)
 
 data MashType = Bourbon | Rye | Wheat | Corn | Malt
@@ -206,6 +212,7 @@ data Wishlist = MkWishlist
   , estPrice :: Text
   , market :: Text
   , claudePick :: Bool
+  , tryFirst :: Bool
   , why :: Text
   }
   deriving (Generic, Show, Eq)
@@ -327,6 +334,20 @@ distilleryName = \case
   Kilchoman -> "Kilchoman"
   Ardbeg -> "Ardbeg"
   Macallan -> "Macallan"
+  Aberlour -> "Aberlour"
+  GlenDronach -> "GlenDronach"
+  Glenfarclas -> "Glenfarclas"
+  Glenlivet -> "Glenlivet"
+  Balvenie -> "Balvenie"
+  Springbank -> "Springbank"
+  Glengyle -> "Glengyle"
+  HighlandPark -> "Highland Park"
+  GlenScotia -> "Glen Scotia"
+  GlenGrant -> "Glen Grant"
+  Laphroaig -> "Laphroaig"
+  Lagavulin -> "Lagavulin"
+  Glenfiddich -> "Glenfiddich"
+  Bruichladdich -> "Bruichladdich"
 
 blenderName :: ScotchBlender -> Text
 blenderName = \case
@@ -338,12 +359,22 @@ americanProducerName = \case
   BuffaloTrace -> "Buffalo Trace"
   WoodfordReserve -> "Woodford Reserve"
   WidowJane -> "Widow Jane"
+  WildTurkey -> "Wild Turkey"
+  HeavenHill -> "Heaven Hill"
+  MakersMark -> "Maker's Mark"
+  Michters -> "Michter's"
+  WhistlePig -> "WhistlePig"
 
 americanOrigin :: AmericanProducer -> Text
 americanOrigin = \case
   BuffaloTrace -> "Kentucky"
   WoodfordReserve -> "Kentucky"
   WidowJane -> "USA"
+  WildTurkey -> "Kentucky"
+  HeavenHill -> "Kentucky"
+  MakersMark -> "Kentucky"
+  Michters -> "Kentucky"
+  WhistlePig -> "USA"
 
 irishProducerName :: IrishProducer -> Text
 irishProducerName = \case

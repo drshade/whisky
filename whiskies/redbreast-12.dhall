@@ -20,5 +20,11 @@ in  W.Whisky::{
         market = "NL/EU",
         claudePick = True,
         why = "Opens Irish pot still — lush, sherried, complex. Sampled at dinner, confirmed buy."
+      },
+      recommendation = Some W.Recommendation::{
+        tier = W.Tier.Benchmark,
+        styleGroup = "Irish — single pot still",
+        findability = W.Findability.Green,
+        note = "The pot-still benchmark — sherried, lush, a must-try."
       }
     }

@@ -2,10 +2,16 @@
 
 ## What this repo is
 
-A personal, git-backed **whisky catalogue** kept entirely in plain markdown. It tracks the
-collection, a wishlist, a dated tasting journal, an evolving taste profile, and curated
-buying recommendations. The owner uses Claude as a curator — to log tastings, suggest
-additions, and keep the catalogue coherent.
+A personal, git-backed **whisky catalogue**. The source of truth is **typed Dhall data** —
+one file per whisky in `whiskies/*.dhall`, governed by `schema/Whisky.dhall`. A small Haskell
+tool (`whisky-catalogue`) decodes them and **generates** the markdown views (`README.md`,
+`collection.md`, `wishlist.md`, `recommendations.md`). It tracks the collection, a wishlist, a
+dated tasting journal, an evolving taste profile, and curated buying recommendations. The owner
+uses Claude as a curator — to log tastings, suggest additions, and keep the catalogue coherent.
+
+> **Generated files — never hand-edit:** `README.md`, `collection.md`, `wishlist.md`,
+> `recommendations.md`. Edit the Dhall data and run `make build` (= `cabal run whisky-catalogue`)
+> to regenerate. Hand edits will be overwritten on the next build.
 
 The owner is currently in **discovery mode**: actively exploring breadth across regions and
 styles rather than narrowing down. See `preferences.md` for the established taste profile
@@ -13,17 +19,19 @@ styles rather than narrowing down. See `preferences.md` for the established tast
 
 ## File layout
 
-| File / folder                | Purpose                                                       |
-|------------------------------|---------------------------------------------------------------|
-| `README.md`                  | **Live dashboard** — at-a-glance collection summary & ranking |
-| `collection.md`              | Full collection table (source of truth for what's owned)      |
-| `wishlist.md`                | Whiskies to try/buy — priority + reasons                      |
-| `recommendations.md`         | Curated picks by region/style not yet covered                 |
-| `preferences.md`             | Evolving taste profile + 0–100 rating scale                   |
-| `tasting-room-cheatsheet.md` | Phone-friendly crib for the NPF Tasting Room bar              |
-| `goals.md`                   | Living checklist — short / mid / long-term whisky goals       |
-| `journal/`                   | Dated tasting notes, one file per sitting                     |
-| `journal/_template.md`       | Copy this to start a new entry                                |
+| File / folder            | Purpose                                                              |
+|--------------------------|---------------------------------------------------------------------|
+| `whiskies/*.dhall`       | **Source of truth** — one typed record per whisky                   |
+| `schema/Whisky.dhall`    | The data model (classification, facets, region derivation)          |
+| `src/`, `app/`, `*.cabal`| The `whisky-catalogue` Haskell generator                            |
+| `README.md`              | _generated_ — at-a-glance dashboard, ranking, tasting log           |
+| `collection.md`          | _generated_ — full collection table (owned bottles)                 |
+| `wishlist.md`            | _generated_ — buy targets + try-first, by priority                  |
+| `recommendations.md`     | _generated_ — curated picks by region/style                         |
+| `preferences.md`         | Evolving taste profile + 0–100 rating scale (hand-written)          |
+| `goals.md`               | Living checklist — short / mid / long-term goals (hand-written)     |
+| `journal/`               | Dated tasting notes, one file per sitting (prose; linked from data) |
+| `journal/_template.md`   | Copy this to start a new entry                                      |
 
 ## Conventions
 
@@ -32,9 +40,10 @@ styles rather than narrowing down. See `preferences.md` for the established tast
   needs more tastings.
 - **Region:** distillery region/country (Islay, Speyside, Highland, Kentucky, Japan, …).
 - **Journal filenames:** `journal/YYYY-MM-DD-distillery-expression.md`.
-- **Sampled drams:** the journal can include whiskies tasted out (bars, dinners) that
-  aren't owned — mark them `owned: no` in frontmatter + a `sampled` tag, and do **not**
-  add them to `collection.md` or the README ranking.
+- **Sampled drams:** a whisky tasted out (bar, dinner) but not owned is just a
+  `whiskies/<id>.dhall` with a `tasting` facet and **no** `ownership` facet. It shows up in
+  the README tasting log automatically and is excluded from the collection/ranking — no manual
+  step needed.
 - **Home market:** Netherlands / EU (euro earner) — broad availability; default buying
   market. Occasional SA trips (shops: Norman Goodfellows, NPF Tasting Room, Melrose Arch)
   for *local* SA whisky + genuine bargains; mind SA import duties on imported bottles.
@@ -42,19 +51,27 @@ styles rather than narrowing down. See `preferences.md` for the established tast
 
 ## Workflows (for Claude)
 
+All catalogue edits go through the Dhall data, then `make build`. Never hand-edit the
+generated markdown.
+
 **Logging a tasting**
-1. Copy `journal/_template.md` → `journal/YYYY-MM-DD-<distillery>-<expression>.md`.
-2. Record **only what the owner actually reports.** Don't invent nose/palate/finish notes;
-   leave prompts for unstated sections. General style facts are fine but mark them as such.
-3. Update the bottle's **Rating** and **Journal** link in `collection.md`.
-4. **Update `README.md`** — keep its stats, the ranked-collection table, and the
-   **Tasting log** in sync. The Tasting log lists every whisky *actually tasted* (owned +
-   sampled), so add sampled drams there too; sealed/untasted bottles stay out until opened.
+1. Copy `journal/_template.md` → `journal/YYYY-MM-DD-<distillery>-<expression>.md`. Record
+   **only what the owner actually reports** — don't invent nose/palate/finish notes.
+2. In the bottle's `whiskies/<id>.dhall`, set the `tasting` facet (`rating`, `confidence`,
+   `summary`, `journal` link). Use `confidence = Low` for tentative scores.
+3. Run `make build`. Stats, ranking and the tasting log all update automatically — the tasting
+   log includes sampled drams (no `ownership` facet); sealed bottles stay out until tasted.
 
 **Adding / moving bottles**
-- New bottle → add to `collection.md` (and update README). When a wishlist bottle is bought,
-  move it from `wishlist.md` to `collection.md`.
-- Keep the README summary counts (`owned` / `open` / `sealed`, by-style, by-region) correct.
+- New bottle → add `whiskies/<id>.dhall` from the constructors in `schema/Whisky.dhall`
+  (region is derived from the distillery — don't type it). A new distillery/producer needs a
+  constructor added to the relevant enum in the schema **and** its Haskell mirror in
+  `src/Whisky/Types.hs` (the `regionOf` `merge` won't type-check until you give its region).
+- Owned vs sampled vs wanted is just which facets are present: `ownership` (own it),
+  `tasting` (tried it), `wishlist` (want it — set `tryFirst = True` for taste-before-buying),
+  `recommendation` (on the style map). A bottle can carry several at once.
+- When a wishlist bottle is bought, add its `ownership` facet (leave/keep the others).
+- Then `make build`.
 
 **Curating & recommending**
 - Respect the **taste profile** in `preferences.md`, the **R1000–2000 budget**, and the
