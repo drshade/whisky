@@ -10,8 +10,9 @@ dated tasting journal, an evolving taste profile, and curated buying recommendat
 uses Claude as a curator — to log tastings, suggest additions, and keep the catalogue coherent.
 
 > **Generated files — never hand-edit:** `README.md`, `docs/collection.md`, `docs/wishlist.md`,
-> `docs/recommendations.md`. Edit the Dhall data and run `make build` (= `cabal run whisky-catalogue`)
-> to regenerate. Hand edits will be overwritten on the next build.
+> `docs/recommendations.md`. Edit the Dhall data and either run `make build`
+> (= `cabal run whisky-catalogue`) locally, or just push — the `build` GitHub Action
+> regenerates them and commits the result. Hand edits will be overwritten.
 
 The owner is currently in **discovery mode**: actively exploring breadth across regions and
 styles rather than narrowing down. See `notes/preferences.md` for the established taste profile
