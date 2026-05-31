@@ -101,8 +101,8 @@ renderReadme ws =
     , "## More"
     , ""
     , "[`collection.md`](collection.md) · [`wishlist.md`](wishlist.md) · "
-        <> "[`recommendations.md`](recommendations.md) · [`preferences.md`](preferences.md) · "
-        <> "[`goals.md`](goals.md) · [`journal/`](journal/)"
+        <> "[`recommendations.md`](recommendations.md) · [`notes/preferences.md`](notes/preferences.md) · "
+        <> "[`notes/goals.md`](notes/goals.md) · [`journal/`](journal/)"
     , ""
     , "_Data lives in `whiskies/*.dhall`; run `cabal run whisky-catalogue` to regenerate._"
     ]

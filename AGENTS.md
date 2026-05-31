@@ -14,7 +14,7 @@ uses Claude as a curator — to log tastings, suggest additions, and keep the ca
 > to regenerate. Hand edits will be overwritten on the next build.
 
 The owner is currently in **discovery mode**: actively exploring breadth across regions and
-styles rather than narrowing down. See `preferences.md` for the established taste profile
+styles rather than narrowing down. See `notes/preferences.md` for the established taste profile
 (it's the source of truth — don't duplicate it elsewhere).
 
 ## File layout
@@ -29,15 +29,15 @@ styles rather than narrowing down. See `preferences.md` for the established tast
 | `collection.md`          | _generated_ — full collection table (owned bottles)                 |
 | `wishlist.md`            | _generated_ — buy targets + try-first, by priority                  |
 | `recommendations.md`     | _generated_ — curated picks by region/style                         |
-| `preferences.md`         | Evolving taste profile + 0–100 rating scale (hand-written)          |
-| `goals.md`               | Living checklist — short / mid / long-term goals (hand-written)     |
+| `notes/preferences.md`         | Evolving taste profile + 0–100 rating scale (hand-written)          |
+| `notes/goals.md`               | Living checklist — short / mid / long-term goals (hand-written)     |
 | `journal/`               | Dated tasting notes, one file per sitting (prose; linked from data) |
 | `journal/_template.md`   | Copy this to start a new entry                                      |
 
 ## Conventions
 
 - **Status:** `sealed` · `open` · `finished`.
-- **Rating:** personal 0–100 (scale defined in `preferences.md`). `*` suffix = low-confidence,
+- **Rating:** personal 0–100 (scale defined in `notes/preferences.md`). `*` suffix = low-confidence,
   needs more tastings.
 - **Region:** distillery region/country (Islay, Speyside, Highland, Kentucky, Japan, …).
 - **Journal filenames:** `journal/YYYY-MM-DD-distillery-expression.md`.
@@ -77,9 +77,9 @@ generated markdown.
 - Then `make build`.
 
 **Curating & recommending**
-- Respect the **taste profile** in `preferences.md`, the **R1000–2000 budget**, and the
+- Respect the **taste profile** in `notes/preferences.md`, the **R1000–2000 budget**, and the
   **discovery-mode** preference for variety/new ground.
-- `preferences.md` is a *working draft* — update it as new patterns emerge across the
+- `notes/preferences.md` is a *working draft* — update it as new patterns emerge across the
   journal, but preserve the owner's "stage / discovery mode" framing unless they change it.
 - **Never narrow or filter to the profile.** Keep recommending across the full spectrum,
   including styles/regions/brands the owner has disliked or rated low before — they

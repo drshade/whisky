@@ -1,0 +1,44 @@
+name: build
+
+# Verifies the generated markdown is in sync with the Dhall data. Fails if
+# someone edited whiskies/*.dhall (or the schema) without running `make build`.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: haskell-actions/setup@v2
+        id: setup
+        with:
+          ghc-version: '9.12.2'
+          cabal-version: '3.14.2.0'
+
+      - name: Cache cabal store + build
+        uses: actions/cache@v4
+        with:
+          path: |
+            ${{ steps.setup.outputs.cabal-store }}
+            dist-newstyle
+          key: ${{ runner.os }}-ghc9.12.2-${{ hashFiles('**/*.cabal', 'cabal.project') }}
+          restore-keys: ${{ runner.os }}-ghc9.12.2-
+
+      - run: cabal update
+      - run: cabal build
+
+      - name: Regenerate docs (also runs the validation pass)
+        run: cabal run -v0 whisky-catalogue
+
+      - name: Fail if generated docs are out of sync with the data
+        run: |
+          if ! git diff --quiet -- README.md collection.md wishlist.md recommendations.md; then
+            echo "::error::Generated docs are stale. Run 'make build' and commit the result."
+            git diff -- README.md collection.md wishlist.md recommendations.md
+            exit 1
+          fi
