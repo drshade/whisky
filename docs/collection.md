@@ -24,4 +24,3 @@
 - **By style:** 6 Single malt · 5 Bourbon · 1 Blended malt · 1 Blended grain
 - **By region:** 2 Islay · 4 Kentucky · 2 Scotland (blend) · 3 Highland · 1 South Africa · 1 USA
 - **Tasted & rated:** 10 / 13
-<!-- drift test: CI should remove this -->
