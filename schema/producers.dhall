@@ -2,7 +2,7 @@
 --  with its kind and origin. Whiskies reference these (`P.oban`, …); origin is
 --  never restated per bottle. Add a producer here and point a whisky at it.
 
-let W = ./schema/Whisky.dhall
+let W = ./Whisky.dhall
 
 let K = W.ProducerKind
 

@@ -1,6 +1,6 @@
 let W = ../schema/Whisky.dhall
 
-let P = ../producers.dhall
+let P = ../schema/producers.dhall
 
 in  W.Whisky::{
       id = "michters-rye",

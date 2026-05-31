@@ -22,7 +22,7 @@ styles rather than narrowing down. See `preferences.md` for the established tast
 | File / folder            | Purpose                                                              |
 |--------------------------|---------------------------------------------------------------------|
 | `whiskies/*.dhall`       | **Source of truth** — one typed record per whisky                   |
-| `producers.dhall`        | Producer registry — each distillery/blender defined once, referenced |
+| `schema/producers.dhall` | Producer registry — each distillery/blender defined once, referenced |
 | `schema/Whisky.dhall`    | The data model (producer, style, facets)                            |
 | `src/`, `app/`, `*.cabal`| The `whisky-catalogue` Haskell generator                            |
 | `README.md`              | _generated_ — at-a-glance dashboard, ranking, tasting log           |
@@ -64,9 +64,9 @@ generated markdown.
    log includes sampled drams (no `ownership` facet); sealed bottles stay out until tasted.
 
 **Adding / moving bottles**
-- New bottle → add `whiskies/<id>.dhall`: point `producer` at an entry in `producers.dhall`
+- New bottle → add `whiskies/<id>.dhall`: point `producer` at an entry in `schema/producers.dhall`
   and set its `style`. Region/origin comes from the producer — never restate it on the bottle.
-- A producer not yet in the registry → add it to `producers.dhall` (name + kind + origin). Only a
+- A producer not yet in the registry → add it to `schema/producers.dhall` (name + kind + origin). Only a
   genuinely new **origin** needs a constructor in the `Origin` enum in `schema/Whisky.dhall`
   **and** its Haskell mirror in `src/Whisky/Types.hs`. `make build` runs a validation pass that
   flags implausible producer/style/origin combinations (e.g. a blender bottling a single malt).

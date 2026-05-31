@@ -1,7 +1,7 @@
 --| The single source of truth for the whisky catalogue.
 --
 --  Every bottle is one `whiskies/<id>.dhall` file. Each references a producer from
---  the shared registry (`../producers.dhall`) and carries its own `style`; the
+--  the shared registry (`schema/producers.dhall`) and carries its own `style`; the
 --  Haskell renderer (`whisky-catalogue`) decodes them and generates the markdown.
 --
 --  Design notes:
@@ -16,7 +16,7 @@
 --      orthogonal Optionals — present iff they apply.
 
 -- ============================================================================
--- Producer — the referenced entity (instances live in ../producers.dhall)
+-- Producer — the referenced entity (instances live in ./producers.dhall)
 -- ============================================================================
 
 -- Origin at a uniform granularity: Scotch region OR country.
