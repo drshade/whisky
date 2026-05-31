@@ -21,6 +21,7 @@ styles rather than narrowing down. See `preferences.md` for the established tast
 | `recommendations.md`         | Curated picks by region/style not yet covered                 |
 | `preferences.md`             | Evolving taste profile + 0–100 rating scale                   |
 | `tasting-room-cheatsheet.md` | Phone-friendly crib for the NPF Tasting Room bar              |
+| `goals.md`                   | Living checklist — short / mid / long-term whisky goals       |
 | `journal/`                   | Dated tasting notes, one file per sitting                     |
 | `journal/_template.md`       | Copy this to start a new entry                                |
 

@@ -85,6 +85,18 @@ balance, finish — experts converge here, and this is the layer I read accurate
 (3) *subjective*: what I enjoy, possibly with heightened bitterness/ethanol sensitivity.
 Quality has real signal; preference sits on top and mine is coherent.
 
+## On mainstream brands
+
+Not drawn to the big crowd-pleaser brands' *entry* expressions (Glenfiddich / Glenlivet /
+Glenmorangie 12s) — the bright/gentle/simple style I find dull (cf. my own Glenmorangie
+Duthac, 68). **Judge by expression, not brand:** their cask-strength / sherry-finished /
+older bottlings can be far more interesting.
+
+Exception: **sherried Macallan** genuinely fits me (rich, sweet, complex — a Macallan 15
+landed well, pre-serious). BUT it's a heavy brand premium; GlenDronach, Aberlour A'bunadh
+and Glenfarclas give the same-or-better sherry experience for less, so no need to chase the
+Macallan name.
+
 ## Practical preferences
 
 - **Budget:** ~€50–100 / R1000–2000 per bottle.

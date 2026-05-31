@@ -43,6 +43,7 @@ are excluded until opened. `(s)` = sampled, not owned · `*` = low-confidence ra
 | Redbreast 12 `(s)` | 85\* | Sherried, well-rounded "candy-apple shell"; balanced not deep. Confirmed buy. |
 | Woodford Double Oaked | 84 | Dependable value daily; caramel-sweet but single-dimensional. |
 | Blanton's Gold | 84 | Close to the Original but too harsh — proof without extra complexity. |
+| Macallan 15 `(s)` | 83\* | Sherried, rich — landed well, but hazy/pre-serious memory; brand-premium (revisit). |
 | Buffalo Trace | 82 | Easygoing mixer; lives in boulevardiers. |
 | Spice Tree (Compass Box) `(s)` | 81\* | Light, fruity, "nice but simple"; less spicy than the name suggests. |
 | Oban 14 | 80 | Characterful coastal/savoury malt; above the gentle Highlanders. |
@@ -77,5 +78,5 @@ shortlist (Springbank 10, Hibiki, Flaming Heart, Octomore, George T. Stagg). Hom
 
 [`collection.md`](collection.md) · [`wishlist.md`](wishlist.md) ·
 [`recommendations.md`](recommendations.md) · [`preferences.md`](preferences.md) ·
-[`tasting-room-cheatsheet.md`](tasting-room-cheatsheet.md) · [`journal/`](journal/) ·
-[`AGENTS.md`](AGENTS.md)
+[`tasting-room-cheatsheet.md`](tasting-room-cheatsheet.md) · [`goals.md`](goals.md) ·
+[`journal/`](journal/) · [`AGENTS.md`](AGENTS.md)
