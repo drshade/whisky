@@ -11,7 +11,7 @@ in  W.Whisky::{
       casks = [ "red wine" ],
       recommendation = Some W.Recommendation::{
         tier = W.Tier.Entry,
-        styleGroup = "Other world whisky",
+        theme = W.Theme.OtherWorld,
         findability = W.Findability.Amber,
         note = "Red-wine-cask matured; juicy, approachable."
       }

@@ -11,7 +11,7 @@ in  W.Whisky::{
       age = Some 15,
       recommendation = Some W.Recommendation::{
         tier = W.Tier.Benchmark,
-        styleGroup = "Speyside — bright & ex-bourbon",
+        theme = W.Theme.BrightSpeyside,
         findability = W.Findability.Amber,
         note = "All ex-bourbon, gorgeous fruit, huge value."
       }

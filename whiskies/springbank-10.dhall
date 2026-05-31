@@ -19,7 +19,7 @@ in  W.Whisky::{
       },
       recommendation = Some W.Recommendation::{
         tier = W.Tier.Splurge,
-        styleGroup = "Campbeltown",
+        theme = W.Theme.CampbeltownMalts,
         findability = W.Findability.Red,
         note = "The icon — briny, oily, dunnage funk. Allocated, grab on sight."
       }

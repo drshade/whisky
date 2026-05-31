@@ -110,8 +110,20 @@ let Tier = < Entry | Benchmark | Splurge >
 
 let Findability = < Green | Amber | Red >
 
+-- The recommendations doc's curated exploration sections (not the bottle's `style`).
+let Theme =
+      < RyeWhiskey
+      | IrishPotStill
+      | CampbeltownMalts
+      | JapaneseWhisky
+      | BrightSpeyside
+      | OtherWorld
+      | WheatedBourbon
+      | ClassicIslay
+      >
+
 let RecommendationType =
-      { tier : Tier, styleGroup : Text, findability : Findability, note : Text }
+      { tier : Tier, theme : Theme, findability : Findability, note : Text }
 
 let Recommendation = { Type = RecommendationType, default = {=} }
 
@@ -158,6 +170,7 @@ in  { Origin
     , Wishlist
     , Tier
     , Findability
+    , Theme
     , Recommendation
     , Whisky
     }

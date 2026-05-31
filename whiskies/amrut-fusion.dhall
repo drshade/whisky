@@ -18,7 +18,7 @@ in  W.Whisky::{
       },
       recommendation = Some W.Recommendation::{
         tier = W.Tier.Benchmark,
-        styleGroup = "Other world whisky",
+        theme = W.Theme.OtherWorld,
         findability = W.Findability.Amber,
         note = "Part-peated, rich and intense — a cult favourite."
       }

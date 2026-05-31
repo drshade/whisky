@@ -11,7 +11,7 @@ in  W.Whisky::{
       age = Some 12,
       recommendation = Some W.Recommendation::{
         tier = W.Tier.Splurge,
-        styleGroup = "Irish — single pot still",
+        theme = W.Theme.IrishPotStill,
         findability = W.Findability.Amber,
         note = "Deeper, oilier, full-strength pot still."
       }

@@ -10,7 +10,7 @@ in  W.Whisky::{
       abv = 55.0,
       recommendation = Some W.Recommendation::{
         tier = W.Tier.Splurge,
-        styleGroup = "Wheated bourbon",
+        theme = W.Theme.WheatedBourbon,
         findability = W.Findability.Red,
         note = "Wheated, full-power. (Weller is the allocated alternative.)"
       }

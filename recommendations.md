@@ -1,6 +1,6 @@
 # Recommendations — Regions & Styles to Explore
 
-> A curated map of territory to explore, by style. **Generated from `whiskies/*.dhall`
+> A curated map of territory to explore, by theme. **Generated from `whiskies/*.dhall`
 > — do not edit by hand.** Tiers: Entry · Benchmark · Splurge. Find: 🟢 widely stocked ·
 > 🟡 around if you look · 🔴 scarce / allocated.
 

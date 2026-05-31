@@ -10,7 +10,7 @@ in  W.Whisky::{
       abv = 46.0,
       recommendation = Some W.Recommendation::{
         tier = W.Tier.Benchmark,
-        styleGroup = "Wheated bourbon",
+        theme = W.Theme.WheatedBourbon,
         findability = W.Findability.Amber,
         note = "More of the same as Maker's, a touch richer; great value."
       }

@@ -12,7 +12,7 @@ in  W.Whisky::{
       casks = [ "rum finish" ],
       recommendation = Some W.Recommendation::{
         tier = W.Tier.Splurge,
-        styleGroup = "Speyside — bright & ex-bourbon",
+        theme = W.Theme.BrightSpeyside,
         findability = W.Findability.Green,
         note = "Honeyed malt with a rum-cask twist."
       }

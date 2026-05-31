@@ -22,6 +22,7 @@ module Whisky.Types
   , Wishlist (..)
   , Tier (..)
   , Findability (..)
+  , Theme (..)
   , Recommendation (..)
     -- * The whisky record
   , Whisky (..)
@@ -31,6 +32,7 @@ module Whisky.Types
   , typeLabel
   , originLabel
   , styleLabel
+  , themeLabel
   ) where
 
 import qualified Data.Text as Text
@@ -147,9 +149,19 @@ data Findability = Green | Amber | Red
 
 instance FromDhall Findability
 
+-- | Curated exploration sections for the recommendations doc — distinct from a
+--   bottle's 'Style'. Declaration order is the section order; @deriving Enum, Bounded@
+--   lets the renderer iterate them without a hardcoded list.
+data Theme
+  = RyeWhiskey | IrishPotStill | CampbeltownMalts | JapaneseWhisky
+  | BrightSpeyside | OtherWorld | WheatedBourbon | ClassicIslay
+  deriving (Generic, Show, Eq, Enum, Bounded)
+
+instance FromDhall Theme
+
 data Recommendation = MkRecommendation
   { tier :: Tier
-  , styleGroup :: Text
+  , theme :: Theme
   , findability :: Findability
   , note :: Text
   }
@@ -222,3 +234,14 @@ styleLabel = \case
   Rye -> "Rye"
   Wheated -> "Wheated bourbon"
   SinglePotStill -> "Single pot still"
+
+themeLabel :: Theme -> Text
+themeLabel = \case
+  RyeWhiskey -> "Rye"
+  IrishPotStill -> "Irish — single pot still"
+  CampbeltownMalts -> "Campbeltown"
+  JapaneseWhisky -> "Japanese"
+  BrightSpeyside -> "Speyside — bright & ex-bourbon"
+  OtherWorld -> "Other world whisky"
+  WheatedBourbon -> "Wheated bourbon"
+  ClassicIslay -> "Classic Islay"

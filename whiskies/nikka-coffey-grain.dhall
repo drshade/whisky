@@ -10,7 +10,7 @@ in  W.Whisky::{
       abv = 45.0,
       recommendation = Some W.Recommendation::{
         tier = W.Tier.Entry,
-        styleGroup = "Japanese",
+        theme = W.Theme.JapaneseWhisky,
         findability = W.Findability.Amber,
         note = "Lush grain whisky — a natural step from your love of Hedonism."
       }

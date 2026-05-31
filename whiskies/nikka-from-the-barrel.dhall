@@ -17,7 +17,7 @@ in  W.Whisky::{
       },
       recommendation = Some W.Recommendation::{
         tier = W.Tier.Benchmark,
-        styleGroup = "Japanese",
+        theme = W.Theme.JapaneseWhisky,
         findability = W.Findability.Amber,
         note = "Ridiculous value; intense, spicy, full. The one to start on."
       }

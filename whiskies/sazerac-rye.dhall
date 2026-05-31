@@ -10,7 +10,7 @@ in  W.Whisky::{
       abv = 45.0,
       recommendation = Some W.Recommendation::{
         tier = W.Tier.Entry,
-        styleGroup = "Rye",
+        theme = W.Theme.RyeWhiskey,
         findability = W.Findability.Amber,
         note = "Softer, sweeter 'New Orleans' rye; easy entry."
       }

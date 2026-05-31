@@ -25,7 +25,7 @@ in  W.Whisky::{
       },
       recommendation = Some W.Recommendation::{
         tier = W.Tier.Benchmark,
-        styleGroup = "Irish — single pot still",
+        theme = W.Theme.IrishPotStill,
         findability = W.Findability.Green,
         note = "The pot-still benchmark — sherried, lush, a must-try."
       }

@@ -12,7 +12,7 @@ in  W.Whisky::{
       casks = [ "peat" ],
       recommendation = Some W.Recommendation::{
         tier = W.Tier.Entry,
-        styleGroup = "Classic Islay",
+        theme = W.Theme.ClassicIslay,
         findability = W.Findability.Green,
         note = "Iodine, seaweed, TCP — love-it-or-hate-it Islay."
       }

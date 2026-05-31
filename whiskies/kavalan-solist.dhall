@@ -10,7 +10,7 @@ in  W.Whisky::{
       abv = 57.0,
       recommendation = Some W.Recommendation::{
         tier = W.Tier.Splurge,
-        styleGroup = "Other world whisky",
+        theme = W.Theme.OtherWorld,
         findability = W.Findability.Red,
         note = "Single-cask, lush tropical fruit; the splurge."
       }

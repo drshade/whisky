@@ -11,7 +11,7 @@ in  W.Whisky::{
       age = Some 10,
       recommendation = Some W.Recommendation::{
         tier = W.Tier.Splurge,
-        styleGroup = "Rye",
+        theme = W.Theme.RyeWhiskey,
         findability = W.Findability.Amber,
         note = "100% rye, polished and premium."
       }

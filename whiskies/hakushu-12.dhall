@@ -11,7 +11,7 @@ in  W.Whisky::{
       age = Some 12,
       recommendation = Some W.Recommendation::{
         tier = W.Tier.Splurge,
-        styleGroup = "Japanese",
+        theme = W.Theme.JapaneseWhisky,
         findability = W.Findability.Red,
         note = "Benchmark single malt — beautiful, but pricey & allocated."
       }

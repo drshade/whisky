@@ -10,7 +10,7 @@ in  W.Whisky::{
       abv = 40.0,
       recommendation = Some W.Recommendation::{
         tier = W.Tier.Benchmark,
-        styleGroup = "Irish — single pot still",
+        theme = W.Theme.IrishPotStill,
         findability = W.Findability.Amber,
         note = "Lighter, orchard-fruit pot still; great everyday."
       }

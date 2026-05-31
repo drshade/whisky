@@ -256,32 +256,26 @@ tierLabel = \case Entry -> "Entry"; Benchmark -> "Benchmark"; Splurge -> "Splurg
 findabilitySymbol :: Findability -> Text
 findabilitySymbol = \case Green -> "🟢"; Amber -> "🟡"; Red -> "🔴"
 
--- | The order style groups appear in. Groups not listed are appended alphabetically.
-styleOrder :: [Text]
-styleOrder =
-  [ "Rye", "Irish — single pot still", "Campbeltown", "Japanese"
-  , "Speyside — bright & ex-bourbon", "Other world whisky", "Wheated bourbon", "Classic Islay" ]
-
 renderRecommendations :: [Whisky] -> Text
 renderRecommendations ws =
   let recs = filter (isJust . (.recommendation)) ws
-      groupsPresent = foldr (\w acc -> let g = groupOf w in if g `elem` acc then acc else acc <> [g]) [] recs
-      ordered = filter (`elem` groupsPresent) styleOrder
-                  <> filter (`notElem` styleOrder) groupsPresent
+      groups = [ renderGroup rs th
+               | th <- [minBound .. maxBound]
+               , let rs = filter ((== Just th) . themeOf) recs
+               , not (null rs) ]
   in T.intercalate "\n"
        ( [ "# Recommendations — Regions & Styles to Explore"
          , ""
-         , "> A curated map of territory to explore, by style. **Generated from `whiskies/*.dhall`"
+         , "> A curated map of territory to explore, by theme. **Generated from `whiskies/*.dhall`"
          , "> — do not edit by hand.** Tiers: Entry · Benchmark · Splurge. Find: 🟢 widely stocked ·"
          , "> 🟡 around if you look · 🔴 scarce / allocated."
          , ""
-         ] <> map (renderGroup recs) ordered )
+         ] <> groups )
   where
-    groupOf w = maybe "" (.styleGroup) w.recommendation
-    renderGroup rs g =
-      let inGroup = sortOn (maybe 9 (tierRank . (.tier)) . (.recommendation))
-                      (filter ((== g) . groupOf) rs)
-      in "## " <> g <> "\n\n" <> table ["Bottle", "ABV", "Note", "Tier", "Find"] (map recRow inGroup)
+    themeOf w = fmap (.theme) w.recommendation
+    renderGroup rs th =
+      let inGroup = sortOn (maybe 9 (tierRank . (.tier)) . (.recommendation)) rs
+      in "## " <> themeLabel th <> "\n\n" <> table ["Bottle", "ABV", "Note", "Tier", "Find"] (map recRow inGroup)
     recRow w =
       let r = w.recommendation
       in [ w.name

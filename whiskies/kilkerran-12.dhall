@@ -18,7 +18,7 @@ in  W.Whisky::{
       },
       recommendation = Some W.Recommendation::{
         tier = W.Tier.Benchmark,
-        styleGroup = "Campbeltown",
+        theme = W.Theme.CampbeltownMalts,
         findability = W.Findability.Amber,
         note = "Superb balance of fruit, oil and light smoke."
       }

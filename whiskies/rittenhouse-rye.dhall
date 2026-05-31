@@ -17,7 +17,7 @@ in  W.Whisky::{
       },
       recommendation = Some W.Recommendation::{
         tier = W.Tier.Benchmark,
-        styleGroup = "Rye",
+        theme = W.Theme.RyeWhiskey,
         findability = W.Findability.Amber,
         note = "The value benchmark — bold, baking-spice, brilliant in a cocktail or neat."
       }
