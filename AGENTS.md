@@ -46,7 +46,9 @@ styles rather than narrowing down. See `preferences.md` for the established tast
 2. Record **only what the owner actually reports.** Don't invent nose/palate/finish notes;
    leave prompts for unstated sections. General style facts are fine but mark them as such.
 3. Update the bottle's **Rating** and **Journal** link in `collection.md`.
-4. **Update `README.md`** — keep its summary stats and ranking table in sync.
+4. **Update `README.md`** — keep its stats, the ranked-collection table, and the
+   **Tasting log** in sync. The Tasting log lists every whisky *actually tasted* (owned +
+   sampled), so add sampled drams there too; sealed/untasted bottles stay out until opened.
 
 **Adding / moving bottles**
 - New bottle → add to `collection.md` (and update README). When a wishlist bottle is bought,

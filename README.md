@@ -30,6 +30,27 @@
 
 `*` = low-confidence rating, needs more tastings. Full details: [`collection.md`](collection.md).
 
+## Tasting log — everything I've tried
+
+All whiskies actually tasted (owned + sampled out), best to worst. Sealed/untasted bottles
+are excluded until opened. `(s)` = sampled, not owned · `*` = low-confidence rating.
+
+| Bottle | Rating | Thoughts |
+|--------|--------|----------|
+| Hedonism (Compass Box) | 91 | My #1 — complex, creamy, sweet; better every sip and drinks all evening. |
+| Kilchoman Sanaig CS | 90 | A taste sensation; complex, spicy, intense — a one-pour sipper. |
+| Blanton's Original | 89 | First eye-opening bourbon; caramel-delicious — but score may be first-love bias (revisit). |
+| Redbreast 12 `(s)` | 85\* | Sherried, well-rounded "candy-apple shell"; balanced not deep. Confirmed buy. |
+| Woodford Double Oaked | 84 | Dependable value daily; caramel-sweet but single-dimensional. |
+| Blanton's Gold | 84 | Close to the Original but too harsh — proof without extra complexity. |
+| Buffalo Trace | 82 | Easygoing mixer; lives in boulevardiers. |
+| Spice Tree (Compass Box) `(s)` | 81\* | Light, fruity, "nice but simple"; less spicy than the name suggests. |
+| Oban 14 | 80 | Characterful coastal/savoury malt; above the gentle Highlanders. |
+| Baby Jane (Widow Jane) | 80\* | Premium but underwhelming — no better than cheaper bourbon. |
+| Orangerie (Compass Box) `(s)` | 75 | Orange-infused novelty; pleasant once the whisky emerged, but too zesty/sour. |
+| Dalwhinnie 15 | 72 | Gentle, inoffensive, dull; the palate-evolution lesson. |
+| Glenmorangie Duthac | 68 | Bland, single-dimensional, with a bitter edge — bottom. |
+
 ## Taste profile (short)
 
 Chases **complexity > sweetness > character**. High ABV only rewarded when it adds
