@@ -11,7 +11,7 @@ in  W.Whisky::{
       casks = [ "part-peated" ],
       wishlist = Some W.Wishlist::{
         priority = W.Priority.High,
-        estPrice = "~R800",
+        price = { amount = 42, currency = W.Currency.Eur },
         market = W.Market.NlEu,
         claudePick = True,
         why = "Opens world whisky — part-peated, rich and complex. Cult favourite."

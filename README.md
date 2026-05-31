@@ -52,11 +52,11 @@ not owned · `*` = low-confidence rating.
 
 ## Next buys (high priority)
 
-- **Aberlour A'bunadh** (Speyside) — ~R1300
-- **Amrut Fusion** (India) — ~R800
-- **GlenDronach 15 Revival** (Highland) — ~R1300
-- **Nikka From The Barrel** (Japan) — ~R1100
-- **Redbreast 12** (Ireland) — ~R600
+- **Aberlour A'bunadh** (Speyside) — ~€60
+- **Amrut Fusion** (India) — ~€42
+- **GlenDronach 15 Revival** (Highland) — ~€90
+- **Nikka From The Barrel** (Japan) — ~€55
+- **Redbreast 12** (Ireland) — ~€42
 - **Wild Turkey Rare Breed** (Kentucky) — ~€50
 
 ## More

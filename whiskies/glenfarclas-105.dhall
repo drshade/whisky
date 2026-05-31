@@ -11,7 +11,7 @@ in  W.Whisky::{
       casks = [ "sherry" ],
       wishlist = Some W.Wishlist::{
         priority = W.Priority.Medium,
-        estPrice = "~R1100",
+        price = { amount = 74, currency = W.Currency.Eur },
         market = W.Market.NlEu,
         claudePick = True,
         why = "Cask-strength sherry bomb; a cheaper A'bunadh alternative worth comparing."

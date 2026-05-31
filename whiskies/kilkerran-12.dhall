@@ -11,7 +11,7 @@ in  W.Whisky::{
       age = Some 12,
       wishlist = Some W.Wishlist::{
         priority = W.Priority.Medium,
-        estPrice = "~R1200",
+        price = { amount = 60, currency = W.Currency.Eur },
         market = W.Market.NlEu,
         claudePick = True,
         why = "Opens Campbeltown — oily, fruity, light smoke, loads of character."

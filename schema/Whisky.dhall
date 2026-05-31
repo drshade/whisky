@@ -94,9 +94,13 @@ let Priority = < High | Medium | Low >
 
 let Market = < NlEu | Sa >
 
+let Currency = < Eur | Zar >
+
+let Price = { amount : Natural, currency : Currency }
+
 let WishlistType =
       { priority : Priority
-      , estPrice : Text
+      , price : Price
       , market : Market
       , claudePick : Bool
       , tryFirst : Bool
@@ -167,6 +171,8 @@ in  { Origin
     , Tasting
     , Priority
     , Market
+    , Currency
+    , Price
     , Wishlist
     , Tier
     , Findability

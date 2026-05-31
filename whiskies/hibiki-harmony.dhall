@@ -10,7 +10,7 @@ in  W.Whisky::{
       abv = 43.0,
       wishlist = Some W.Wishlist::{
         priority = W.Priority.Medium,
-        estPrice = "~€80",
+        price = { amount = 80, currency = W.Currency.Eur },
         market = W.Market.NlEu,
         claudePick = True,
         tryFirst = True,

@@ -10,7 +10,7 @@ in  W.Whisky::{
       abv = 43.0,
       wishlist = Some W.Wishlist::{
         priority = W.Priority.Medium,
-        estPrice = "~R250 (SA)",
+        price = { amount = 250, currency = W.Currency.Zar },
         market = W.Market.Sa,
         claudePick = True,
         why = "SA-trip buy — award-winning local single grain, great value. But sweet & simple/easy, NOT complex like Hedonism — a cheap low-risk curiosity, not a wow."

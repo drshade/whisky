@@ -12,7 +12,7 @@ in  W.Whisky::{
       casks = [ "sherry" ],
       wishlist = Some W.Wishlist::{
         priority = W.Priority.High,
-        estPrice = "~R1300",
+        price = { amount = 90, currency = W.Currency.Eur },
         market = W.Market.NlEu,
         claudePick = True,
         why = "Deep dried-fruit sherry; sweetness + complexity bullseye."

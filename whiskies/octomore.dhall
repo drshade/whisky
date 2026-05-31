@@ -11,7 +11,7 @@ in  W.Whisky::{
       casks = [ "heavy peat" ],
       wishlist = Some W.Wishlist::{
         priority = W.Priority.Low,
-        estPrice = "~R3000+",
+        price = { amount = 160, currency = W.Currency.Eur },
         market = W.Market.NlEu,
         claudePick = True,
         tryFirst = True,

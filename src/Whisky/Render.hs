@@ -123,7 +123,7 @@ nextBuys ws =
        [] -> "_None right now._"
        _ -> T.intercalate "\n"
               [ "- **" <> w.name <> "** (" <> regionLabel w <> ") — "
-                  <> maybe "" (.estPrice) w.wishlist
+                  <> maybe "" (priceLabel . (.price)) w.wishlist
               | w <- picks ]
 
 statsBlock :: [Whisky] -> Text
@@ -241,7 +241,7 @@ renderWishlist ws =
          , regionLabel w
          , typeLabel w
          , maybe "" (priorityLabel . (.priority)) wl
-         , maybe "" (.estPrice) wl
+         , maybe "" (priceLabel . (.price)) wl
          , maybe "" (.why) wl
          ]
 
@@ -308,4 +308,12 @@ validate = concatMap checkOne
              | sty `elem` [Bourbon, Rye, Wheated], not usOrigin ]
            , [ w.name <> ": single pot still expects Ireland, got " <> originLabel og
              | sty == SinglePotStill, og /= Ireland ]
+           , [ w.name <> ": " <> marketName wl.market <> " market but price is "
+                 <> currencyName wl.price.currency
+             | Just wl <- [w.wishlist], not (currencyFitsMarket wl.market wl.price.currency) ]
            ]
+    currencyFitsMarket NlEu Eur = True
+    currencyFitsMarket Sa Zar = True
+    currencyFitsMarket _ _ = False
+    marketName = \case NlEu -> "NL/EU"; Sa -> "SA"
+    currencyName = \case Eur -> "EUR"; Zar -> "ZAR"

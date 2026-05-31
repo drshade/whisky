@@ -11,7 +11,7 @@ in  W.Whisky::{
       age = Some 12,
       wishlist = Some W.Wishlist::{
         priority = W.Priority.Medium,
-        estPrice = "~€50",
+        price = { amount = 50, currency = W.Currency.Eur },
         market = W.Market.NlEu,
         why = "UK/EU export-only release — not on NL or SA shelves. Order from EU specialists that ship to NL; stock is intermittent, set an alert."
       }

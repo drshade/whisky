@@ -19,6 +19,8 @@ module Whisky.Types
   , Tasting (..)
   , Priority (..)
   , Market (..)
+  , Currency (..)
+  , Price (..)
   , Wishlist (..)
   , Tier (..)
   , Findability (..)
@@ -33,6 +35,7 @@ module Whisky.Types
   , originLabel
   , styleLabel
   , themeLabel
+  , priceLabel
   ) where
 
 import qualified Data.Text as Text
@@ -127,9 +130,19 @@ data Market = NlEu | Sa
 
 instance FromDhall Market
 
+data Currency = Eur | Zar
+  deriving (Generic, Show, Eq)
+
+instance FromDhall Currency
+
+data Price = MkPrice { amount :: Natural, currency :: Currency }
+  deriving (Generic, Show, Eq)
+
+instance FromDhall Price
+
 data Wishlist = MkWishlist
   { priority :: Priority
-  , estPrice :: Text
+  , price :: Price
   , market :: Market
   , claudePick :: Bool
   , tryFirst :: Bool
@@ -234,6 +247,11 @@ styleLabel = \case
   Rye -> "Rye"
   Wheated -> "Wheated bourbon"
   SinglePotStill -> "Single pot still"
+
+-- | Approximate price, e.g. @~€60@ / @~R500@.
+priceLabel :: Price -> Text
+priceLabel p = "~" <> sym <> Text.pack (show p.amount)
+  where sym = case p.currency of Eur -> "€"; Zar -> "R"
 
 themeLabel :: Theme -> Text
 themeLabel = \case

@@ -11,7 +11,7 @@ in  W.Whisky::{
       casks = [ "oloroso sherry" ],
       wishlist = Some W.Wishlist::{
         priority = W.Priority.High,
-        estPrice = "~R1300",
+        price = { amount = 60, currency = W.Currency.Eur },
         market = W.Market.NlEu,
         why = "Best off-shelf profile match: cask-strength oloroso sherry bomb = sweetness + complexity + earned strength. Fills the sherried-Speyside gap."
       }
