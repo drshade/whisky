@@ -61,6 +61,6 @@ not owned · `*` = low-confidence rating.
 
 ## More
 
-[`collection.md`](collection.md) · [`wishlist.md`](wishlist.md) · [`recommendations.md`](recommendations.md) · [`notes/preferences.md`](notes/preferences.md) · [`notes/goals.md`](notes/goals.md) · [`journal/`](journal/)
+[`docs/collection.md`](docs/collection.md) · [`docs/wishlist.md`](docs/wishlist.md) · [`docs/recommendations.md`](docs/recommendations.md) · [`notes/preferences.md`](notes/preferences.md) · [`notes/goals.md`](notes/goals.md) · [`journal/`](journal/)
 
 _Data lives in `whiskies/*.dhall`; run `cabal run whisky-catalogue` to regenerate._

@@ -45,9 +45,11 @@ statusLabel = \case
   Open -> "open"
   Finished -> "finished"
 
+-- | Journal link for collection.md, which lives in docs/ — hence the @../@ to
+--   reach the root-relative journal path stored in the data.
 journalLink :: Whisky -> Text
 journalLink w = case w.tasting >>= (.journal) of
-  Just path -> "[notes](" <> path <> ")"
+  Just path -> "[notes](../" <> path <> ")"
   Nothing -> ""
 
 -- | A markdown table from a header and rows (cells already rendered).
@@ -100,8 +102,8 @@ renderReadme ws =
     , ""
     , "## More"
     , ""
-    , "[`collection.md`](collection.md) · [`wishlist.md`](wishlist.md) · "
-        <> "[`recommendations.md`](recommendations.md) · [`notes/preferences.md`](notes/preferences.md) · "
+    , "[`docs/collection.md`](docs/collection.md) · [`docs/wishlist.md`](docs/wishlist.md) · "
+        <> "[`docs/recommendations.md`](docs/recommendations.md) · [`notes/preferences.md`](notes/preferences.md) · "
         <> "[`notes/goals.md`](notes/goals.md) · [`journal/`](journal/)"
     , ""
     , "_Data lives in `whiskies/*.dhall`; run `cabal run whisky-catalogue` to regenerate._"

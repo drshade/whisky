@@ -5,12 +5,12 @@
 A personal, git-backed **whisky catalogue**. The source of truth is **typed Dhall data** —
 one file per whisky in `whiskies/*.dhall`, governed by `schema/Whisky.dhall`. A small Haskell
 tool (`whisky-catalogue`) decodes them and **generates** the markdown views (`README.md`,
-`collection.md`, `wishlist.md`, `recommendations.md`). It tracks the collection, a wishlist, a
+`docs/collection.md`, `docs/wishlist.md`, `docs/recommendations.md`). It tracks the collection, a wishlist, a
 dated tasting journal, an evolving taste profile, and curated buying recommendations. The owner
 uses Claude as a curator — to log tastings, suggest additions, and keep the catalogue coherent.
 
-> **Generated files — never hand-edit:** `README.md`, `collection.md`, `wishlist.md`,
-> `recommendations.md`. Edit the Dhall data and run `make build` (= `cabal run whisky-catalogue`)
+> **Generated files — never hand-edit:** `README.md`, `docs/collection.md`, `docs/wishlist.md`,
+> `docs/recommendations.md`. Edit the Dhall data and run `make build` (= `cabal run whisky-catalogue`)
 > to regenerate. Hand edits will be overwritten on the next build.
 
 The owner is currently in **discovery mode**: actively exploring breadth across regions and
@@ -26,9 +26,9 @@ styles rather than narrowing down. See `notes/preferences.md` for the establishe
 | `schema/Whisky.dhall`    | The data model (producer, style, facets)                            |
 | `src/`, `app/`, `*.cabal`| The `whisky-catalogue` Haskell generator                            |
 | `README.md`              | _generated_ — at-a-glance dashboard, ranking, tasting log           |
-| `collection.md`          | _generated_ — full collection table (owned bottles)                 |
-| `wishlist.md`            | _generated_ — buy targets + try-first, by priority                  |
-| `recommendations.md`     | _generated_ — curated picks by region/style                         |
+| `docs/collection.md`          | _generated_ — full collection table (owned bottles)                 |
+| `docs/wishlist.md`            | _generated_ — buy targets + try-first, by priority                  |
+| `docs/recommendations.md`     | _generated_ — curated picks by region/style                         |
 | `notes/preferences.md`         | Evolving taste profile + 0–100 rating scale (hand-written)          |
 | `notes/goals.md`               | Living checklist — short / mid / long-term goals (hand-written)     |
 | `journal/`               | Dated tasting notes, one file per sitting (prose; linked from data) |

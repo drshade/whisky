@@ -53,6 +53,7 @@ executable whisky-catalogue
     -with-rtsopts=-N
 
   build-depends:
+    directory,
     whisky-catalogue,
     rerebase,
 

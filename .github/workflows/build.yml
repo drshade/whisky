@@ -37,8 +37,8 @@ jobs:
 
       - name: Fail if generated docs are out of sync with the data
         run: |
-          if ! git diff --quiet -- README.md collection.md wishlist.md recommendations.md; then
+          if ! git diff --quiet -- README.md docs/collection.md docs/wishlist.md docs/recommendations.md; then
             echo "::error::Generated docs are stale. Run 'make build' and commit the result."
-            git diff -- README.md collection.md wishlist.md recommendations.md
+            git diff -- README.md docs/collection.md docs/wishlist.md docs/recommendations.md
             exit 1
           fi
