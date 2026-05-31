@@ -50,6 +50,7 @@ High ABV is welcome **only when it buys complexity**, not heat for its own sake.
 
 - Blandness / single-note / thin pours.
 - **Bitterness** (active dislike).
+- **Sour / sharp-zesty acidity** — Compass Box Orangerie's orange zest ran too sour for me.
 - Low sweetness.
 - Worst so far: *Glenmorangie Duthac (68)*, *Dalwhinnie 15 (72)* — gentle and unmemorable.
 

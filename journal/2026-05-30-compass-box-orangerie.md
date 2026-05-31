@@ -8,7 +8,7 @@ abv: 40%
 age: NAS
 glass: unknown (out at dinner)
 with: neat
-rating:   # n/a — brief taste, infused novelty
+rating: 75   # tentative — sampled novelty; the zest ran too sour for me
 owned: no   # sampled out
 ---
 
@@ -18,7 +18,10 @@ _Sampled at dinner with friends. The menu listed it as "Oak Cross & Orangerie" �
 two separate Compass Box bottlings; the **very citrusy** one I tasted is the **Orangerie**._
 
 ## Verdict
-Very **citrusy** — plus vanilla, and obviously whisky underneath. Distinctive and easy.
+So weird on first sip I genuinely wondered if I'd been handed the wrong drink. After a few
+sips the **whisky started to come forward** (past the initial orange shock) and it settled
+into something **pretty pleasant**. But it ran **a bit too zesty / sour** for me — I'm not
+usually a fan of sour flavours, and this hit several of those notes.
 
 ## What it actually is
 Not a normal Scotch: Glen Moray malt + Cameronbridge grain whisky **infused with hand-zested
