@@ -32,5 +32,6 @@
 | 💡 Hibiki Harmony | Japan | Blend | medium | ~€80 | Attainable Japanese blend. (Hakushu 12 is the malt benchmark but usually > budget.) Taste before chasing. |
 | 💡 Highland Park 18 | Islands | Single malt | medium | ~€140 | Honey + gentle peat + sherry, beautifully complex — strong fit. But above budget, so taste first; buy if it wows. |
 | 💡 Springbank 10 | Campbeltown | Single malt | medium | ~€90 | The Campbeltown icon — oily, briny, dunnage funk. Allocated, so taste before chasing a bottle. |
+| W.L. Weller Special Reserve | Kentucky | Bourbon | medium | ~€45 | Darren's rec. The entry wheated bourbon — wheat replaces rye, so softer and rounder than BT or Blanton's. Classic Pappy mashbill without the scarcity tax. Worth sampling before committing given general bourbon scepticism. |
 | 💡 George T. Stagg | Kentucky | Bourbon | low | ~€600 | The unicorn. Taste it if a bottle's open — you'll never buy one. |
 | 💡 Octomore | Islay | Single malt | low | ~€160 | Most heavily-peated whisky made — a complexity and intensity experiment. Taste-only at this price. |
