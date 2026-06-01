@@ -87,6 +87,9 @@ generated markdown.
   `printf '<query>\n' | make repl`.
 
 **Curating & recommending**
+- **Always record the source of a recommendation** in the `why` field of the `wishlist` or
+  `recommendation` facet — e.g. "Darren's rec." or "Claude pick." If the owner doesn't say
+  where it came from, ask before writing it up.
 - Respect the **taste profile** in `notes/preferences.md`, the **R1000–2000 budget**, and the
   **discovery-mode** preference for variety/new ground.
 - `notes/preferences.md` is a *working draft* — update it as new patterns emerge across the
