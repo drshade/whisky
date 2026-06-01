@@ -38,6 +38,7 @@ not owned · `*` = low-confidence rating.
 | Hedonism | 91 | complex, sweet, sessionable |
 | Kilchoman Sanaig CS | 90 | intense, spicy sipper |
 | Blanton's Original | 89 | the bourbon that transcends |
+| The Peat Monster `(s)` | 87 | smooth, balanced peated blend; smoke up front masking layers beneath; classic Islay funk (pleasant rotty-foot); all-day sessionable |
 | Redbreast 12 `(s)` | 85* | sherried, well-rounded; balanced not deep — confirmed buy |
 | Blanton's Gold | 84 | strong but harsh |
 | Woodford Double Oaked | 84 | good-value daily |
