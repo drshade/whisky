@@ -8,6 +8,12 @@ in  W.Whisky::{
       producer = P.jamesSedgwick,
       style = W.Style.SingleGrain,
       abv = 43.0,
+      tasting = Some W.Tasting::{
+        rating = 78,
+        confidence = W.Confidence.Normal,
+        summary = "very simple but not unpleasant; unexpectedly bourbony (ex-bourbon cask does all the talking); a touch more detail than single-note but ordinary overall",
+        journal = Some "journal/2026-06-01-bains-cape-mountain.md"
+      },
       wishlist = Some W.Wishlist::{
         priority = W.Priority.Medium,
         price = { amount = 250, currency = W.Currency.Zar },

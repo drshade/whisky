@@ -47,6 +47,7 @@ not owned · `*` = low-confidence rating.
 | Spice Tree `(s)` | 81* | light, fruity, nice but simple; less spicy than the name suggests |
 | Oban 14 | 80 | characterful, coastal |
 | Baby Jane | 80* | premium, underwhelming |
+| Bain's Cape Mountain `(s)` | 78 | very simple but not unpleasant; unexpectedly bourbony (ex-bourbon cask does all the talking); a touch more detail than single-note but ordinary overall |
 | Orangerie `(s)` | 75 | orange-infused novelty; pleasant once the whisky emerged, but too zesty/sour |
 | Dalwhinnie 15 | 72 | gentle, dull |
 | Glenmorangie Duthac | 68 | bland, bitter edge |
