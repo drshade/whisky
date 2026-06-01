@@ -21,5 +21,5 @@ dominate the profile. A tiny bit more detail than purely single-note, but found 
 ordinary. Confirmed the pre-tasting read: not a wow, but at R280 (~€14) it's remarkable value — a
 decent, inoffensive pour you'd happily keep around for casual drinking or guests.
 
-A tot at the restaurant was R45 — cheaper than a bottle of water (R75). Says everything
-about the price point.
+A tot at the restaurant was R45 — cheaper than a bottle of sparkling water (R75). Says
+everything about the price point.
