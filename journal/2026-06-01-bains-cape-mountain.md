@@ -18,4 +18,5 @@ rating: 78
 Very simple but not unpleasant. Unexpectedly bourbony — thought it was a bourbon until
 checking. Makes sense: it's matured in first-fill American oak ex-bourbon casks, which
 dominate the profile. A tiny bit more detail than purely single-note, but found it quite
-ordinary. Confirmed the pre-tasting read: a low-risk SA curiosity, not a wow.
+ordinary. Confirmed the pre-tasting read: not a wow, but at R280 (~€14) it's remarkable value — a
+decent, inoffensive pour you'd happily keep around for casual drinking or guests.
