@@ -28,6 +28,7 @@
 
 | Bottle | Region | Type | Priority | ~Price | Why |
 |---|---|---|---|---|---|
+| Brûlée Royale | Scotland (blend) | Blended malt | medium | ~€150 | Tjaard's rec. Dessert-forward blended malt (Clynelish, Benrinnes, Ardbeg) — crème brûlée-inspired, 49% NCF. Limited edition (~8,500 bottles). ~€150 puts it above budget; sample before committing. |
 | 💡 Compass Box Flaming Heart | Scotland (blend) | Blended malt | medium | ~€120 | I click with Compass Box (Hedonism #1) — this is their peat + complexity flagship. Taste before buying. |
 | 💡 Hibiki Harmony | Japan | Blend | medium | ~€80 | Attainable Japanese blend. (Hakushu 12 is the malt benchmark but usually > budget.) Taste before chasing. |
 | 💡 Highland Park 18 | Islands | Single malt | medium | ~€140 | Honey + gentle peat + sherry, beautifully complex — strong fit. But above budget, so taste first; buy if it wows. |
