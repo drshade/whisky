@@ -33,24 +33,24 @@
 All whiskies actually tasted (owned + sampled), best to worst. `(s)` = sampled,
 not owned · `*` = low-confidence rating.
 
-| Bottle | Rating | Notes |
-|---|---|---|
-| Hedonism | 91 | complex, sweet, sessionable |
-| Kilchoman Sanaig CS | 90 | intense, spicy sipper |
-| Blanton's Original | 89 | the bourbon that transcends |
-| The Peat Monster `(s)` | 87 | smooth, balanced peated blend; smoke up front masking layers beneath; classic Islay funk (pleasant rotty-foot); all-day sessionable |
-| Redbreast 12 `(s)` | 85* | sherried, well-rounded; balanced not deep — confirmed buy |
-| Blanton's Gold | 84 | strong but harsh |
-| Woodford Double Oaked | 84 | good-value daily |
-| Macallan 15 `(s)` | 83* | sherried, rich — landed well, but hazy/pre-serious memory; brand-premium (revisit) |
-| Buffalo Trace | 82 | mixer / boulevardiers |
-| Spice Tree `(s)` | 81* | light, fruity, nice but simple; less spicy than the name suggests |
-| Oban 14 | 80 | characterful, coastal |
-| Baby Jane | 80* | premium, underwhelming |
-| Bain's Cape Mountain `(s)` | 78 | very simple but not unpleasant; unexpectedly bourbony (ex-bourbon cask does all the talking); a touch more detail than single-note but ordinary overall — remarkable value at R280/~€14 |
-| Orangerie `(s)` | 75 | orange-infused novelty; pleasant once the whisky emerged, but too zesty/sour |
-| Dalwhinnie 15 | 72 | gentle, dull |
-| Glenmorangie Duthac | 68 | bland, bitter edge |
+| Bottle | Rating | My notes | Reference notes |
+|---|---|---|---|
+| Hedonism | 91 | complex, sweet, sessionable |  |
+| Kilchoman Sanaig CS | 90 | intense, spicy sipper |  |
+| Blanton's Original | 89 | the bourbon that transcends |  |
+| The Peat Monster `(s)` | 87 | smooth, balanced peated blend; smoke up front masking layers beneath; classic Islay funk (pleasant rotty-foot); all-day sessionable |  |
+| Redbreast 12 `(s)` | 85* | sherried, well-rounded; balanced not deep — confirmed buy |  |
+| Blanton's Gold | 84 | strong but harsh |  |
+| Woodford Double Oaked | 84 | good-value daily |  |
+| Macallan 15 `(s)` | 83* | sherried, rich — landed well, but hazy/pre-serious memory; brand-premium (revisit) |  |
+| Buffalo Trace | 82 | mixer / boulevardiers |  |
+| Spice Tree `(s)` | 81* | light, fruity, nice but simple; less spicy than the name suggests |  |
+| Oban 14 | 80 | characterful, coastal |  |
+| Baby Jane | 80* | premium, underwhelming |  |
+| Bain's Cape Mountain `(s)` | 78 | very simple but not unpleasant; unexpectedly bourbony (ex-bourbon cask does all the talking); a touch more detail than single-note but ordinary overall — remarkable value at R280/~€14 |  |
+| Orangerie `(s)` | 75 | orange-infused novelty; pleasant once the whisky emerged, but too zesty/sour |  |
+| Dalwhinnie 15 | 72 | gentle, dull |  |
+| Glenmorangie Duthac | 68 | bland, bitter edge |  |
 
 ## Next buys (high priority)
 

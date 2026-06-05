@@ -162,10 +162,13 @@ rankedTable ws =
 tastingLog :: [Whisky] -> Text
 tastingLog ws =
   let tasted = sortOn (Down . ratingMay) (filter isTasted ws)
-      rows = map (\w -> [nameCell w, ratingCell w, maybe "" (.summary) w.tasting]) tasted
-  in table ["Bottle", "Rating", "Notes"] rows
+      rows = map (\w -> [nameCell w, ratingCell w, maybe "" (.summary) w.tasting, refCell w]) tasted
+  in table ["Bottle", "Rating", "My notes", "Reference notes"] rows
   where
     nameCell w = w.name <> if isOwned w then "" else " `(s)`"
+    refCell w = T.intercalate " · "
+      [ "**" <> n.source <> ":** " <> fromMaybe "" n.summary
+      | n <- w.externalNotes, isJust n.summary ]
 
 -- ============================================================================
 -- collection.md

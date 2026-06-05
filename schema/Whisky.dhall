@@ -131,6 +131,28 @@ let RecommendationType =
 
 let Recommendation = { Type = RecommendationType, default = {=} }
 
+-- Reference tasting notes from an external source (official distillery, critic,
+-- publication). Stored alongside the owner's personal `tasting` facet so the two
+-- can be contrasted. `source` is required (e.g. "Official", "Whisky Advocate",
+-- "Jim Murray"); all note fields are optional — record what's available.
+let ExternalNotesType =
+      { source : Text
+      , summary : Optional Text
+      , nose : Optional Text
+      , palate : Optional Text
+      , finish : Optional Text
+      }
+
+let ExternalNotes =
+      { Type = ExternalNotesType
+      , default =
+        { summary = None Text
+        , nose = None Text
+        , palate = None Text
+        , finish = None Text
+        }
+      }
+
 -- ============================================================================
 -- The Whisky record (with defaults so per-bottle files stay terse)
 -- ============================================================================
@@ -147,6 +169,7 @@ let WhiskyType =
       , tasting : Optional TastingType
       , wishlist : Optional WishlistType
       , recommendation : Optional RecommendationType
+      , externalNotes : List ExternalNotesType
       }
 
 let Whisky =
@@ -158,6 +181,7 @@ let Whisky =
         , tasting = None TastingType
         , wishlist = None WishlistType
         , recommendation = None RecommendationType
+        , externalNotes = [] : List ExternalNotesType
         }
       }
 
@@ -178,5 +202,6 @@ in  { Origin
     , Findability
     , Theme
     , Recommendation
+    , ExternalNotes
     , Whisky
     }

@@ -26,6 +26,7 @@ module Whisky.Types
   , Findability (..)
   , Theme (..)
   , Recommendation (..)
+  , ExternalNotes (..)
     -- * The whisky record
   , Whisky (..)
     -- * Derived presentation helpers
@@ -182,6 +183,17 @@ data Recommendation = MkRecommendation
 
 instance FromDhall Recommendation
 
+data ExternalNotes = MkExternalNotes
+  { source :: Text
+  , summary :: Maybe Text
+  , nose :: Maybe Text
+  , palate :: Maybe Text
+  , finish :: Maybe Text
+  }
+  deriving (Generic, Show, Eq)
+
+instance FromDhall ExternalNotes
+
 -- ============================================================================
 -- The Whisky record
 -- ============================================================================
@@ -198,6 +210,7 @@ data Whisky = MkWhisky
   , tasting :: Maybe Tasting
   , wishlist :: Maybe Wishlist
   , recommendation :: Maybe Recommendation
+  , externalNotes :: [ExternalNotes]
   }
   deriving (Generic, Show, Eq)
 
