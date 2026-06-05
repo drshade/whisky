@@ -15,5 +15,14 @@ in  W.Whisky::{
         confidence = W.Confidence.Normal,
         summary = "intense, spicy sipper",
         journal = Some "journal/2026-05-29-kilchoman-sanaig-cs.md"
-      }
+      },
+      externalNotes =
+        [ W.ExternalNotes::{
+            source = "Official (Kilchoman)",
+            summary = Some "Oloroso sherry recipe at full cask strength — intense peat smoke, rich fruit, and sherry sweetness; rewards patience and water",
+            nose = Some "Fragrant heather, raisins, pear, orange peel, stone fruits, mixed spices, rich peat smoke, prunes, figs, toffee",
+            palate = Some "Rich peat smoke, cinnamon, stone fruits, citrus, dark chocolate, blackberries, plums, pepper, nutmeg",
+            finish = Some "Long — dark fruits, liquorice, sweetness and spice; ashy and dry"
+          }
+        ]
     }

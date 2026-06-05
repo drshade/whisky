@@ -16,6 +16,15 @@ in  W.Whisky::{
         summary = "sherried, well-rounded; balanced not deep — confirmed buy",
         journal = Some "journal/2026-05-30-redbreast-12.md"
       },
+      externalNotes =
+        [ W.ExternalNotes::{
+            source = "Official (Redbreast)",
+            summary = Some "Benchmark single pot still — malted and unmalted barley, triple-distilled, ex-bourbon and oloroso sherry; full-flavoured, silky, exceptionally complex for 40%",
+            nose = Some "Complex, spicy and fruity; toasted wood, tropical fruit, orange peel, baked pie crust, vanilla, sherry-dried fruit and winter spice",
+            palate = Some "Full-flavoured and silky smooth; vanilla, almond, honey, apricot, raisin, cinnamon, cocoa; harmonious balance of spicy, fruity and sherry notes",
+            finish = Some "Satisfyingly long; cinnamon, caraway, marzipan, toasted almond, lingering sherry nuttiness"
+          }
+        ],
       wishlist = Some W.Wishlist::{
         priority = W.Priority.High,
         price = { amount = 42, currency = W.Currency.Eur },

@@ -14,5 +14,14 @@ in  W.Whisky::{
         confidence = W.Confidence.Normal,
         summary = "mixer / boulevardiers",
         journal = Some "journal/2026-05-29-buffalo-trace.md"
-      }
+      },
+      externalNotes =
+        [ W.ExternalNotes::{
+            source = "Jim Murray's Whisky Bible (via Buffalo Trace)",
+            summary = Some "Big, moody, uncompromising and complex beyond belief",
+            nose = Some "Spicy prickle, deep vanilla, molasses, hint of sweet mint",
+            palate = Some "Waxy sweetness, vanilla oak, chewy corn, rye spice, leather, tobacco, overripe orange",
+            finish = Some "Long and lush; oak dries it, rye adds depth, lingering liquorice"
+          }
+        ]
     }

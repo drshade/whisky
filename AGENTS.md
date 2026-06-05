@@ -86,6 +86,11 @@ generated markdown.
   `ownership.status`, `wishlist.priority`, …). For a one-off, pipe the query in:
   `printf '<query>\n' | make repl`.
 
+**Adding reference / external tasting notes**
+- Every whisky can carry `externalNotes` — a list of `W.ExternalNotes::{ source, summary, nose, palate, finish }` records from official distillery pages, critics (Whisky Advocate, Jim Murray, etc.) or other reputable sources. All fields except `source` are optional.
+- Populate these via web search when adding a new bottle or when explicitly asked to backfill. Do not invent or paraphrase from memory — only record verified external content.
+- The field is rendered in the README tasting log as a "Reference notes" column, so personal and external notes can be compared side-by-side.
+
 **Curating & recommending**
 - **Always record the source of a recommendation** in the `why` field of the `wishlist` or
   `recommendation` facet — e.g. "Darren's rec." or "Claude pick." If the owner doesn't say

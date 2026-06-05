@@ -14,5 +14,14 @@ in  W.Whisky::{
         confidence = W.Confidence.Normal,
         summary = "bland, bitter edge",
         journal = Some "journal/2026-05-29-glenmorangie-duthac.md"
-      }
+      },
+      externalNotes =
+        [ W.ExternalNotes::{
+            source = "Official (Glenmorangie)",
+            summary = Some "Travel-retail NAS; PX sherry + charred virgin oak finish on ex-bourbon base",
+            nose = Some "Pear, toffee apple, Brazil nuts in toffee, spice, toasty oak; water reveals vanilla fudge and linseed",
+            palate = Some "Milk chocolate, toffee, Brazil nuts, leather, aniseed; gentle ginger and clove spice",
+            finish = Some "Vanilla, apricots in cream, almond marzipan"
+          }
+        ]
     }

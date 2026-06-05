@@ -35,22 +35,22 @@ not owned · `*` = low-confidence rating.
 
 | Bottle | Rating | My notes | Reference notes |
 |---|---|---|---|
-| Hedonism | 91 | complex, sweet, sessionable |  |
-| Kilchoman Sanaig CS | 90 | intense, spicy sipper |  |
-| Blanton's Original | 89 | the bourbon that transcends |  |
-| The Peat Monster `(s)` | 87 | smooth, balanced peated blend; smoke up front masking layers beneath; classic Islay funk (pleasant rotty-foot); all-day sessionable |  |
-| Redbreast 12 `(s)` | 85* | sherried, well-rounded; balanced not deep — confirmed buy |  |
-| Blanton's Gold | 84 | strong but harsh |  |
-| Woodford Double Oaked | 84 | good-value daily |  |
-| Macallan 15 `(s)` | 83* | sherried, rich — landed well, but hazy/pre-serious memory; brand-premium (revisit) |  |
-| Buffalo Trace | 82 | mixer / boulevardiers |  |
-| Spice Tree `(s)` | 81* | light, fruity, nice but simple; less spicy than the name suggests |  |
-| Oban 14 | 80 | characterful, coastal |  |
-| Baby Jane | 80* | premium, underwhelming |  |
+| Hedonism | 91 | complex, sweet, sessionable | **Whisky Advocate (90 pts, 2024):** Showcases the purity and richness possible in mature Scottish grain whisky — sweet, silky, vanilla-forward with a spiced finish |
+| Kilchoman Sanaig CS | 90 | intense, spicy sipper | **Official (Kilchoman):** Oloroso sherry recipe at full cask strength — intense peat smoke, rich fruit, and sherry sweetness; rewards patience and water |
+| Blanton's Original | 89 | the bourbon that transcends | **Breaking Bourbon:** The world's first single barrel bourbon (1984) — sweet, approachable, vanilla and caramel with baking spices; a reliable benchmark |
+| The Peat Monster `(s)` | 87 | smooth, balanced peated blend; smoke up front masking layers beneath; classic Islay funk (pleasant rotty-foot); all-day sessionable | **Whisky Advocate (95 pts, #9 of 2020):** Bigger peat more elegantly — aromatic sweet smoke balanced with complex layered peat; NAS blended malt, not chill-filtered |
+| Redbreast 12 `(s)` | 85* | sherried, well-rounded; balanced not deep — confirmed buy | **Official (Redbreast):** Benchmark single pot still — malted and unmalted barley, triple-distilled, ex-bourbon and oloroso sherry; full-flavoured, silky, exceptionally complex for 40% |
+| Blanton's Gold | 84 | strong but harsh | **Official (Blanton's/Buffalo Trace):** Higher proof version of Original — spicy rye and tobacco lead, more intense but drier character; designed for international markets |
+| Woodford Double Oaked | 84 | good-value daily | **Official:** Twice-barreled: charred oak then deeply toasted second barrel for extra richness |
+| Macallan 15 `(s)` | 83* | sherried, rich — landed well, but hazy/pre-serious memory; brand-premium (revisit) | **Whisky Advocate (94 pts, Top 20 of 2020):** Sherry-seasoned American and European oak; benchmark sherried Speyside — richly nutty and fruity, luscious and supple, impressively complex |
+| Buffalo Trace | 82 | mixer / boulevardiers | **Jim Murray's Whisky Bible (via Buffalo Trace):** Big, moody, uncompromising and complex beyond belief |
+| Spice Tree `(s)` | 81* | light, fruity, nice but simple; less spicy than the name suggests | **Official (Compass Box):** Clynelish-dominant recipe with French oak heads for spice and American oak bodies; rich, approachable, spice-driven |
+| Oban 14 | 80 | characterful, coastal | **Official (malts.com):** Full, rich, almost oily malt with maritime character — sits between Highland and Islay in style |
+| Baby Jane | 80* | premium, underwhelming | **Official (Widow Jane):** Heirloom corn; depth, sweetness and creamy spiciness in a distinctive Brooklyn style |
 | Bain's Cape Mountain `(s)` | 78 | very simple but not unpleasant; unexpectedly bourbony (ex-bourbon cask does all the talking); a touch more detail than single-note but ordinary overall — remarkable value at R280/~€14 |  |
-| Orangerie `(s)` | 75 | orange-infused novelty; pleasant once the whisky emerged, but too zesty/sour |  |
-| Dalwhinnie 15 | 72 | gentle, dull |  |
-| Glenmorangie Duthac | 68 | bland, bitter edge |  |
+| Orangerie `(s)` | 75 | orange-infused novelty; pleasant once the whisky emerged, but too zesty/sour | **Official (Compass Box):** Highland malt + Fife grain infused with Navalino orange peel, Indonesian cassia bark and cloves; classified as spirit drink, now discontinued |
+| Dalwhinnie 15 | 72 | gentle, dull | **Official (malts.com):** Clean, crisp, accessible — heather and honey sweetness from Scotland's highest distillery |
+| Glenmorangie Duthac | 68 | bland, bitter edge | **Official (Glenmorangie):** Travel-retail NAS; PX sherry + charred virgin oak finish on ex-bourbon base |
 
 ## Next buys (high priority)
 

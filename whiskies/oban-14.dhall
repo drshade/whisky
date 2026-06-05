@@ -15,5 +15,14 @@ in  W.Whisky::{
         confidence = W.Confidence.Normal,
         summary = "characterful, coastal",
         journal = Some "journal/2026-05-29-oban-14.md"
-      }
+      },
+      externalNotes =
+        [ W.ExternalNotes::{
+            source = "Official (malts.com)",
+            summary = Some "Full, rich, almost oily malt with maritime character — sits between Highland and Islay in style",
+            nose = Some "Immediate and confident; warming, sweet, oily, waxy, nutty with ripe orchard fruits",
+            palate = Some "Dense and coating; sweet yet menthol-fresh, filling with rich fruit-bread chewiness",
+            finish = Some "Long; syrupy then drying with elegant dark chocolate tannins"
+          }
+        ]
     }

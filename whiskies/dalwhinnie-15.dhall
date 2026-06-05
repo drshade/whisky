@@ -15,5 +15,14 @@ in  W.Whisky::{
         confidence = W.Confidence.Normal,
         summary = "gentle, dull",
         journal = Some "journal/2026-05-29-dalwhinnie-15.md"
-      }
+      },
+      externalNotes =
+        [ W.ExternalNotes::{
+            source = "Official (malts.com)",
+            summary = Some "Clean, crisp, accessible — heather and honey sweetness from Scotland's highest distillery",
+            nose = Some "Big, crisp, dry and aromatic with hints of heather and peat",
+            palate = Some "Smooth, light to medium body; heather-honey, vanilla, citrus fruit, malted bread",
+            finish = Some "Long, surprisingly intense; starts sweet then gives way to smoke, peat and malt"
+          }
+        ]
     }

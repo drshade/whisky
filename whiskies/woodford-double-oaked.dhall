@@ -14,5 +14,14 @@ in  W.Whisky::{
         confidence = W.Confidence.Normal,
         summary = "good-value daily",
         journal = Some "journal/2026-05-29-woodford-double-oaked.md"
-      }
+      },
+      externalNotes =
+        [ W.ExternalNotes::{
+            source = "Official",
+            summary = Some "Twice-barreled: charred oak then deeply toasted second barrel for extra richness",
+            nose = Some "Dark fruit, caramel, sharp honey, chocolate, marzipan, toasted oak",
+            palate = Some "Full-bodied vanilla, dark caramel, hazelnut, apple, fruit and spices",
+            finish = Some "Long and creamy with lingering honeyed apple"
+          }
+        ]
     }
