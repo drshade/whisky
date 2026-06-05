@@ -9,6 +9,15 @@ in  W.Whisky::{
       style = W.Style.SingleMalt,
       abv = 46.0,
       age = Some 12,
+      externalNotes =
+        [ W.ExternalNotes::{
+            source = "Official (Kilkerran) + Whisky Advocate (93 pts)",
+            summary = Some "Lightly peated Campbeltown malt, 70% bourbon 30% sherry casks — characteristic oiliness with citrus, gentle peat and sweet-spicy complexity",
+            nose = Some "Turkish delight, pear drops, marzipan; subtle peat smoke like toasted marshmallows by a campfire",
+            palate = Some "Lemon cheesecake, Campbeltown oiliness, peat smoke, leather-bound books, peppery spice; sticky toffee pudding develops",
+            finish = Some "Campfire embers carrying peat smoke; pecan pie and butterscotch"
+          }
+        ],
       wishlist = Some W.Wishlist::{
         priority = W.Priority.Medium,
         price = { amount = 60, currency = W.Currency.Eur },

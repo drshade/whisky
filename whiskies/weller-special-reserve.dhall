@@ -8,6 +8,15 @@ in  W.Whisky::{
       producer = P.buffaloTrace,
       style = W.Style.Bourbon,
       abv = 45.0,
+      externalNotes =
+        [ W.ExternalNotes::{
+            source = "Whisky Advocate (Minnick) + Breaking Bourbon (85/100)",
+            summary = Some "Entry wheated Buffalo Trace bourbon (Weller/Pappy mashbill), 45% — sweet, approachable, gentle; over-delivers at MSRP but value eroded by market scarcity",
+            nose = Some "Vanilla wafer, honey, subtle strawberry, caramel; floral citrus, apple, vanilla, toasted oak, hay, cinnamon; crème brûlée, praline (WA)",
+            palate = Some "Honey, caramel, vanilla, light fruit; minimal spice (wheat effect); darker honey, oak, cinnamon, citrus, apple; sweet cherries, orange zest",
+            finish = Some "Short to medium; slight heat; honey and caramel return; tannic with cinnamon and apple; dominant cinnamon spice; caramel-dipped apples"
+          }
+        ],
       wishlist = Some W.Wishlist::{
         priority = W.Priority.Medium,
         price = { amount = 45, currency = W.Currency.Eur },

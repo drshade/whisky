@@ -8,6 +8,15 @@ in  W.Whisky::{
       producer = P.nikka,
       style = W.Style.Blend,
       abv = 51.4,
+      externalNotes =
+        [ W.ExternalNotes::{
+            source = "Whisky Advocate (94 pts, Whisky of the Year 2018) + Words of Whisky (2024)",
+            summary = Some "100+ malt and grain components bottled with minimal dilution — WA Whisky of the Year 2018; ridiculous value; intense, oily and layered",
+            nose = Some "Rich oaky aromas, vanilla, chocolate sweetness, gorgeous orange peel; butterscotch, poached pears, stone fruit, coffee, old oak, tobacco, allspice, cloves, ginger",
+            palate = Some "Thick and sweet; oak astringency, firm and full-bodied; caramel, toffee, lemon citrus; oily; coffee, resin, oak spices, ginger, gentle smoke, jammy fruits",
+            finish = Some "Woody and bitter; medium length with sweet caramel and lighter spices (nutmeg) fading to persistent oaky bitterness; hint of burnt toast"
+          }
+        ],
       wishlist = Some W.Wishlist::{
         priority = W.Priority.High,
         price = { amount = 55, currency = W.Currency.Eur },

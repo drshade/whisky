@@ -10,6 +10,15 @@ in  W.Whisky::{
       abv = 43.0,
       age = Some 18,
       casks = [ "sherry" ],
+      externalNotes =
+        [ W.ExternalNotes::{
+            source = "Official (Highland Park)",
+            summary = Some "First-fill sherry European oak with American oak and refill casks — HP's most-awarded expression; deep, fruity, complex with heather honey and restrained peat",
+            nose = Some "Butterscotch, toffee, orange peel, heather honey, peppercorns, subtle peat smoke, autumn leaves, herbal tea",
+            palate = Some "Toffee, mature oak, honey, marmalade, coffee, dark chocolate, nutmeg, roasted rosemary, ginger, leather",
+            finish = Some "Long; mild smoke, herbal notes, chocolate-coated raisins, dark chocolate, cracked black pepper"
+          }
+        ],
       wishlist = Some W.Wishlist::{
         priority = W.Priority.Medium,
         price = { amount = 140, currency = W.Currency.Eur },

@@ -14,5 +14,14 @@ in  W.Whisky::{
         theme = W.Theme.JapaneseWhisky,
         findability = W.Findability.Red,
         note = "Benchmark single malt — beautiful, but pricey & allocated."
-      }
+      },
+      externalNotes =
+        [ W.ExternalNotes::{
+            source = "Official (House of Suntory)",
+            summary = Some "Lightly peated Japanese single malt from Suntory's mountain forest distillery — crisp, gently smoky, herbal and green",
+            nose = Some "Basil, pine needle, green apple",
+            palate = Some "Sweet pear, mint, kiwi",
+            finish = Some "Green tea, subtle smoke"
+          }
+        ]
     }
