@@ -5,10 +5,10 @@
 
 ## Stats
 
-- **Owned:** 13 bottles — 10 open, 3 sealed
-- **By style:** 6 Single malt · 5 Bourbon · 1 Blended malt · 1 Blended grain
-- **By region:** 2 Islay · 4 Kentucky · 2 Scotland (blend) · 3 Highland · 1 South Africa · 1 USA
-- **Tasted & rated:** 10 / 13
+- **Owned:** 14 bottles — 10 open, 4 sealed
+- **By style:** 6 Single malt · 1 Single grain · 5 Bourbon · 1 Blended malt · 1 Blended grain
+- **By region:** 2 Islay · 2 South Africa · 4 Kentucky · 2 Scotland (blend) · 3 Highland · 1 USA
+- **Tasted & rated:** 10 / 14
 
 ## Ranked collection
 
@@ -25,6 +25,7 @@
 | 9 | [Dalwhinnie 15](journal/2026-05-29-dalwhinnie-15.md) | Highland | 72 | gentle, dull |
 | 10 | [Glenmorangie Duthac](journal/2026-05-29-glenmorangie-duthac.md) | Highland | 68 | bland, bitter edge |
 | — | Ardbeg Uigeadail | Islay | _sealed_ | not yet tasted |
+| — | Bain's Cape Mountain 15yr Founders Collection | South Africa | _sealed_ | not yet tasted |
 | — | Crimson Casks | Scotland (blend) | _sealed_ | not yet tasted |
 | — | Three Ships 6 Chenin | South Africa | _sealed_ | not yet tasted |
 
