@@ -7,6 +7,7 @@ module Whisky.Render
   , renderWishlist
   , renderRecommendations
   , validate
+  , validateReference
   ) where
 
 import qualified Data.Text as T
@@ -320,3 +321,27 @@ validate = concatMap checkOne
     currencyFitsMarket _ _ = False
     marketName = \case NlEu -> "NL/EU"; Sa -> "SA"
     currencyName = \case Eur -> "EUR"; Zar -> "ZAR"
+
+-- | Reference entries (@reference/*.dhall@) are facts-only: a bottle I merely
+--   know about. Any facet means a *relationship* — the file belongs in
+--   @whiskies/@ instead (promote with @git mv@, then add the facet). They must
+--   also carry at least one sourced external note, or they cache nothing.
+--   One message per offending file; unlike 'validate', these BLOCK the build.
+validateReference :: [Whisky] -> [Text]
+validateReference = concatMap checkOne
+  where
+    checkOne w =
+      let file = "reference/" <> w.id <> ".dhall"
+          facets = concat
+            [ [ "ownership" | isJust w.ownership ]
+            , [ "tasting" | isJust w.tasting ]
+            , [ "wishlist" | isJust w.wishlist ]
+            , [ "recommendation" | isJust w.recommendation ]
+            ]
+      in concat
+           [ [ file <> ": reference entries must not carry facets ("
+                 <> T.intercalate ", " facets <> ") — git mv to whiskies/ to promote"
+             | not (null facets) ]
+           , [ file <> ": reference entries need at least one externalNotes record"
+             | null w.externalNotes ]
+           ]

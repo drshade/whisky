@@ -23,6 +23,7 @@ styles rather than narrowing down. See `notes/preferences.md` for the establishe
 | File / folder            | Purpose                                                              |
 |--------------------------|---------------------------------------------------------------------|
 | `whiskies/*.dhall`       | **Source of truth** — one typed record per whisky                   |
+| `reference/*.dhall`      | Facts-only cache of bottles merely *known about* — no facets, no views |
 | `schema/Producers.dhall` | Producer registry — each distillery/blender defined once, referenced |
 | `schema/Whisky.dhall`    | The data model (producer, style, facets)                            |
 | `src/`, `app/`, `*.cabal`| The `whisky-catalogue` Haskell generator                            |
@@ -85,6 +86,20 @@ generated markdown.
 - Field shapes live in `src/Whisky/Types.hs` (`producer.origin`, `style`, `tasting.rating`,
   `ownership.status`, `wishlist.priority`, …). For a one-off, pipe the query in:
   `printf '<query>\n' | make repl`.
+
+**The reference cache (`reference/`)**
+- A second collection, same `Whisky` schema: bottles the owner merely *knows about* —
+  typically a producer's wider range surveyed during a recommendation conversation. Purpose:
+  cache durable, verified facts (name, age, ABV, casks, external tasting notes) so they
+  aren't re-searched every time.
+- **Rules:** no facets (build fails — a facet means a relationship, so the file belongs in
+  `whiskies/`); at least one sourced `externalNotes` record (build fails without);
+  **never** prices, availability or retailers — those rot; git history dates each entry.
+- **Promote** when a reference bottle becomes interesting: `git mv reference/<id>.dhall
+  whiskies/<id>.dhall`, add the facet, `make build`.
+- Reference entries appear in no generated view or stat. Query them in the repl:
+  `rs <- loadWhiskies "reference"`.
+- Don't bulk-import ranges speculatively — only cache what comes up in actual conversations.
 
 **Adding reference / external tasting notes**
 - Every whisky can carry `externalNotes` — a list of `W.ExternalNotes::{ source, summary, nose, palate, finish }` records from official distillery pages, critics (Whisky Advocate, Jim Murray, etc.) or other reputable sources. All fields except `source` are optional.

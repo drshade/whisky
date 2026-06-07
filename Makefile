@@ -12,6 +12,7 @@ verify:
 # ("favourites from Speyside?") without hand-reading the Dhall. Lands ready:
 #   ws <- loadWhiskies "whiskies"
 #   [ w.name | w <- ws, w.producer.origin == Speyside ]
+# The facts-only reference cache loads the same way: rs <- loadWhiskies "reference"
 # (Imports are fed on stdin so they run after the package loads; cat then
 #  hands the terminal back to you.)
 repl:
