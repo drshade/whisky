@@ -94,8 +94,20 @@ generated markdown.
     `_wishlist`, `_recommendation`; labels (`#name`, `_wishlist % #priority`) reach any field.
 - Plain styles remain first-class — mix freely:
   `[ (w.name, t.rating) | w <- ws, w.producer.origin == Speyside, Just t <- [w.tasting] ]`.
+- **Which loader:** `loadAll` for discovery/notes questions ("what mentions figs?"),
+  `loadWhiskies "whiskies"` when the question is about the owner's collection,
+  `loadWhiskies "reference"` for the cache alone. Facet-based queries (`with _wishlist`,
+  `whose rating …`) can't match reference entries, so `loadAll` is always safe for those.
+- More examples:
+  - `ws & pick (nose % like "fig")` — the matching note fragments themselves.
+  - `ws & without _ownership & whose nose (=~ "peat") & pick #name` — peated bottles
+    I don't own (sampled drams, wishlist, reference) — cross-collection in one query.
+  - `ws & with _wishlist & whose (_wishlist % #priority) (== PrHigh) & pick #name`.
+  - Gotcha: `filteredBy` needs an *affine* argument — use `whose nose (=~ "peat")`,
+    not `filteredBy (nose % like "peat")`.
 - Field shapes live in `src/Whisky/Types.hs`; the vocabulary in `src/Whisky/Query.hs`.
-  For a one-off, pipe the query in: `printf '<query>\n' | make repl`.
+  For a one-off, pipe the query in: `printf '<query>\n' | make repl` (mind that
+  printf eats `%` — use a heredoc for queries containing optics composition).
 
 **The reference cache (`reference/`)**
 - A second collection, same `Whisky` schema: bottles the owner merely *knows about* —
