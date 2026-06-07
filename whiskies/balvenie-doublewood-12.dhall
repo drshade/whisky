@@ -24,6 +24,6 @@ in  W.Whisky::{
         price = { amount = 60, currency = W.Currency.Eur },
         market = W.Market.NlEu,
         claudePick = True,
-        why = "Honeyed, sherry-finished, well-rounded — a characterful mainstream pick that suits me."
+        why = "Honeyed, sherry-finished, well-rounded — a characterful mainstream pick that suits me. Claude pick, seconded by Art's rec (Pay@)."
       }
     }

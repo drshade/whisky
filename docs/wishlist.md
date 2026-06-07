@@ -14,7 +14,7 @@
 | 💡 Redbreast 12 | Ireland | Single pot still | high | ~€42 | Opens Irish pot still — lush, sherried, complex. Sampled at dinner, confirmed buy. |
 | 💡 Wild Turkey Rare Breed | Kentucky | Bourbon | high | ~€50 | The easy, available complex-bourbon buy in NL/EU — barrel-strength, rich, great value. Best first answer to my 'complex bourbon' gap. |
 | 💡 Bain's Cape Mountain | South Africa | Single grain | medium | ~R280 | SA-trip buy — R280/~€14, exceptional price-to-quality. Tasted: ordinary but decent and totally inoffensive. At this price a no-brainer for a casual pour or guests. |
-| 💡 Balvenie DoubleWood 12 | Speyside | Single malt | medium | ~€60 | Honeyed, sherry-finished, well-rounded — a characterful mainstream pick that suits me. |
+| 💡 Balvenie DoubleWood 12 | Speyside | Single malt | medium | ~€60 | Honeyed, sherry-finished, well-rounded — a characterful mainstream pick that suits me. Claude pick, seconded by Art's rec (Pay@). |
 | 💡 Glenfarclas 105 | Speyside | Single malt | medium | ~€74 | Cask-strength sherry bomb; a cheaper A'bunadh alternative worth comparing. |
 | 💡 Glenlivet Nàdurra Oloroso | Speyside | Single malt | medium | ~€70 | The Glenlivet worth owning — cask-strength, sherried, NCF, great value. Skip the 12; this fits. |
 | 💡 Kilkerran 12 | Campbeltown | Single malt | medium | ~€60 | Opens Campbeltown — oily, fruity, light smoke, loads of character. |
