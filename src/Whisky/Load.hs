@@ -1,8 +1,9 @@
--- | Load every @whiskies/*.dhall@ file into typed 'Whisky' values.
+-- | Load every @<dir>/*.dhall@ file into typed 'Whisky' values.
 --   Decoding failure (a file that drifts from the schema) throws here, so the
 --   generator fails loudly rather than emitting wrong markdown.
 module Whisky.Load
   ( loadWhiskies
+  , loadWhiskiesWith
   ) where
 
 import           Dhall (auto, inputFile)
@@ -14,6 +15,11 @@ import           Whisky.Types (Whisky)
 --   deterministic output. Imports inside each file (the schema) resolve
 --   relative to the file, so this works from any CWD.
 loadWhiskies :: FilePath -> IO [Whisky]
-loadWhiskies dir = do
+loadWhiskies = fmap (map snd) . loadWhiskiesWith
+
+-- | Like 'loadWhiskies', but keeps each bottle's source path so validation
+--   can name the offending file (id/filename drift, duplicates).
+loadWhiskiesWith :: FilePath -> IO [(FilePath, Whisky)]
+loadWhiskiesWith dir = do
   files <- sort . filter ((== ".dhall") . takeExtension) <$> listDirectory dir
-  traverse (\f -> inputFile auto (dir </> f)) files
+  traverse (\f -> fmap (\w -> (dir </> f, w)) (inputFile auto (dir </> f))) files

@@ -1,3 +1,5 @@
+{-# LANGUAGE UndecidableInstances #-} -- required by the LabelOptic instances (bottom of file)
+
 -- | Haskell mirror of @schema/Whisky.dhall@, plus the derived presentation
 --   helpers the renderers use. The structure matches the Dhall schema field-for-
 --   field so @dhall@'s generic decoding works.
@@ -44,6 +46,7 @@ import           Dhall (FromDhall (..))
 import           Dhall.Marshal.Decode
                    ( InterpretOptions (..), defaultInterpretOptions
                    , genericAutoWithInputNormalizer )
+import           Optics.TH (makeFieldLabelsNoPrefix)
 
 -- ============================================================================
 -- Producer
@@ -276,3 +279,18 @@ themeLabel = \case
   OtherWorld -> "Other world whisky"
   WheatedBourbon -> "Wheated bourbon"
   ClassicIslay -> "Classic Islay"
+
+-- ============================================================================
+-- Optics field labels (#name, #rating, …) — used by Whisky.Query and the repl.
+-- TH splices stay at the bottom: declarations above them remain visible to the
+-- whole module (Template Haskell staging).
+-- ============================================================================
+
+makeFieldLabelsNoPrefix ''Producer
+makeFieldLabelsNoPrefix ''Ownership
+makeFieldLabelsNoPrefix ''Tasting
+makeFieldLabelsNoPrefix ''Price
+makeFieldLabelsNoPrefix ''Wishlist
+makeFieldLabelsNoPrefix ''Recommendation
+makeFieldLabelsNoPrefix ''ExternalNotes
+makeFieldLabelsNoPrefix ''Whisky

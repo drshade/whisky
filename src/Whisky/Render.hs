@@ -7,10 +7,12 @@ module Whisky.Render
   , renderWishlist
   , renderRecommendations
   , validate
+  , validateFiles
   , validateReference
   ) where
 
 import qualified Data.Text as T
+import           System.FilePath (takeBaseName)
 import           Whisky.Types
 
 -- ============================================================================
@@ -321,6 +323,25 @@ validate = concatMap checkOne
     currencyFitsMarket _ _ = False
     marketName = \case NlEu -> "NL/EU"; Sa -> "SA"
     currencyName = \case Eur -> "EUR"; Zar -> "ZAR"
+
+-- | File-level invariants the type system can't see: each bottle's @id@ must
+--   equal its filename stem (links and error messages are built from it), and
+--   ids must be unique across both collections. Takes the @(path, whisky)@
+--   pairs from 'Whisky.Load.loadWhiskiesWith'; these BLOCK the build.
+validateFiles :: [(FilePath, Whisky)] -> [Text]
+validateFiles pairs = mismatches <> dups
+  where
+    mismatches =
+      [ T.pack f <> ": id \"" <> w.id <> "\" does not match the filename stem \""
+          <> T.pack (takeBaseName f) <> "\""
+      | (f, w) <- pairs, T.pack (takeBaseName f) /= w.id ]
+    dups =
+      [ "duplicate id \"" <> wid <> "\": " <> T.intercalate ", " (map T.pack fs)
+      | (wid, fs) <- idGroups, length fs > 1 ]
+    idGroups =
+      [ (wid, map snd grp)
+      | grp@((wid, _) : _) <-
+          groupBy ((==) `on` fst) (sortOn fst [ (w.id, f) | (f, w) <- pairs ]) ]
 
 -- | Reference entries (@reference/*.dhall@) are facts-only: a bottle I merely
 --   know about. Any facet means a *relationship* — the file belongs in

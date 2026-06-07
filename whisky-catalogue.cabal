@@ -25,12 +25,15 @@ library
   exposed-modules:
     Whisky.Types
     Whisky.Load
+    Whisky.Query
     Whisky.Render
 
   build-depends:
     dhall,
     directory,
     filepath,
+    optics-core,
+    optics-th,
     rerebase,
     rebase,
 

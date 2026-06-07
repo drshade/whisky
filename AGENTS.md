@@ -66,8 +66,13 @@ generated markdown.
    log includes sampled drams (no `ownership` facet); sealed bottles stay out until tasted.
 
 **Adding / moving bottles**
-- New bottle → add `whiskies/<id>.dhall`: point `producer` at an entry in `schema/Producers.dhall`
-  and set its `style`. Region/origin comes from the producer — never restate it on the bottle.
+- New bottle → `make new id=<id> producer=<key>` scaffolds `whiskies/<id>.dhall`
+  (`to=reference` for the reference cache); fill in name/style/abv. Point `producer` at an
+  entry in `schema/Producers.dhall`. Region/origin comes from the producer — never restate
+  it on the bottle.
+- The build **fails** on structural errors: `id` ≠ filename stem, duplicate ids across
+  `whiskies/` + `reference/`, facets on reference entries, or `tasting.journal` paths that
+  don't exist on disk.
 - A producer not yet in the registry → add it to `schema/Producers.dhall` (name + kind + origin). Only a
   genuinely new **origin** needs a constructor in the `Origin` enum in `schema/Whisky.dhall`
   **and** its Haskell mirror in `src/Whisky/Types.hs`. `make build` runs a validation pass that
@@ -80,12 +85,17 @@ generated markdown.
 
 **Answering ad-hoc questions ("my favourite Speyside?")**
 - Don't hand-read the Dhall files. Run `make repl` for a ghci with the catalogue loaded
-  (`loadWhiskies "whiskies"` returns the typed `[Whisky]`), then express the question as a
-  list comprehension over it — the types make a misread field impossible. Example:
+  and the `Whisky.Query` optics vocabulary in scope. `ws <- loadAll` gets both collections
+  (`loadWhiskies "whiskies"` for just the catalogue), then:
+  - `ws & whose notes (=~ "honey") & pick #name` — `=~` is case-insensitive contains;
+    `notes`/`nose`/`palate`/`finish` reach all external-note text, Maybes pre-flattened.
+  - `ws & whose origin (== Speyside) & rankBy rating & pick #name` — verbs: `with`,
+    `without`, `whose`, `pick`, `rankBy`; facet folds: `_tasting`, `_ownership`,
+    `_wishlist`, `_recommendation`; labels (`#name`, `_wishlist % #priority`) reach any field.
+- Plain styles remain first-class — mix freely:
   `[ (w.name, t.rating) | w <- ws, w.producer.origin == Speyside, Just t <- [w.tasting] ]`.
-- Field shapes live in `src/Whisky/Types.hs` (`producer.origin`, `style`, `tasting.rating`,
-  `ownership.status`, `wishlist.priority`, …). For a one-off, pipe the query in:
-  `printf '<query>\n' | make repl`.
+- Field shapes live in `src/Whisky/Types.hs`; the vocabulary in `src/Whisky/Query.hs`.
+  For a one-off, pipe the query in: `printf '<query>\n' | make repl`.
 
 **The reference cache (`reference/`)**
 - A second collection, same `Whisky` schema: bottles the owner merely *knows about* —
