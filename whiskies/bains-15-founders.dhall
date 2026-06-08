@@ -10,7 +10,7 @@ in  W.Whisky::{
       abv = 52.5,
       age = Some 15,
       tasting = Some W.Tasting::{
-        rating = 85,
+        rating = 89,
         confidence = W.Confidence.Normal,
         summary = "initially fiery, peppery and tart, earth/charcoal, faint smoke, green apple, sunscreen/lotion (oak lactones); water opens liquorice and banana; finish drops heat quickly leaving a bright, mild tingle — more complex and structured than the standard, less casually drinkable but far more interesting",
         journal = Some "journal/2026-06-08-bains-15-founders.md"

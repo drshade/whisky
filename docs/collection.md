@@ -4,8 +4,8 @@
 
 | Bottle | Distillery | Region | Type | ABV | Age | Status | Paid | Bought | Rating | Journal |
 |---|---|---|---|---|---|---|---|---|---|---|
-| Ardbeg Uigeadail | Ardbeg | Islay | Single malt | 54.2% | NAS | open | ~R1300 | JHB trip, May 2026 | 87 | [notes](../journal/2026-06-08-ardbeg-uigeadail.md) |
-| Bain's Cape Mountain 15yr Founders Collection | James Sedgwick | South Africa | Single grain | 52.5% | 15 | open | R1255 | OR Tambo duty free | 85 | [notes](../journal/2026-06-08-bains-15-founders.md) |
+| Ardbeg Uigeadail | Ardbeg | Islay | Single malt | 54.2% | NAS | open | ~R1300 | JHB trip, May 2026 | 85 | [notes](../journal/2026-06-08-ardbeg-uigeadail.md) |
+| Bain's Cape Mountain 15yr Founders Collection | James Sedgwick | South Africa | Single grain | 52.5% | 15 | open | R1255 | OR Tambo duty free | 89 | [notes](../journal/2026-06-08-bains-15-founders.md) |
 | Blanton's Gold | Buffalo Trace | Kentucky | Bourbon | 51.5% | NAS | open |  |  | 84 | [notes](../journal/2026-05-29-blantons-gold-edition.md) |
 | Blanton's Original | Buffalo Trace | Kentucky | Bourbon | 46.5% | NAS | open |  |  | 89 | [notes](../journal/2026-05-29-blantons-original.md) |
 | Buffalo Trace | Buffalo Trace | Kentucky | Bourbon | 45% | NAS | open |  |  | 82 | [notes](../journal/2026-05-29-buffalo-trace.md) |
