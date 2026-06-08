@@ -24,7 +24,7 @@ in  W.Whisky::{
       externalNotes =
         [ W.ExternalNotes::{
             source = "Official (Bain's Founders Collection) + The Whiskyphiles",
-            summary = Some "Limited release of 3,600 bottles; duty-free exclusive at Cape Town/OR Tambo airports and James Sedgwick Distillery; 52.5% single grain, 15 years in American oak",
+            summary = Some "Limited release of 3,600 bottles; duty-free exclusive at Cape Town/OR Tambo airports and James Sedgwick Distillery; 52.5% single grain, 15 years in American oak; World Whiskies Awards 2024 Best South African Grain",
             nose = Some "Soft floral notes, tropical fruits, banana, teak, rich vanilla, toasted nuts, muscovado sugar, wood, black pepper",
             palate = Some "Sweet butterscotch, raisins, banana loaf, vanilla sugar, cinnamon, pepper, caramelised banana, toasted wood, dried fruit, marmalade; creamy and complex",
             finish = Some "Warm and spicy with smooth, silky mouthfeel; long"
