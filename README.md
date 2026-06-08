@@ -5,10 +5,10 @@
 
 ## Stats
 
-- **Owned:** 14 bottles — 11 open, 3 sealed
+- **Owned:** 14 bottles — 12 open, 2 sealed
 - **By style:** 6 Single malt · 1 Single grain · 5 Bourbon · 1 Blended malt · 1 Blended grain
 - **By region:** 2 Islay · 2 South Africa · 4 Kentucky · 2 Scotland (blend) · 3 Highland · 1 USA
-- **Tasted & rated:** 11 / 14
+- **Tasted & rated:** 12 / 14
 
 ## Ranked collection
 
@@ -17,15 +17,15 @@
 | 1 | [Hedonism](journal/2026-05-29-compass-box-hedonism.md) | Scotland (blend) | 91 | complex, sweet, sessionable |
 | 2 | [Kilchoman Sanaig CS](journal/2026-05-29-kilchoman-sanaig-cs.md) | Islay | 90 | intense, spicy sipper |
 | 3 | [Blanton's Original](journal/2026-05-29-blantons-original.md) | Kentucky | 89 | the bourbon that transcends |
-| 4 | [Bain's Cape Mountain 15yr Founders Collection](journal/2026-06-08-bains-15-founders.md) | South Africa | 85 | initially fiery, peppery and tart, earth/charcoal, faint smoke, green apple, sunscreen/lotion (oak lactones); water opens liquorice and banana; finish drops heat quickly leaving a bright, mild tingle — more complex and structured than the standard, less casually drinkable but far more interesting |
-| 5 | [Blanton's Gold](journal/2026-05-29-blantons-gold-edition.md) | Kentucky | 84 | strong but harsh |
-| 5 | [Woodford Double Oaked](journal/2026-05-29-woodford-double-oaked.md) | Kentucky | 84 | good-value daily |
-| 7 | [Buffalo Trace](journal/2026-05-29-buffalo-trace.md) | Kentucky | 82 | mixer / boulevardiers |
-| 8 | [Oban 14](journal/2026-05-29-oban-14.md) | Highland | 80 | characterful, coastal |
-| 8 | [Baby Jane](journal/2026-05-29-widow-jane-baby-jane.md) | USA | 80* | premium, underwhelming |
-| 10 | [Dalwhinnie 15](journal/2026-05-29-dalwhinnie-15.md) | Highland | 72 | gentle, dull |
-| 11 | [Glenmorangie Duthac](journal/2026-05-29-glenmorangie-duthac.md) | Highland | 68 | bland, bitter edge |
-| — | Ardbeg Uigeadail | Islay | _sealed_ | not yet tasted |
+| 4 | [Ardbeg Uigeadail](journal/2026-06-08-ardbeg-uigeadail.md) | Islay | 87 | peated medicinal bite on the nose with banana leaves and fresh-cut sweetness; palate is toffee, candy, liquorice, roasted sweet potato — smoke steps back and sherry leads; finish short but clean, steps aside happily |
+| 5 | [Bain's Cape Mountain 15yr Founders Collection](journal/2026-06-08-bains-15-founders.md) | South Africa | 85 | initially fiery, peppery and tart, earth/charcoal, faint smoke, green apple, sunscreen/lotion (oak lactones); water opens liquorice and banana; finish drops heat quickly leaving a bright, mild tingle — more complex and structured than the standard, less casually drinkable but far more interesting |
+| 6 | [Blanton's Gold](journal/2026-05-29-blantons-gold-edition.md) | Kentucky | 84 | strong but harsh |
+| 6 | [Woodford Double Oaked](journal/2026-05-29-woodford-double-oaked.md) | Kentucky | 84 | good-value daily |
+| 8 | [Buffalo Trace](journal/2026-05-29-buffalo-trace.md) | Kentucky | 82 | mixer / boulevardiers |
+| 9 | [Oban 14](journal/2026-05-29-oban-14.md) | Highland | 80 | characterful, coastal |
+| 9 | [Baby Jane](journal/2026-05-29-widow-jane-baby-jane.md) | USA | 80* | premium, underwhelming |
+| 11 | [Dalwhinnie 15](journal/2026-05-29-dalwhinnie-15.md) | Highland | 72 | gentle, dull |
+| 12 | [Glenmorangie Duthac](journal/2026-05-29-glenmorangie-duthac.md) | Highland | 68 | bland, bitter edge |
 | — | Crimson Casks | Scotland (blend) | _sealed_ | not yet tasted |
 | — | Three Ships 6 Chenin | South Africa | _sealed_ | not yet tasted |
 
@@ -39,6 +39,7 @@ not owned · `*` = low-confidence rating.
 | Hedonism | 91 | complex, sweet, sessionable | **Whisky Advocate (90 pts, 2024):** Showcases the purity and richness possible in mature Scottish grain whisky — sweet, silky, vanilla-forward with a spiced finish |
 | Kilchoman Sanaig CS | 90 | intense, spicy sipper | **Official (Kilchoman):** Oloroso sherry recipe at full cask strength — intense peat smoke, rich fruit, and sherry sweetness; rewards patience and water |
 | Blanton's Original | 89 | the bourbon that transcends | **Breaking Bourbon:** The world's first single barrel bourbon (1984) — sweet, approachable, vanilla and caramel with baking spices; a reliable benchmark |
+| Ardbeg Uigeadail | 87 | peated medicinal bite on the nose with banana leaves and fresh-cut sweetness; palate is toffee, candy, liquorice, roasted sweet potato — smoke steps back and sherry leads; finish short but clean, steps aside happily | **Official (Ardbeg):** Ex-bourbon and oloroso sherry casks at cask strength; World Whisky of the Year 2009 and 2012 — the defining smoke-meets-sherry expression |
 | The Peat Monster `(s)` | 87 | smooth, balanced peated blend; smoke up front masking layers beneath; classic Islay funk (pleasant rotty-foot); all-day sessionable | **Whisky Advocate (95 pts, #9 of 2020):** Bigger peat more elegantly — aromatic sweet smoke balanced with complex layered peat; NAS blended malt, not chill-filtered |
 | Bain's Cape Mountain 15yr Founders Collection | 85 | initially fiery, peppery and tart, earth/charcoal, faint smoke, green apple, sunscreen/lotion (oak lactones); water opens liquorice and banana; finish drops heat quickly leaving a bright, mild tingle — more complex and structured than the standard, less casually drinkable but far more interesting | **Official (Bain's Founders Collection) + The Whiskyphiles:** Limited release of 3,600 bottles; duty-free exclusive at Cape Town/OR Tambo airports and James Sedgwick Distillery; 52.5% single grain, 15 years in American oak; World Whiskies Awards 2024 Best South African Grain |
 | Redbreast 12 `(s)` | 85* | sherried, well-rounded; balanced not deep — confirmed buy | **Official (Redbreast):** Benchmark single pot still — malted and unmalted barley, triple-distilled, ex-bourbon and oloroso sherry; full-flavoured, silky, exceptionally complex for 40% |

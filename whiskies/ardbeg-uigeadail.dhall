@@ -9,8 +9,14 @@ in  W.Whisky::{
       style = W.Style.SingleMalt,
       abv = 54.2,
       casks = [ "peat", "oloroso sherry" ],
+      tasting = Some W.Tasting::{
+        rating = 87,
+        confidence = W.Confidence.Normal,
+        summary = "peated medicinal bite on the nose with banana leaves and fresh-cut sweetness; palate is toffee, candy, liquorice, roasted sweet potato — smoke steps back and sherry leads; finish short but clean, steps aside happily",
+        journal = Some "journal/2026-06-08-ardbeg-uigeadail.md"
+      },
       ownership = Some W.Ownership::{
-        status = W.Status.Sealed,
+        status = W.Status.Open,
         paid = Some "~R1300",
         boughtWhere = Some "JHB trip, May 2026"
       },
