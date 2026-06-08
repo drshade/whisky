@@ -11,7 +11,7 @@ in  W.Whisky::{
       age = Some 15,
       casks = [ "sherry" ],
       tasting = Some W.Tasting::{
-        rating = 83,
+        rating = 86,
         confidence = W.Confidence.Low,
         summary = "sherried, rich — landed well, but hazy/pre-serious memory; brand-premium (revisit)",
         journal = Some "journal/2026-02-15-macallan-15.md"

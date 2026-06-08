@@ -9,7 +9,7 @@ in  W.Whisky::{
       style = W.Style.SingleGrain,
       abv = 43.0,
       tasting = Some W.Tasting::{
-        rating = 78,
+        rating = 83,
         confidence = W.Confidence.Normal,
         summary = "very simple but not unpleasant; unexpectedly bourbony (ex-bourbon cask does all the talking); a touch more detail than single-note but ordinary overall — remarkable value at R280/~€14",
         journal = Some "journal/2026-06-01-bains-cape-mountain.md"

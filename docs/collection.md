@@ -7,7 +7,7 @@
 | Ardbeg Uigeadail | Ardbeg | Islay | Single malt | 54.2% | NAS | open | ~R1300 | JHB trip, May 2026 | 85 | [notes](../journal/2026-06-08-ardbeg-uigeadail.md) |
 | Bain's Cape Mountain 15yr Founders Collection | James Sedgwick | South Africa | Single grain | 52.5% | 15 | open | R1255 | OR Tambo duty free | 89 | [notes](../journal/2026-06-08-bains-15-founders.md) |
 | Blanton's Gold | Buffalo Trace | Kentucky | Bourbon | 51.5% | NAS | open |  |  | 84 | [notes](../journal/2026-05-29-blantons-gold-edition.md) |
-| Blanton's Original | Buffalo Trace | Kentucky | Bourbon | 46.5% | NAS | open |  |  | 89 | [notes](../journal/2026-05-29-blantons-original.md) |
+| Blanton's Original | Buffalo Trace | Kentucky | Bourbon | 46.5% | NAS | open |  |  | 84 | [notes](../journal/2026-05-29-blantons-original.md) |
 | Buffalo Trace | Buffalo Trace | Kentucky | Bourbon | 45% | NAS | open |  |  | 82 | [notes](../journal/2026-05-29-buffalo-trace.md) |
 | Crimson Casks | Compass Box | Scotland (blend) | Blended malt | 46% | NAS | sealed |  | Work trip, May 2026 | — |  |
 | Hedonism | Compass Box | Scotland (blend) | Blended grain | 43% | NAS | open |  |  | 91 | [notes](../journal/2026-05-29-compass-box-hedonism.md) |

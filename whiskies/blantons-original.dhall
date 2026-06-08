@@ -10,7 +10,7 @@ in  W.Whisky::{
       abv = 46.5,
       ownership = Some W.Ownership::{ status = W.Status.Open },
       tasting = Some W.Tasting::{
-        rating = 89,
+        rating = 84,
         confidence = W.Confidence.Normal,
         summary = "the bourbon that transcends",
         journal = Some "journal/2026-05-29-blantons-original.md"
