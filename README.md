@@ -8,7 +8,7 @@
 - **Owned:** 14 bottles — 10 open, 4 sealed
 - **By style:** 6 Single malt · 1 Single grain · 5 Bourbon · 1 Blended malt · 1 Blended grain
 - **By region:** 2 Islay · 2 South Africa · 4 Kentucky · 2 Scotland (blend) · 3 Highland · 1 USA
-- **Tasted & rated:** 10 / 14
+- **Tasted & rated:** 11 / 14
 
 ## Ranked collection
 
@@ -17,15 +17,15 @@
 | 1 | [Hedonism](journal/2026-05-29-compass-box-hedonism.md) | Scotland (blend) | 91 | complex, sweet, sessionable |
 | 2 | [Kilchoman Sanaig CS](journal/2026-05-29-kilchoman-sanaig-cs.md) | Islay | 90 | intense, spicy sipper |
 | 3 | [Blanton's Original](journal/2026-05-29-blantons-original.md) | Kentucky | 89 | the bourbon that transcends |
-| 4 | [Blanton's Gold](journal/2026-05-29-blantons-gold-edition.md) | Kentucky | 84 | strong but harsh |
-| 4 | [Woodford Double Oaked](journal/2026-05-29-woodford-double-oaked.md) | Kentucky | 84 | good-value daily |
-| 6 | [Buffalo Trace](journal/2026-05-29-buffalo-trace.md) | Kentucky | 82 | mixer / boulevardiers |
-| 7 | [Oban 14](journal/2026-05-29-oban-14.md) | Highland | 80 | characterful, coastal |
-| 7 | [Baby Jane](journal/2026-05-29-widow-jane-baby-jane.md) | USA | 80* | premium, underwhelming |
-| 9 | [Dalwhinnie 15](journal/2026-05-29-dalwhinnie-15.md) | Highland | 72 | gentle, dull |
-| 10 | [Glenmorangie Duthac](journal/2026-05-29-glenmorangie-duthac.md) | Highland | 68 | bland, bitter edge |
+| 4 | [Bain's Cape Mountain 15yr Founders Collection](journal/2026-06-08-bains-15-founders.md) | South Africa | 85 | initially fiery, peppery and tart, earth/charcoal, faint smoke, green apple, sunscreen/lotion (oak lactones); water opens liquorice and banana; finish drops heat quickly leaving a bright, mild tingle — more complex and structured than the standard, less casually drinkable but far more interesting |
+| 5 | [Blanton's Gold](journal/2026-05-29-blantons-gold-edition.md) | Kentucky | 84 | strong but harsh |
+| 5 | [Woodford Double Oaked](journal/2026-05-29-woodford-double-oaked.md) | Kentucky | 84 | good-value daily |
+| 7 | [Buffalo Trace](journal/2026-05-29-buffalo-trace.md) | Kentucky | 82 | mixer / boulevardiers |
+| 8 | [Oban 14](journal/2026-05-29-oban-14.md) | Highland | 80 | characterful, coastal |
+| 8 | [Baby Jane](journal/2026-05-29-widow-jane-baby-jane.md) | USA | 80* | premium, underwhelming |
+| 10 | [Dalwhinnie 15](journal/2026-05-29-dalwhinnie-15.md) | Highland | 72 | gentle, dull |
+| 11 | [Glenmorangie Duthac](journal/2026-05-29-glenmorangie-duthac.md) | Highland | 68 | bland, bitter edge |
 | — | Ardbeg Uigeadail | Islay | _sealed_ | not yet tasted |
-| — | Bain's Cape Mountain 15yr Founders Collection | South Africa | _sealed_ | not yet tasted |
 | — | Crimson Casks | Scotland (blend) | _sealed_ | not yet tasted |
 | — | Three Ships 6 Chenin | South Africa | _sealed_ | not yet tasted |
 
@@ -40,6 +40,7 @@ not owned · `*` = low-confidence rating.
 | Kilchoman Sanaig CS | 90 | intense, spicy sipper | **Official (Kilchoman):** Oloroso sherry recipe at full cask strength — intense peat smoke, rich fruit, and sherry sweetness; rewards patience and water |
 | Blanton's Original | 89 | the bourbon that transcends | **Breaking Bourbon:** The world's first single barrel bourbon (1984) — sweet, approachable, vanilla and caramel with baking spices; a reliable benchmark |
 | The Peat Monster `(s)` | 87 | smooth, balanced peated blend; smoke up front masking layers beneath; classic Islay funk (pleasant rotty-foot); all-day sessionable | **Whisky Advocate (95 pts, #9 of 2020):** Bigger peat more elegantly — aromatic sweet smoke balanced with complex layered peat; NAS blended malt, not chill-filtered |
+| Bain's Cape Mountain 15yr Founders Collection | 85 | initially fiery, peppery and tart, earth/charcoal, faint smoke, green apple, sunscreen/lotion (oak lactones); water opens liquorice and banana; finish drops heat quickly leaving a bright, mild tingle — more complex and structured than the standard, less casually drinkable but far more interesting | **Official (Bain's Founders Collection) + The Whiskyphiles:** Limited release of 3,600 bottles; duty-free exclusive at Cape Town/OR Tambo airports and James Sedgwick Distillery; 52.5% single grain, 15 years in American oak |
 | Redbreast 12 `(s)` | 85* | sherried, well-rounded; balanced not deep — confirmed buy | **Official (Redbreast):** Benchmark single pot still — malted and unmalted barley, triple-distilled, ex-bourbon and oloroso sherry; full-flavoured, silky, exceptionally complex for 40% |
 | Blanton's Gold | 84 | strong but harsh | **Official (Blanton's/Buffalo Trace):** Higher proof version of Original — spicy rye and tobacco lead, more intense but drier character; designed for international markets |
 | Woodford Double Oaked | 84 | good-value daily | **Official:** Twice-barreled: charred oak then deeply toasted second barrel for extra richness |
