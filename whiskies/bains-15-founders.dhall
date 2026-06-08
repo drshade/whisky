@@ -16,7 +16,7 @@ in  W.Whisky::{
         journal = Some "journal/2026-06-08-bains-15-founders.md"
       },
       ownership = Some W.Ownership::{
-        status = W.Status.Sealed,
+        status = W.Status.Open,
         paid = Some "R1255",
         boughtWhere = Some "OR Tambo duty free",
         boughtWhen = Some "2026-06-07"

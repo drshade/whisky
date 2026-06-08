@@ -5,7 +5,7 @@
 | Bottle | Distillery | Region | Type | ABV | Age | Status | Paid | Bought | Rating | Journal |
 |---|---|---|---|---|---|---|---|---|---|---|
 | Ardbeg Uigeadail | Ardbeg | Islay | Single malt | 54.2% | NAS | sealed | ~R1300 | JHB trip, May 2026 | — |  |
-| Bain's Cape Mountain 15yr Founders Collection | James Sedgwick | South Africa | Single grain | 52.5% | 15 | sealed | R1255 | OR Tambo duty free | 85 | [notes](../journal/2026-06-08-bains-15-founders.md) |
+| Bain's Cape Mountain 15yr Founders Collection | James Sedgwick | South Africa | Single grain | 52.5% | 15 | open | R1255 | OR Tambo duty free | 85 | [notes](../journal/2026-06-08-bains-15-founders.md) |
 | Blanton's Gold | Buffalo Trace | Kentucky | Bourbon | 51.5% | NAS | open |  |  | 84 | [notes](../journal/2026-05-29-blantons-gold-edition.md) |
 | Blanton's Original | Buffalo Trace | Kentucky | Bourbon | 46.5% | NAS | open |  |  | 89 | [notes](../journal/2026-05-29-blantons-original.md) |
 | Buffalo Trace | Buffalo Trace | Kentucky | Bourbon | 45% | NAS | open |  |  | 82 | [notes](../journal/2026-05-29-buffalo-trace.md) |
@@ -21,7 +21,7 @@
 
 ## Summary
 
-- **Owned:** 14 bottles — 10 open, 4 sealed
+- **Owned:** 14 bottles — 11 open, 3 sealed
 - **By style:** 6 Single malt · 1 Single grain · 5 Bourbon · 1 Blended malt · 1 Blended grain
 - **By region:** 2 Islay · 2 South Africa · 4 Kentucky · 2 Scotland (blend) · 3 Highland · 1 USA
 - **Tasted & rated:** 11 / 14
