@@ -12,8 +12,8 @@ in  W.Whisky::{
       tasting = Some W.Tasting::{
         rating = 85,
         confidence = W.Confidence.Normal,
-        summary = "peated medicinal bite on the nose with banana leaves and fresh-cut sweetness; palate is toffee, candy, liquorice, roasted sweet potato — smoke steps back and sherry leads; finish short but clean, steps aside happily",
-        journal = Some "journal/2026-06-08-ardbeg-uigeadail.md"
+        summary = "peated medicinal bite on the nose with banana leaves and fresh-cut sweetness; palate is toffee, candy, liquorice, roasted sweet potato — smoke steps back and sherry leads; finish short but clean, steps aside happily. Second sitting brought pepper and a clear seaweed/coastal note forward, liquorice and sweet smoke carrying through",
+        journal = Some "journal/2026-07-11-ardbeg-uigeadail.md"
       },
       ownership = Some W.Ownership::{
         status = W.Status.Open,
