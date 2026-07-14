@@ -16,12 +16,14 @@
 | Kilchoman Sanaig CS | Kilchoman | Islay | Single malt | 57.8% | NAS | open |  |  | 90 | [notes](../journal/2026-05-29-kilchoman-sanaig-cs.md) |
 | Oban 14 | Oban | Highland | Single malt | 43% | 14 | open |  |  | 80 | [notes](../journal/2026-05-29-oban-14.md) |
 | Three Ships 6 Chenin | James Sedgwick | South Africa | Single malt | 43% | 6 | sealed | R699 | JHB trip, May 2026 | — |  |
+| Wayne Gretzky No. 99 Maple Cask | Wayne Gretzky Estates | Canada | Blend | 40% | NAS | open |  | Gift from Shane (emigrating) | 70 |  |
+| Wayne Gretzky No. 99 Red Cask | Wayne Gretzky Estates | Canada | Blend | 40% | NAS | open |  | Gift from Shane (emigrating) | 65 |  |
 | Baby Jane | Widow Jane | USA | Bourbon | 45.5% | NAS | open |  |  | 80* | [notes](../journal/2026-05-29-widow-jane-baby-jane.md) |
 | Woodford Double Oaked | Woodford Reserve | Kentucky | Bourbon | 45.2% | NAS | open |  |  | 84 | [notes](../journal/2026-05-29-woodford-double-oaked.md) |
 
 ## Summary
 
-- **Owned:** 14 bottles — 12 open, 2 sealed
-- **By style:** 6 Single malt · 1 Single grain · 5 Bourbon · 1 Blended malt · 1 Blended grain
-- **By region:** 2 Islay · 2 South Africa · 4 Kentucky · 2 Scotland (blend) · 3 Highland · 1 USA
-- **Tasted & rated:** 12 / 14
+- **Owned:** 16 bottles — 14 open, 2 sealed
+- **By style:** 6 Single malt · 1 Single grain · 5 Bourbon · 1 Blended malt · 1 Blended grain · 2 Blend
+- **By region:** 2 Islay · 2 South Africa · 4 Kentucky · 2 Scotland (blend) · 3 Highland · 2 Canada · 1 USA
+- **Tasted & rated:** 14 / 16

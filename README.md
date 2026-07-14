@@ -5,10 +5,10 @@
 
 ## Stats
 
-- **Owned:** 14 bottles — 12 open, 2 sealed
-- **By style:** 6 Single malt · 1 Single grain · 5 Bourbon · 1 Blended malt · 1 Blended grain
-- **By region:** 2 Islay · 2 South Africa · 4 Kentucky · 2 Scotland (blend) · 3 Highland · 1 USA
-- **Tasted & rated:** 12 / 14
+- **Owned:** 16 bottles — 14 open, 2 sealed
+- **By style:** 6 Single malt · 1 Single grain · 5 Bourbon · 1 Blended malt · 1 Blended grain · 2 Blend
+- **By region:** 2 Islay · 2 South Africa · 4 Kentucky · 2 Scotland (blend) · 3 Highland · 2 Canada · 1 USA
+- **Tasted & rated:** 14 / 16
 
 ## Ranked collection
 
@@ -25,7 +25,9 @@
 | 9 | [Oban 14](journal/2026-05-29-oban-14.md) | Highland | 80 | characterful, coastal |
 | 9 | [Baby Jane](journal/2026-05-29-widow-jane-baby-jane.md) | USA | 80* | premium, underwhelming |
 | 11 | [Dalwhinnie 15](journal/2026-05-29-dalwhinnie-15.md) | Highland | 72 | gentle, dull |
-| 12 | [Glenmorangie Duthac](journal/2026-05-29-glenmorangie-duthac.md) | Highland | 68 | bland, bitter edge |
+| 12 | Wayne Gretzky No. 99 Maple Cask | Canada | 70 | same cheap fiery base as the Red Cask but with a definite maple syrup note; alcohol overwhelms, sweetness never really lands; saved slightly by the maple character |
+| 13 | [Glenmorangie Duthac](journal/2026-05-29-glenmorangie-duthac.md) | Highland | 68 | bland, bitter edge |
+| 14 | Wayne Gretzky No. 99 Red Cask | Canada | 65 | cheap and fiery, no real flavour notes — young, unmatured base overwhelms any character; possibly better as a mixer |
 | — | Crimson Casks | Scotland (blend) | _sealed_ | not yet tasted |
 | — | Three Ships 6 Chenin | South Africa | _sealed_ | not yet tasted |
 
@@ -53,7 +55,9 @@ not owned · `*` = low-confidence rating.
 | Baby Jane | 80* | premium, underwhelming | **Official (Widow Jane):** Heirloom corn; depth, sweetness and creamy spiciness in a distinctive Brooklyn style |
 | Orangerie `(s)` | 75 | orange-infused novelty; pleasant once the whisky emerged, but too zesty/sour | **Official (Compass Box):** Highland malt + Fife grain infused with Navalino orange peel, Indonesian cassia bark and cloves; classified as spirit drink, now discontinued |
 | Dalwhinnie 15 | 72 | gentle, dull | **Official (malts.com):** Clean, crisp, accessible — heather and honey sweetness from Scotland's highest distillery |
+| Wayne Gretzky No. 99 Maple Cask | 70 | same cheap fiery base as the Red Cask but with a definite maple syrup note; alcohol overwhelms, sweetness never really lands; saved slightly by the maple character | **WhiskyCast (91 pts) + Canadian Whisky Awards Gold 2024 & 2026:** NAS Canadian blend, maple syrup barrel finish; 100% Ontario rye and corn mash; Blended Whisky of the Year CWA 2024 and 2026; ~$35 CAD |
 | Glenmorangie Duthac | 68 | bland, bitter edge | **Official (Glenmorangie):** Travel-retail NAS; PX sherry + charred virgin oak finish on ex-bourbon base |
+| Wayne Gretzky No. 99 Red Cask | 65 | cheap and fiery, no real flavour notes — young, unmatured base overwhelms any character; possibly better as a mixer | **Whisky Advocate (87 pts) + WhiskyCast (88 pts):** NAS Canadian blend, red wine cask finish; minimum 3 years ex-bourbon then finished in Wayne Gretzky's own winery casks; ~$37 CAD |
 
 ## Next buys (high priority)
 
