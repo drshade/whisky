@@ -55,7 +55,7 @@ import           Optics.TH (makeFieldLabelsNoPrefix)
 data Origin
   = Islay | Speyside | Highland | Lowland | Campbeltown | Islands
   | Kentucky | Tennessee | Indiana | USA
-  | Ireland | Japan | India | Taiwan | Australia | SouthAfrica
+  | Ireland | Japan | India | Taiwan | Australia | SouthAfrica | Canada
   | ScotlandBlend
   deriving (Generic, Show, Eq)
 
@@ -250,6 +250,7 @@ originLabel = \case
   Taiwan -> "Taiwan"
   Australia -> "Australia"
   SouthAfrica -> "South Africa"
+  Canada -> "Canada"
   ScotlandBlend -> "Scotland (blend)"
 
 styleLabel :: Style -> Text

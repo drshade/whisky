@@ -37,6 +37,7 @@ let Origin =
       | Taiwan
       | Australia
       | SouthAfrica
+      | Canada
       | ScotlandBlend
       >
 

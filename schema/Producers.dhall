@@ -56,4 +56,6 @@ in  { -- Scotch distilleries
     , amrut = p "Amrut" K.Distillery O.India
     , kavalan = p "Kavalan" K.Distillery O.Taiwan
     , starward = p "Starward" K.Distillery O.Australia
+      -- Canadian
+    , wayneGretzky = p "Wayne Gretzky Estates" K.Distillery O.Canada
     }
