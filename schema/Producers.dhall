@@ -24,6 +24,7 @@ in  { -- Scotch distilleries
     , aberlour = p "Aberlour" K.Distillery O.Speyside
     , glendronach = p "GlenDronach" K.Distillery O.Highland
     , glenfarclas = p "Glenfarclas" K.Distillery O.Speyside
+    , glenAllachie = p "GlenAllachie" K.Distillery O.Speyside
     , glenlivet = p "Glenlivet" K.Distillery O.Speyside
     , balvenie = p "Balvenie" K.Distillery O.Speyside
     , springbank = p "Springbank" K.Distillery O.Campbeltown
