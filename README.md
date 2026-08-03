@@ -64,6 +64,7 @@ not owned · `*` = low-confidence rating.
 - **Aberlour A'bunadh** (Speyside) — ~€60
 - **Amrut Fusion** (India) — ~€42
 - **GlenDronach 15 Revival** (Highland) — ~€90
+- **Kilkerran 12** (Campbeltown) — ~€60
 - **Nikka From The Barrel** (Japan) — ~€55
 - **Redbreast 12** (Ireland) — ~€42
 - **Wild Turkey Rare Breed** (Kentucky) — ~€50
