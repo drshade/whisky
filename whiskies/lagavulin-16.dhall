@@ -19,6 +19,12 @@ in  W.Whisky::{
             finish = Some "Long, elegant, peat-filled with salt and seaweed; ash and tannic oak then pear, cherry, lingering strawberry; structured and mature"
           }
         ],
+      wishlist = Some W.Wishlist::{
+        priority = W.Priority.Medium,
+        price = { amount = 65, currency = W.Currency.Eur },
+        market = W.Market.NlEu,
+        why = "User pick. The benchmark classic Islay — peat, sherry, fruit, iconic."
+      },
       recommendation = Some W.Recommendation::{
         tier = W.Tier.Benchmark,
         theme = W.Theme.ClassicIslay,
