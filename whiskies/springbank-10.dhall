@@ -19,7 +19,7 @@ in  W.Whisky::{
           }
         ],
       wishlist = Some W.Wishlist::{
-        priority = W.Priority.Medium,
+        priority = W.Priority.High,
         price = { amount = 90, currency = W.Currency.Eur },
         market = W.Market.NlEu,
         claudePick = True,
