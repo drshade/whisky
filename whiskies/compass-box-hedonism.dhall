@@ -12,7 +12,7 @@ in  W.Whisky::{
       tasting = Some W.Tasting::{
         rating = 91,
         confidence = W.Confidence.Normal,
-        summary = "complex, sweet, sessionable",
+        summary = "sweet, deep, aniseed, warm toffee, Christmas spices — perfectly balanced; grain whisky character comes through in the anise/fennel notes; complex in a way grain whisky has no right to be",
         journal = Some "journal/2026-05-29-compass-box-hedonism.md"
       },
       externalNotes =
