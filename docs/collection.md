@@ -9,7 +9,7 @@
 | Blanton's Gold | Buffalo Trace | Kentucky | Bourbon | 51.5% | NAS | open |  |  | 84 | [notes](../journal/2026-05-29-blantons-gold-edition.md) |
 | Blanton's Original | Buffalo Trace | Kentucky | Bourbon | 46.5% | NAS | open |  |  | 84 | [notes](../journal/2026-05-29-blantons-original.md) |
 | Buffalo Trace | Buffalo Trace | Kentucky | Bourbon | 45% | NAS | open |  |  | 82 | [notes](../journal/2026-05-29-buffalo-trace.md) |
-| Crimson Casks | Compass Box | Scotland (blend) | Blended malt | 46% | NAS | sealed |  | Work trip, May 2026 | — |  |
+| Crimson Casks | Compass Box | Scotland (blend) | Blended malt | 46% | NAS | open |  | Work trip, May 2026 | 86 |  |
 | Hedonism | Compass Box | Scotland (blend) | Blended grain | 43% | NAS | open |  |  | 91 | [notes](../journal/2026-05-29-compass-box-hedonism.md) |
 | Dalwhinnie 15 | Dalwhinnie | Highland | Single malt | 43% | 15 | open |  |  | 72 | [notes](../journal/2026-05-29-dalwhinnie-15.md) |
 | Glenmorangie Duthac | Glenmorangie | Highland | Single malt | 43% | NAS | open |  |  | 68 | [notes](../journal/2026-05-29-glenmorangie-duthac.md) |
@@ -23,7 +23,7 @@
 
 ## Summary
 
-- **Owned:** 16 bottles — 14 open, 2 sealed
+- **Owned:** 16 bottles — 15 open, 1 sealed
 - **By style:** 6 Single malt · 1 Single grain · 5 Bourbon · 1 Blended malt · 1 Blended grain · 2 Blend
 - **By region:** 2 Islay · 2 South Africa · 4 Kentucky · 2 Scotland (blend) · 3 Highland · 2 Canada · 1 USA
-- **Tasted & rated:** 14 / 16
+- **Tasted & rated:** 15 / 16
