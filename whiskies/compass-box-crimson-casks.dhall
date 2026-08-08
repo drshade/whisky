@@ -8,8 +8,13 @@ in  W.Whisky::{
       producer = P.compassBox,
       style = W.Style.BlendedMalt,
       abv = 46.0,
+      tasting = Some W.Tasting::{
+        rating = 86,
+        confidence = W.Confidence.Normal,
+        summary = "pepper, liquorice, chilli, salt, tiny hint of smoke; very dry red wine palate, very little sweetness; oily thick finish with toffee — moreish; surprisingly enjoyable despite leaning dry rather than sweet"
+      },
       ownership = Some W.Ownership::{
-        status = W.Status.Sealed,
+        status = W.Status.Open,
         boughtWhere = Some "Work trip, May 2026"
       },
       externalNotes =
