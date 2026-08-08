@@ -14,7 +14,7 @@
 
 | # | Bottle | Region | Rating | In a word |
 |---|---|---|---|---|
-| 1 | [Hedonism](journal/2026-05-29-compass-box-hedonism.md) | Scotland (blend) | 91 | complex, sweet, sessionable |
+| 1 | [Hedonism](journal/2026-05-29-compass-box-hedonism.md) | Scotland (blend) | 91 | sweet, deep, aniseed, warm toffee, Christmas spices — perfectly balanced; grain whisky character comes through in the anise/fennel notes; complex in a way grain whisky has no right to be |
 | 2 | [Kilchoman Sanaig CS](journal/2026-05-29-kilchoman-sanaig-cs.md) | Islay | 90 | intense, spicy sipper |
 | 3 | [Bain's Cape Mountain 15yr Founders Collection](journal/2026-06-08-bains-15-founders.md) | South Africa | 89 | initially fiery, peppery and tart, earth/charcoal, faint smoke, green apple, sunscreen/lotion (oak lactones); water opens liquorice and banana; finish drops heat quickly leaving a bright, mild tingle — more complex and structured than the standard, less casually drinkable but far more interesting |
 | 4 | Crimson Casks | Scotland (blend) | 86 | pepper, liquorice, chilli, salt, tiny hint of smoke; very dry red wine palate, very little sweetness; oily thick finish with toffee — moreish; surprisingly enjoyable despite leaning dry rather than sweet |
@@ -38,7 +38,7 @@ not owned · `*` = low-confidence rating.
 
 | Bottle | Rating | My notes | Reference notes |
 |---|---|---|---|
-| Hedonism | 91 | complex, sweet, sessionable | **Whisky Advocate (90 pts, 2024):** Showcases the purity and richness possible in mature Scottish grain whisky — sweet, silky, vanilla-forward with a spiced finish |
+| Hedonism | 91 | sweet, deep, aniseed, warm toffee, Christmas spices — perfectly balanced; grain whisky character comes through in the anise/fennel notes; complex in a way grain whisky has no right to be | **Whisky Advocate (90 pts, 2024):** Showcases the purity and richness possible in mature Scottish grain whisky — sweet, silky, vanilla-forward with a spiced finish |
 | Kilchoman Sanaig CS | 90 | intense, spicy sipper | **Official (Kilchoman):** Oloroso sherry recipe at full cask strength — intense peat smoke, rich fruit, and sherry sweetness; rewards patience and water |
 | Bain's Cape Mountain 15yr Founders Collection | 89 | initially fiery, peppery and tart, earth/charcoal, faint smoke, green apple, sunscreen/lotion (oak lactones); water opens liquorice and banana; finish drops heat quickly leaving a bright, mild tingle — more complex and structured than the standard, less casually drinkable but far more interesting | **Official (Bain's Founders Collection) + The Whiskyphiles:** Limited release of 3,600 bottles; duty-free exclusive at Cape Town/OR Tambo airports and James Sedgwick Distillery; 52.5% single grain, 15 years in American oak; World Whiskies Awards 2024 Best South African Grain |
 | The Peat Monster `(s)` | 87 | smooth, balanced peated blend; smoke up front masking layers beneath; classic Islay funk (pleasant rotty-foot); all-day sessionable | **Whisky Advocate (95 pts, #9 of 2020):** Bigger peat more elegantly — aromatic sweet smoke balanced with complex layered peat; NAS blended malt, not chill-filtered |
