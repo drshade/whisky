@@ -18,6 +18,12 @@ in  W.Whisky::{
             finish = Some "Peat smoke carries through with eucalyptus, mint and gorse"
           }
         ],
+      ownership = Some W.Ownership::{
+        status = W.Status.Sealed,
+        paid = Some "€69",
+        boughtWhere = Some "acedrinks.nl",
+        boughtWhen = Some "2026-08-08"
+      },
       wishlist = Some W.Wishlist::{
         priority = W.Priority.High,
         price = { amount = 90, currency = W.Currency.Eur },

@@ -18,6 +18,12 @@ in  W.Whisky::{
             finish = Some "Campfire embers carrying peat smoke; pecan pie and butterscotch"
           }
         ],
+      ownership = Some W.Ownership::{
+        status = W.Status.Sealed,
+        paid = Some "€57.99",
+        boughtWhere = Some "acedrinks.nl",
+        boughtWhen = Some "2026-08-08"
+      },
       wishlist = Some W.Wishlist::{
         priority = W.Priority.High,
         price = { amount = 60, currency = W.Currency.Eur },
