@@ -16,6 +16,7 @@
 | 💡 Wild Turkey Rare Breed | Kentucky | Bourbon | high | ~€50 | The easy, available complex-bourbon buy in NL/EU — barrel-strength, rich, great value. Best first answer to my 'complex bourbon' gap. |
 | 💡 Bain's Cape Mountain | South Africa | Single grain | medium | ~R280 | SA-trip buy — R280/~€14, exceptional price-to-quality. Tasted: ordinary but decent and totally inoffensive. At this price a no-brainer for a casual pour or guests. |
 | 💡 Balvenie DoubleWood 12 | Speyside | Single malt | medium | ~€60 | Honeyed, sherry-finished, well-rounded — a characterful mainstream pick that suits me. Claude pick, seconded by Art's rec (Pay@). |
+| Glen Scotia Double Cask | Campbeltown | Single malt | medium | ~€33 | User pick. Completes the Campbeltown set alongside Springbank 10 and Kilkerran 12 — the third and last active distillery in the region. PX finish, oily and coastal. Cheap for what it is. |
 | GlenAllachie 12 | Speyside | Single malt | medium | ~€50 | User pick. Triple sherry cask (PX + oloroso + virgin oak), Billy Walker's Speyside — World's Best Single Malt WWA 2025. |
 | 💡 Glenfarclas 105 | Speyside | Single malt | medium | ~€74 | Cask-strength sherry bomb; a cheaper A'bunadh alternative worth comparing. |
 | 💡 Glenlivet Nàdurra Oloroso | Speyside | Single malt | medium | ~€70 | The Glenlivet worth owning — cask-strength, sherried, NCF, great value. Skip the 12; this fits. |
