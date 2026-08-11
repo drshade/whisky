@@ -5,10 +5,10 @@
 
 ## Stats
 
-- **Owned:** 16 bottles — 15 open, 1 sealed
-- **By style:** 6 Single malt · 1 Single grain · 5 Bourbon · 1 Blended malt · 1 Blended grain · 2 Blend
-- **By region:** 2 Islay · 2 South Africa · 4 Kentucky · 2 Scotland (blend) · 3 Highland · 2 Canada · 1 USA
-- **Tasted & rated:** 15 / 16
+- **Owned:** 18 bottles — 15 open, 3 sealed
+- **By style:** 8 Single malt · 1 Single grain · 5 Bourbon · 1 Blended malt · 1 Blended grain · 2 Blend
+- **By region:** 2 Islay · 2 South Africa · 4 Kentucky · 2 Scotland (blend) · 3 Highland · 2 Campbeltown · 2 Canada · 1 USA
+- **Tasted & rated:** 15 / 18
 
 ## Ranked collection
 
@@ -29,6 +29,8 @@
 | 13 | Wayne Gretzky No. 99 Maple Cask | Canada | 70 | same cheap fiery base as the Red Cask but with a definite maple syrup note; alcohol overwhelms, sweetness never really lands; saved slightly by the maple character |
 | 14 | [Glenmorangie Duthac](journal/2026-05-29-glenmorangie-duthac.md) | Highland | 68 | bland, bitter edge |
 | 15 | Wayne Gretzky No. 99 Red Cask | Canada | 65 | cheap and fiery, no real flavour notes — young, unmatured base overwhelms any character; possibly better as a mixer |
+| — | Kilkerran 12 | Campbeltown | _sealed_ | not yet tasted |
+| — | Springbank 10 | Campbeltown | _sealed_ | not yet tasted |
 | — | Three Ships 6 Chenin | South Africa | _sealed_ | not yet tasted |
 
 ## Tasting log — everything tasted
