@@ -17,6 +17,12 @@ in  W.Whisky::{
             finish = Some "Long with layers of spice; quite dry; returning toffee and oak; some tannic drying toward the end"
           }
         ],
+      wishlist = Some W.Wishlist::{
+        priority = W.Priority.Medium,
+        price = { amount = 33, currency = W.Currency.Eur },
+        market = W.Market.NlEu,
+        why = "User pick. Completes the Campbeltown set alongside Springbank 10 and Kilkerran 12 — the third and last active distillery in the region. PX finish, oily and coastal. Cheap for what it is."
+      },
       recommendation = Some W.Recommendation::{
         tier = W.Tier.Entry,
         theme = W.Theme.CampbeltownMalts,
