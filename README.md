@@ -5,10 +5,10 @@
 
 ## Stats
 
-- **Owned:** 18 bottles — 17 open, 1 sealed
+- **Owned:** 18 bottles — 18 open, 0 sealed
 - **By style:** 8 Single malt · 1 Single grain · 5 Bourbon · 1 Blended malt · 1 Blended grain · 2 Blend
 - **By region:** 2 Islay · 2 South Africa · 4 Kentucky · 2 Scotland (blend) · 3 Highland · 2 Campbeltown · 2 Canada · 1 USA
-- **Tasted & rated:** 17 / 18
+- **Tasted & rated:** 18 / 18
 
 ## Ranked collection
 
@@ -24,14 +24,14 @@
 | 8 | [Blanton's Gold](journal/2026-05-29-blantons-gold-edition.md) | Kentucky | 84 | strong but harsh |
 | 8 | [Blanton's Original](journal/2026-05-29-blantons-original.md) | Kentucky | 84 | the bourbon that transcends |
 | 8 | [Woodford Double Oaked](journal/2026-05-29-woodford-double-oaked.md) | Kentucky | 84 | good-value daily |
-| 11 | [Buffalo Trace](journal/2026-05-29-buffalo-trace.md) | Kentucky | 82 | mixer / boulevardiers |
-| 12 | [Oban 14](journal/2026-05-29-oban-14.md) | Highland | 80 | characterful, coastal |
-| 12 | [Baby Jane](journal/2026-05-29-widow-jane-baby-jane.md) | USA | 80* | premium, underwhelming |
-| 14 | [Dalwhinnie 15](journal/2026-05-29-dalwhinnie-15.md) | Highland | 72 | gentle, dull |
-| 15 | Wayne Gretzky No. 99 Maple Cask | Canada | 70 | same cheap fiery base as the Red Cask but with a definite maple syrup note; alcohol overwhelms, sweetness never really lands; saved slightly by the maple character |
-| 16 | [Glenmorangie Duthac](journal/2026-05-29-glenmorangie-duthac.md) | Highland | 68 | bland, bitter edge |
-| 17 | Wayne Gretzky No. 99 Red Cask | Canada | 65 | cheap and fiery, no real flavour notes — young, unmatured base overwhelms any character; possibly better as a mixer |
-| — | Three Ships 6 Chenin | South Africa | _sealed_ | not yet tasted |
+| 11 | [Three Ships 6 Chenin](journal/2026-08-11-three-ships-6-chenin.md) | South Africa | 83* | sweet and rich — nectarine and apricot on the nose with liquorice and blackberry; palate is blackberry and black wine gums with an underlying savoury note, marmite-adjacent; reads sherried but there is no sherry in it, so the richness is Chenin cask + American oak. No smoke and no funk at all — clean and fruit-driven. Really good, just short of the top tier on complexity |
+| 12 | [Buffalo Trace](journal/2026-05-29-buffalo-trace.md) | Kentucky | 82 | mixer / boulevardiers |
+| 13 | [Oban 14](journal/2026-05-29-oban-14.md) | Highland | 80 | characterful, coastal |
+| 13 | [Baby Jane](journal/2026-05-29-widow-jane-baby-jane.md) | USA | 80* | premium, underwhelming |
+| 15 | [Dalwhinnie 15](journal/2026-05-29-dalwhinnie-15.md) | Highland | 72 | gentle, dull |
+| 16 | Wayne Gretzky No. 99 Maple Cask | Canada | 70 | same cheap fiery base as the Red Cask but with a definite maple syrup note; alcohol overwhelms, sweetness never really lands; saved slightly by the maple character |
+| 17 | [Glenmorangie Duthac](journal/2026-05-29-glenmorangie-duthac.md) | Highland | 68 | bland, bitter edge |
+| 18 | Wayne Gretzky No. 99 Red Cask | Canada | 65 | cheap and fiery, no real flavour notes — young, unmatured base overwhelms any character; possibly better as a mixer |
 
 ## Tasting log — everything tasted
 
@@ -55,6 +55,7 @@ not owned · `*` = low-confidence rating.
 | Blanton's Original | 84 | the bourbon that transcends | **Breaking Bourbon:** The world's first single barrel bourbon (1984) — sweet, approachable, vanilla and caramel with baking spices; a reliable benchmark |
 | Woodford Double Oaked | 84 | good-value daily | **Official:** Twice-barreled: charred oak then deeply toasted second barrel for extra richness |
 | Bain's Cape Mountain `(s)` | 83 | very simple but not unpleasant; unexpectedly bourbony (ex-bourbon cask does all the talking); a touch more detail than single-note but ordinary overall — remarkable value at R280/~€14 | **Official (Bain's) + The Whiskey Wash:** 100% SA yellow maize, double-matured in first-fill ex-bourbon casks; approachable and well-balanced rather than complex |
+| Three Ships 6 Chenin | 83* | sweet and rich — nectarine and apricot on the nose with liquorice and blackberry; palate is blackberry and black wine gums with an underlying savoury note, marmite-adjacent; reads sherried but there is no sherry in it, so the richness is Chenin cask + American oak. No smoke and no funk at all — clean and fruit-driven. Really good, just short of the top tier on complexity | **Official (Three Ships):** 4yr American oak then 2yr Chenin Blanc wine cask finish; distinctive bright tropical fruit and citrus over classic oak base — standout SA wine-cask expression |
 | Buffalo Trace | 82 | mixer / boulevardiers | **Jim Murray's Whisky Bible (via Buffalo Trace):** Big, moody, uncompromising and complex beyond belief |
 | Oban 14 | 80 | characterful, coastal | **Official (malts.com):** Full, rich, almost oily malt with maritime character — sits between Highland and Islay in style |
 | Baby Jane | 80* | premium, underwhelming | **Official (Widow Jane):** Heirloom corn; depth, sweetness and creamy spiciness in a distinctive Brooklyn style |

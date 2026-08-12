@@ -17,7 +17,7 @@
 | Kilkerran 12 | Glengyle | Campbeltown | Single malt | 46% | 12 | open | €57.99 | acedrinks.nl | 88 | [notes](../journal/2026-08-11-kilkerran-12.md) |
 | Oban 14 | Oban | Highland | Single malt | 43% | 14 | open |  |  | 80 | [notes](../journal/2026-05-29-oban-14.md) |
 | Springbank 10 | Springbank | Campbeltown | Single malt | 46% | 10 | open | €69 | acedrinks.nl | 88 | [notes](../journal/2026-08-11-springbank-10.md) |
-| Three Ships 6 Chenin | James Sedgwick | South Africa | Single malt | 43% | 6 | sealed | R699 | JHB trip, May 2026 | — |  |
+| Three Ships 6 Chenin | James Sedgwick | South Africa | Single malt | 43% | 6 | open | R699 | JHB trip, May 2026 | 83* | [notes](../journal/2026-08-11-three-ships-6-chenin.md) |
 | Wayne Gretzky No. 99 Maple Cask | Wayne Gretzky Estates | Canada | Blend | 40% | NAS | open |  | Gift from Shane (emigrating) | 70 |  |
 | Wayne Gretzky No. 99 Red Cask | Wayne Gretzky Estates | Canada | Blend | 40% | NAS | open |  | Gift from Shane (emigrating) | 65 |  |
 | Baby Jane | Widow Jane | USA | Bourbon | 45.5% | NAS | open |  |  | 80* | [notes](../journal/2026-05-29-widow-jane-baby-jane.md) |
@@ -25,7 +25,7 @@
 
 ## Summary
 
-- **Owned:** 18 bottles — 17 open, 1 sealed
+- **Owned:** 18 bottles — 18 open, 0 sealed
 - **By style:** 8 Single malt · 1 Single grain · 5 Bourbon · 1 Blended malt · 1 Blended grain · 2 Blend
 - **By region:** 2 Islay · 2 South Africa · 4 Kentucky · 2 Scotland (blend) · 3 Highland · 2 Campbeltown · 2 Canada · 1 USA
-- **Tasted & rated:** 17 / 18
+- **Tasted & rated:** 18 / 18
