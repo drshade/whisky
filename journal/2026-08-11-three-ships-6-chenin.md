@@ -35,6 +35,12 @@ Campbeltown "Sauvignon Blanc" note was spirit-derived rather than from any wine 
 ## Finish
 - (not recorded)
 
+## Absent
+- **No smoke.**
+- **No funk at all** — clean and fruit-driven throughout. Notable given funk is now a
+  stated preference: this was the only dram of the night without it, and the lowest
+  scored of the four.
+
 ## Overall
 Really good, and completely different to the Campbeltowns — sweet and rich where they
 were mineral and dry. Just short of the top tier on complexity, hence 83.
