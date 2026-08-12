@@ -21,7 +21,7 @@ in  W.Whisky::{
       tasting = Some W.Tasting::{
         rating = 88,
         confidence = W.Confidence.Normal,
-        summary = "thick and full-bodied; not sweet — umami and soy sauce, dark caramel, pear, overripe banana, a Sauvignon Blanc minerality; long tongue-coating finish with a mild anaesthetic burn. Not an all-day drinker but genuinely special — the one to pour when you want something interesting",
+        summary = "thick and full-bodied; not sweet — umami and soy sauce, dark caramel, pear, overripe banana, a Sauvignon Blanc minerality; long tongue-coating finish with a mild anaesthetic burn. Not an all-day drinker but genuinely special — the one to pour when you want something interesting. Tied with Kilkerran 12 for different reasons: this is the more complex of the two, but the less drinkable",
         journal = Some "journal/2026-08-11-springbank-10.md"
       },
       ownership = Some W.Ownership::{

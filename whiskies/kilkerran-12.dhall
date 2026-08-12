@@ -21,7 +21,7 @@ in  W.Whisky::{
       tasting = Some W.Tasting::{
         rating = 88,
         confidence = W.Confidence.Normal,
-        summary = "sweet nose with a metallic undertone — bright, floral and rosy, caramel flecks, tart apple and pear; funk (rotten bin, pleasantly) sits in the vapour right at the approach; palate sweet upfront then dry at the back, Sauvignon Blanc minerality again, less oily than the Springbank; smooth numbing finish that doesn't linger. Tied with Springbank 10 — charm and brightness against the Springbank's body",
+        summary = "sweet nose with a metallic undertone — bright, floral and rosy, caramel flecks, tart apple and pear; funk (rotten bin, pleasantly) sits in the vapour right at the approach; palate sweet upfront then dry at the back, Sauvignon Blanc minerality again, less oily than the Springbank; smooth numbing finish that doesn't linger. Tied with Springbank 10 for different reasons — this one is sweeter and the more drinkable of the two",
         journal = Some "journal/2026-08-11-kilkerran-12.md"
       },
       ownership = Some W.Ownership::{
