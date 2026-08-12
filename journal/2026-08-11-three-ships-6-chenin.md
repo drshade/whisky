@@ -20,6 +20,20 @@ Campbeltown "Sauvignon Blanc" note was spirit-derived rather than from any wine 
 
 **Confidence: Low.** A few drams in by this point. Worth a sober revisit.
 
+## The R15 footnote
+
+Last time I drank Three Ships was as a student in Grahamstown, around 1997–98, when it
+was a R15 bottle of absolute cheapest garbage. We had a running joke about the 1-2-3s —
+**First Watch, Two Keys, Three Ships** — the cheap spirits ladder, ordered by price.
+Student drinking was a serious pursuit and cheaper was better.
+
+Nearly thirty years later the same name is on a bottle I'd call genuinely impressive.
+The distillery turned around under **Andy Watts** at James Sedgwick — an Englishman who
+came to South Africa to play cricket and stayed to run the place. The same distillery now
+makes the Bain's 15yr Founders Collection, which sits at 89 in this catalogue.
+
+From the bottom rung of the 1-2-3 ladder to this. Worth recording.
+
 ## Nose
 - Sweet
 - Nectarine, maybe apricot
