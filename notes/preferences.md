@@ -18,10 +18,16 @@ opening 10-bottle tasting pass. Revise as more tastings accumulate.
 
 1. **Complexity / dimensionality** — the #1 driver. Layers that unfold and evolve as I
    drink. This is what separates my top tier (89–91) from everything else.
-2. **Sweetness** — a baseline requirement (caramel, honey, creamy). Necessary but not
-   sufficient on its own.
+2. **Sweetness** — usually a baseline requirement (caramel, honey, creamy). Necessary but
+   not sufficient on its own. **Qualified 2026-08-11:** *Springbank 10* scored **88** with
+   explicitly *no* sweetness — savoury, umami, soy sauce. So sweetness is the usual road in,
+   not a hard gate; a savoury whisky with enough body and complexity clears the bar without it.
 3. **Character / distinctiveness** — even without sweetness, a distinctive personality
    beats blandness (Oban's coastal funk > the gentle Highlanders).
+4. **Funk** — a settled, repeatedly-confirmed *positive*. Flagged with enthusiasm on three
+   separate bottles: "rotty foot" (*Peat Monster*, 87), "smoke and rot" (*Crimson Casks*, 86),
+   "rotten garbage bin (yes!)" (*Kilkerran 12*, 88). Phenolic/farmyard/dunnage notes that put
+   many drinkers off are an active draw. Worth seeking out, not merely tolerating.
 
 ## Two favourite modes
 
@@ -88,6 +94,29 @@ balance, finish — experts converge here, and this is the layer I read accurate
 (3) *subjective*: what I enjoy, possibly with heightened bitterness/ethanol sensitivity.
 Quality has real signal; preference sits on top and mine is coherent.
 
+## On Campbeltown (added 2026-08-11)
+
+The region landed hard on first contact — *Springbank 10* and *Kilkerran 12* tasted
+head-to-head the same night, **both 88**, straight into the top five. Verdict: "I like
+Campbeltown! Very nice wow."
+
+They tie for opposite reasons, which is the useful part:
+- **Kilkerran 12** — sweeter and the more **drinkable**; bright, floral, rosy nose,
+  tart apple/pear, funk in the vapour at the approach, less oily, short smooth finish.
+- **Springbank 10** — **more complex** but less drinkable; savoury umami/soy, dark caramel,
+  overripe banana, thick and tongue-coating, long finish.
+
+Two things I found myself across both, unprompted:
+- **A Sauvignon Blanc note** — grassy, mineral, dry-white-wine. Present in both, from two
+  different distilleries. Reads as a genuine regional fingerprint.
+- **A metallic / flinty edge** — the other shared thread.
+
+**Implication:** oily texture + mineral edge + dunnage funk is a combination that works for
+me, and Campbeltown is where it's concentrated. *Glen Scotia Double Cask* (~€33) completes
+the region's three active distilleries. Beyond that, Springbank distillery also makes
+**Longrow** (heavily peated) and **Hazelburn** (triple-distilled, unpeated) — the obvious
+next steps if this keeps holding up.
+
 ## On mainstream brands
 
 Not drawn to the big crowd-pleaser brands' *entry* expressions (Glenfiddich / Glenlivet /
@@ -122,5 +151,8 @@ rule anything out:
 
 ## Regions / styles still to explore
 
-Rye · Irish single pot still · Campbeltown · Japanese · world whisky (India / Taiwan /
-Australia) · wheated bourbon · classic big-name Islay. See `recommendations.md`.
+Rye · Irish single pot still · Japanese · world whisky (India / Taiwan / Australia) ·
+wheated bourbon · classic big-name Islay. See `recommendations.md`.
+
+**Campbeltown — opened 2026-08-11** and it landed (see above). Still to go there:
+Glen Scotia, Longrow, Hazelburn.
