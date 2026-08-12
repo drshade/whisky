@@ -16,7 +16,7 @@
 | Kilchoman Sanaig CS | Kilchoman | Islay | Single malt | 57.8% | NAS | open |  |  | 90 | [notes](../journal/2026-05-29-kilchoman-sanaig-cs.md) |
 | Kilkerran 12 | Glengyle | Campbeltown | Single malt | 46% | 12 | sealed | €57.99 | acedrinks.nl | — |  |
 | Oban 14 | Oban | Highland | Single malt | 43% | 14 | open |  |  | 80 | [notes](../journal/2026-05-29-oban-14.md) |
-| Springbank 10 | Springbank | Campbeltown | Single malt | 46% | 10 | sealed | €69 | acedrinks.nl | — |  |
+| Springbank 10 | Springbank | Campbeltown | Single malt | 46% | 10 | open | €69 | acedrinks.nl | 88 | [notes](../journal/2026-08-11-springbank-10.md) |
 | Three Ships 6 Chenin | James Sedgwick | South Africa | Single malt | 43% | 6 | sealed | R699 | JHB trip, May 2026 | — |  |
 | Wayne Gretzky No. 99 Maple Cask | Wayne Gretzky Estates | Canada | Blend | 40% | NAS | open |  | Gift from Shane (emigrating) | 70 |  |
 | Wayne Gretzky No. 99 Red Cask | Wayne Gretzky Estates | Canada | Blend | 40% | NAS | open |  | Gift from Shane (emigrating) | 65 |  |
@@ -25,7 +25,7 @@
 
 ## Summary
 
-- **Owned:** 18 bottles — 15 open, 3 sealed
+- **Owned:** 18 bottles — 16 open, 2 sealed
 - **By style:** 8 Single malt · 1 Single grain · 5 Bourbon · 1 Blended malt · 1 Blended grain · 2 Blend
 - **By region:** 2 Islay · 2 South Africa · 4 Kentucky · 2 Scotland (blend) · 3 Highland · 2 Campbeltown · 2 Canada · 1 USA
-- **Tasted & rated:** 15 / 18
+- **Tasted & rated:** 16 / 18
