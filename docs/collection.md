@@ -14,7 +14,7 @@
 | Dalwhinnie 15 | Dalwhinnie | Highland | Single malt | 43% | 15 | open |  |  | 72 | [notes](../journal/2026-05-29-dalwhinnie-15.md) |
 | Glenmorangie Duthac | Glenmorangie | Highland | Single malt | 43% | NAS | open |  |  | 68 | [notes](../journal/2026-05-29-glenmorangie-duthac.md) |
 | Kilchoman Sanaig CS | Kilchoman | Islay | Single malt | 57.8% | NAS | open |  |  | 90 | [notes](../journal/2026-05-29-kilchoman-sanaig-cs.md) |
-| Kilkerran 12 | Glengyle | Campbeltown | Single malt | 46% | 12 | sealed | €57.99 | acedrinks.nl | — |  |
+| Kilkerran 12 | Glengyle | Campbeltown | Single malt | 46% | 12 | open | €57.99 | acedrinks.nl | 88 | [notes](../journal/2026-08-11-kilkerran-12.md) |
 | Oban 14 | Oban | Highland | Single malt | 43% | 14 | open |  |  | 80 | [notes](../journal/2026-05-29-oban-14.md) |
 | Springbank 10 | Springbank | Campbeltown | Single malt | 46% | 10 | open | €69 | acedrinks.nl | 88 | [notes](../journal/2026-08-11-springbank-10.md) |
 | Three Ships 6 Chenin | James Sedgwick | South Africa | Single malt | 43% | 6 | sealed | R699 | JHB trip, May 2026 | — |  |
@@ -25,7 +25,7 @@
 
 ## Summary
 
-- **Owned:** 18 bottles — 16 open, 2 sealed
+- **Owned:** 18 bottles — 17 open, 1 sealed
 - **By style:** 8 Single malt · 1 Single grain · 5 Bourbon · 1 Blended malt · 1 Blended grain · 2 Blend
 - **By region:** 2 Islay · 2 South Africa · 4 Kentucky · 2 Scotland (blend) · 3 Highland · 2 Campbeltown · 2 Canada · 1 USA
-- **Tasted & rated:** 16 / 18
+- **Tasted & rated:** 17 / 18

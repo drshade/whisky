@@ -5,10 +5,10 @@
 
 ## Stats
 
-- **Owned:** 18 bottles — 16 open, 2 sealed
+- **Owned:** 18 bottles — 17 open, 1 sealed
 - **By style:** 8 Single malt · 1 Single grain · 5 Bourbon · 1 Blended malt · 1 Blended grain · 2 Blend
 - **By region:** 2 Islay · 2 South Africa · 4 Kentucky · 2 Scotland (blend) · 3 Highland · 2 Campbeltown · 2 Canada · 1 USA
-- **Tasted & rated:** 16 / 18
+- **Tasted & rated:** 17 / 18
 
 ## Ranked collection
 
@@ -17,20 +17,20 @@
 | 1 | [Hedonism](journal/2026-05-29-compass-box-hedonism.md) | Scotland (blend) | 91 | sweet, deep, aniseed, warm toffee, Christmas spices — perfectly balanced; grain whisky character comes through in the anise/fennel notes; complex in a way grain whisky has no right to be |
 | 2 | [Kilchoman Sanaig CS](journal/2026-05-29-kilchoman-sanaig-cs.md) | Islay | 90 | intense, spicy sipper |
 | 3 | [Bain's Cape Mountain 15yr Founders Collection](journal/2026-06-08-bains-15-founders.md) | South Africa | 89 | initially fiery, peppery and tart, earth/charcoal, faint smoke, green apple, sunscreen/lotion (oak lactones); water opens liquorice and banana; finish drops heat quickly leaving a bright, mild tingle — more complex and structured than the standard, less casually drinkable but far more interesting |
-| 4 | [Springbank 10](journal/2026-08-11-springbank-10.md) | Campbeltown | 88 | thick and full-bodied; not sweet — umami and soy sauce, dark caramel, pear, overripe banana, a Sauvignon Blanc minerality; long tongue-coating finish with a mild anaesthetic burn. Not an all-day drinker but genuinely special — the one to pour when you want something interesting |
-| 5 | Crimson Casks | Scotland (blend) | 86 | pepper, liquorice, chilli, salt, tiny hint of smoke; very dry red wine palate, very little sweetness; oily thick finish with toffee — moreish; surprisingly enjoyable despite leaning dry rather than sweet |
-| 6 | [Ardbeg Uigeadail](journal/2026-06-08-ardbeg-uigeadail.md) | Islay | 85 | peated medicinal bite on the nose with banana leaves and fresh-cut sweetness; palate is toffee, candy, liquorice, roasted sweet potato — smoke steps back and sherry leads; finish short but clean, steps aside happily |
-| 7 | [Blanton's Gold](journal/2026-05-29-blantons-gold-edition.md) | Kentucky | 84 | strong but harsh |
-| 7 | [Blanton's Original](journal/2026-05-29-blantons-original.md) | Kentucky | 84 | the bourbon that transcends |
-| 7 | [Woodford Double Oaked](journal/2026-05-29-woodford-double-oaked.md) | Kentucky | 84 | good-value daily |
-| 10 | [Buffalo Trace](journal/2026-05-29-buffalo-trace.md) | Kentucky | 82 | mixer / boulevardiers |
-| 11 | [Oban 14](journal/2026-05-29-oban-14.md) | Highland | 80 | characterful, coastal |
-| 11 | [Baby Jane](journal/2026-05-29-widow-jane-baby-jane.md) | USA | 80* | premium, underwhelming |
-| 13 | [Dalwhinnie 15](journal/2026-05-29-dalwhinnie-15.md) | Highland | 72 | gentle, dull |
-| 14 | Wayne Gretzky No. 99 Maple Cask | Canada | 70 | same cheap fiery base as the Red Cask but with a definite maple syrup note; alcohol overwhelms, sweetness never really lands; saved slightly by the maple character |
-| 15 | [Glenmorangie Duthac](journal/2026-05-29-glenmorangie-duthac.md) | Highland | 68 | bland, bitter edge |
-| 16 | Wayne Gretzky No. 99 Red Cask | Canada | 65 | cheap and fiery, no real flavour notes — young, unmatured base overwhelms any character; possibly better as a mixer |
-| — | Kilkerran 12 | Campbeltown | _sealed_ | not yet tasted |
+| 4 | [Kilkerran 12](journal/2026-08-11-kilkerran-12.md) | Campbeltown | 88 | sweet nose with a metallic undertone — bright, floral and rosy, caramel flecks, tart apple and pear; funk (rotten bin, pleasantly) sits in the vapour right at the approach; palate sweet upfront then dry at the back, Sauvignon Blanc minerality again, less oily than the Springbank; smooth numbing finish that doesn't linger. Tied with Springbank 10 for different reasons — this one is sweeter and the more drinkable of the two |
+| 4 | [Springbank 10](journal/2026-08-11-springbank-10.md) | Campbeltown | 88 | thick and full-bodied; not sweet — umami and soy sauce, dark caramel, pear, overripe banana, a Sauvignon Blanc minerality; long tongue-coating finish with a mild anaesthetic burn. Not an all-day drinker but genuinely special — the one to pour when you want something interesting. Tied with Kilkerran 12 for different reasons: this is the more complex of the two, but the less drinkable |
+| 6 | Crimson Casks | Scotland (blend) | 86 | pepper, liquorice, chilli, salt, tiny hint of smoke; very dry red wine palate, very little sweetness; oily thick finish with toffee — moreish; surprisingly enjoyable despite leaning dry rather than sweet |
+| 7 | [Ardbeg Uigeadail](journal/2026-06-08-ardbeg-uigeadail.md) | Islay | 85 | peated medicinal bite on the nose with banana leaves and fresh-cut sweetness; palate is toffee, candy, liquorice, roasted sweet potato — smoke steps back and sherry leads; finish short but clean, steps aside happily |
+| 8 | [Blanton's Gold](journal/2026-05-29-blantons-gold-edition.md) | Kentucky | 84 | strong but harsh |
+| 8 | [Blanton's Original](journal/2026-05-29-blantons-original.md) | Kentucky | 84 | the bourbon that transcends |
+| 8 | [Woodford Double Oaked](journal/2026-05-29-woodford-double-oaked.md) | Kentucky | 84 | good-value daily |
+| 11 | [Buffalo Trace](journal/2026-05-29-buffalo-trace.md) | Kentucky | 82 | mixer / boulevardiers |
+| 12 | [Oban 14](journal/2026-05-29-oban-14.md) | Highland | 80 | characterful, coastal |
+| 12 | [Baby Jane](journal/2026-05-29-widow-jane-baby-jane.md) | USA | 80* | premium, underwhelming |
+| 14 | [Dalwhinnie 15](journal/2026-05-29-dalwhinnie-15.md) | Highland | 72 | gentle, dull |
+| 15 | Wayne Gretzky No. 99 Maple Cask | Canada | 70 | same cheap fiery base as the Red Cask but with a definite maple syrup note; alcohol overwhelms, sweetness never really lands; saved slightly by the maple character |
+| 16 | [Glenmorangie Duthac](journal/2026-05-29-glenmorangie-duthac.md) | Highland | 68 | bland, bitter edge |
+| 17 | Wayne Gretzky No. 99 Red Cask | Canada | 65 | cheap and fiery, no real flavour notes — young, unmatured base overwhelms any character; possibly better as a mixer |
 | — | Three Ships 6 Chenin | South Africa | _sealed_ | not yet tasted |
 
 ## Tasting log — everything tasted
@@ -43,7 +43,8 @@ not owned · `*` = low-confidence rating.
 | Hedonism | 91 | sweet, deep, aniseed, warm toffee, Christmas spices — perfectly balanced; grain whisky character comes through in the anise/fennel notes; complex in a way grain whisky has no right to be | **Whisky Advocate (90 pts, 2024):** Showcases the purity and richness possible in mature Scottish grain whisky — sweet, silky, vanilla-forward with a spiced finish |
 | Kilchoman Sanaig CS | 90 | intense, spicy sipper | **Official (Kilchoman):** Oloroso sherry recipe at full cask strength — intense peat smoke, rich fruit, and sherry sweetness; rewards patience and water |
 | Bain's Cape Mountain 15yr Founders Collection | 89 | initially fiery, peppery and tart, earth/charcoal, faint smoke, green apple, sunscreen/lotion (oak lactones); water opens liquorice and banana; finish drops heat quickly leaving a bright, mild tingle — more complex and structured than the standard, less casually drinkable but far more interesting | **Official (Bain's Founders Collection) + The Whiskyphiles:** Limited release of 3,600 bottles; duty-free exclusive at Cape Town/OR Tambo airports and James Sedgwick Distillery; 52.5% single grain, 15 years in American oak; World Whiskies Awards 2024 Best South African Grain |
-| Springbank 10 | 88 | thick and full-bodied; not sweet — umami and soy sauce, dark caramel, pear, overripe banana, a Sauvignon Blanc minerality; long tongue-coating finish with a mild anaesthetic burn. Not an all-day drinker but genuinely special — the one to pour when you want something interesting | **Official (Springbank):** Bourbon and sherry casks, 46% — complex yet balanced; lightly peated with maritime character and both sweet and savoury notes |
+| Kilkerran 12 | 88 | sweet nose with a metallic undertone — bright, floral and rosy, caramel flecks, tart apple and pear; funk (rotten bin, pleasantly) sits in the vapour right at the approach; palate sweet upfront then dry at the back, Sauvignon Blanc minerality again, less oily than the Springbank; smooth numbing finish that doesn't linger. Tied with Springbank 10 for different reasons — this one is sweeter and the more drinkable of the two | **Official (Kilkerran) + Whisky Advocate (93 pts):** Lightly peated Campbeltown malt, 70% bourbon 30% sherry casks — characteristic oiliness with citrus, gentle peat and sweet-spicy complexity |
+| Springbank 10 | 88 | thick and full-bodied; not sweet — umami and soy sauce, dark caramel, pear, overripe banana, a Sauvignon Blanc minerality; long tongue-coating finish with a mild anaesthetic burn. Not an all-day drinker but genuinely special — the one to pour when you want something interesting. Tied with Kilkerran 12 for different reasons: this is the more complex of the two, but the less drinkable | **Official (Springbank):** Bourbon and sherry casks, 46% — complex yet balanced; lightly peated with maritime character and both sweet and savoury notes |
 | The Peat Monster `(s)` | 87 | smooth, balanced peated blend; smoke up front masking layers beneath; classic Islay funk (pleasant rotty-foot); all-day sessionable | **Whisky Advocate (95 pts, #9 of 2020):** Bigger peat more elegantly — aromatic sweet smoke balanced with complex layered peat; NAS blended malt, not chill-filtered |
 | Crimson Casks | 86 | pepper, liquorice, chilli, salt, tiny hint of smoke; very dry red wine palate, very little sweetness; oily thick finish with toffee — moreish; surprisingly enjoyable despite leaning dry rather than sweet | **Official (Compass Box) + Dram1 (10/10):** American oak oloroso sherry butts — intensely chocolate, plum and red fruit-forward; described as 'dessert whisky with muscle' |
 | Macallan 15 `(s)` | 86* | sherried, rich — landed well, but hazy/pre-serious memory; brand-premium (revisit) | **Whisky Advocate (94 pts, Top 20 of 2020):** Sherry-seasoned American and European oak; benchmark sherried Speyside — richly nutty and fruity, luscious and supple, impressively complex |
