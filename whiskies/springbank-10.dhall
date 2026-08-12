@@ -18,8 +18,14 @@ in  W.Whisky::{
             finish = Some "Peat smoke carries through with eucalyptus, mint and gorse"
           }
         ],
+      tasting = Some W.Tasting::{
+        rating = 88,
+        confidence = W.Confidence.Normal,
+        summary = "thick and full-bodied; not sweet — umami and soy sauce, dark caramel, pear, overripe banana, a Sauvignon Blanc minerality; long tongue-coating finish with a mild anaesthetic burn. Not an all-day drinker but genuinely special — the one to pour when you want something interesting",
+        journal = Some "journal/2026-08-11-springbank-10.md"
+      },
       ownership = Some W.Ownership::{
-        status = W.Status.Sealed,
+        status = W.Status.Open,
         paid = Some "€69",
         boughtWhere = Some "acedrinks.nl",
         boughtWhen = Some "2026-08-08"
