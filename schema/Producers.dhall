@@ -49,6 +49,7 @@ in  { -- Scotch distilleries
     , whistlePig = p "WhistlePig" K.Bottler O.USA
       -- Irish
     , midleton = p "Midleton" K.Distillery O.Ireland
+    , westCork = p "West Cork Distillers" K.Distillery O.Ireland
       -- Japanese
     , nikka = p "Nikka" K.Distillery O.Japan
     , suntory = p "Suntory" K.Distillery O.Japan
