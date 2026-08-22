@@ -17,6 +17,12 @@ in  W.Whisky::{
             finish = Some "Woody and bitter; medium length with sweet caramel and lighter spices (nutmeg) fading to persistent oaky bitterness; hint of burnt toast"
           }
         ],
+      ownership = Some W.Ownership::{
+        status = W.Status.Sealed,
+        paid = Some "€35.20 (€44 list less 20% membership)",
+        boughtWhere = Some "Gall & Gall, Amsterdam",
+        boughtWhen = Some "2026-08-22"
+      },
       wishlist = Some W.Wishlist::{
         priority = W.Priority.High,
         price = { amount = 55, currency = W.Currency.Eur },
