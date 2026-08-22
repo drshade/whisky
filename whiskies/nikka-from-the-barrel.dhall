@@ -18,7 +18,7 @@ in  W.Whisky::{
           }
         ],
       ownership = Some W.Ownership::{
-        status = W.Status.Sealed,
+        status = W.Status.Open,
         paid = Some "€35.20 (€44 list less 20% membership)",
         boughtWhere = Some "Gall & Gall, Amsterdam",
         boughtWhen = Some "2026-08-22"
