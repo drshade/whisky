@@ -11,7 +11,7 @@ in  W.Whisky::{
       age = Some 10,
       casks = [ "first-fill ex-bourbon", "sherry finish" ],
       ownership = Some W.Ownership::{
-        status = W.Status.Sealed,
+        status = W.Status.Open,
         boughtWhere = Some "Gift"
       },
       externalNotes =

@@ -5,7 +5,7 @@
 
 ## Stats
 
-- **Owned:** 20 bottles — 19 open, 1 sealed
+- **Owned:** 20 bottles — 20 open, 0 sealed
 - **By style:** 9 Single malt · 1 Single grain · 5 Bourbon · 1 Blended malt · 1 Blended grain · 3 Blend
 - **By region:** 2 Islay · 2 South Africa · 4 Kentucky · 2 Scotland (blend) · 3 Highland · 2 Campbeltown · 1 Japan · 2 Canada · 1 Ireland · 1 USA
 - **Tasted & rated:** 18 / 20

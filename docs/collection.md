@@ -21,13 +21,13 @@
 | Three Ships 6 Chenin | James Sedgwick | South Africa | Single malt | 43% | 6 | open | R699 | JHB trip, May 2026 | 83* | [notes](../journal/2026-08-11-three-ships-6-chenin.md) |
 | Wayne Gretzky No. 99 Maple Cask | Wayne Gretzky Estates | Canada | Blend | 40% | NAS | open |  | Gift from Shane (emigrating) | 70 |  |
 | Wayne Gretzky No. 99 Red Cask | Wayne Gretzky Estates | Canada | Blend | 40% | NAS | open |  | Gift from Shane (emigrating) | 65 |  |
-| West Cork Maritime Release 10 Sherry Cask | West Cork Distillers | Ireland | Single malt | 43% | 10 | sealed |  | Gift | — |  |
+| West Cork Maritime Release 10 Sherry Cask | West Cork Distillers | Ireland | Single malt | 43% | 10 | open |  | Gift | — |  |
 | Baby Jane | Widow Jane | USA | Bourbon | 45.5% | NAS | open |  |  | 80* | [notes](../journal/2026-05-29-widow-jane-baby-jane.md) |
 | Woodford Double Oaked | Woodford Reserve | Kentucky | Bourbon | 45.2% | NAS | open |  |  | 84 | [notes](../journal/2026-05-29-woodford-double-oaked.md) |
 
 ## Summary
 
-- **Owned:** 20 bottles — 19 open, 1 sealed
+- **Owned:** 20 bottles — 20 open, 0 sealed
 - **By style:** 9 Single malt · 1 Single grain · 5 Bourbon · 1 Blended malt · 1 Blended grain · 3 Blend
 - **By region:** 2 Islay · 2 South Africa · 4 Kentucky · 2 Scotland (blend) · 3 Highland · 2 Campbeltown · 1 Japan · 2 Canada · 1 Ireland · 1 USA
 - **Tasted & rated:** 18 / 20
